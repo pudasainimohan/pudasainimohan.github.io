@@ -7,7 +7,7 @@
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pudasainimohan.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pudasainimohan.github.io/media/icon_hu30e109f8250e45a96e76d43312fda1c9_210307_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://pudasainimohan.github.io/post/</link>
     </image>
@@ -237,7 +237,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-942538176&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-517836924&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -247,7 +247,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-942538176&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-517836924&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
