@@ -7,7 +7,7 @@
     <description>Mohan Pudasaini</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pudasainimohan.github.io/media/icon_hu30e109f8250e45a96e76d43312fda1c9_210307_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pudasainimohan.github.io/media/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Mohan Pudasaini</title>
       <link>https://pudasainimohan.github.io/</link>
     </image>
@@ -38,7 +38,7 @@
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://pudasainimohan.github.io/post/fist_post/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hello everyone,&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Welcome to my personal portfolio website! This site will be dedicated to sharing my skills and knowledge related to data science, SQL, R and Python. I am passionate about these fields and aim to share my expertise with others in the hopes of supporting and inspiring others.&lt;/p&gt;
+&lt;p&gt;Welcome to my personal portfolio website! This site will be dedicated to sharing my skills and knowledge related to  SQL, R , Python and other data science related topics. I am passionate about these fields and aim to share my expertise with others in the hopes of supporting and inspiring others.&lt;/p&gt;
 &lt;p&gt;I will be regularly posting updates on this site, so stay tuned for new content. Your feedback is highly valued and appreciated, so please feel free to reach out to me with any questions or comments. You can find my contact information on the bio page above.&lt;/p&gt;
 &lt;p&gt;I hope you enjoy exploring this site and learning with me. Let&amp;rsquo;s take this journey together!&lt;/p&gt;
 &lt;p&gt;Best regards,   &lt;br&gt;
@@ -191,7 +191,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-832915467&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-598362471&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -201,7 +201,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-832915467&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-598362471&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
