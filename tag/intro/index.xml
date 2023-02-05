@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro | Mohan Pudasaini</title>
+    <link>https://pudasainimohan.github.io/tag/intro/</link>
+      <atom:link href="https://pudasainimohan.github.io/tag/intro/index.xml" rel="self" type="application/rss+xml" />
+    <description>Intro</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pudasainimohan.github.io/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <title>Intro</title>
+      <link>https://pudasainimohan.github.io/tag/intro/</link>
+    </image>
+    
+    <item>
+      <title>Welcome to my website</title>
+      <link>https://pudasainimohan.github.io/post/fist_post/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.github.io/post/fist_post/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hello everyone,&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Welcome to my personal portfolio website! This site will be dedicated to sharing my skills and knowledge related to  SQL, R , Python and other data science related topics. I am passionate about these fields and aim to share my expertise with others in the hopes of supporting and inspiring others.&lt;/p&gt;
+&lt;p&gt;I will be regularly posting updates on this site, so stay tuned for new content. Your feedback is highly valued and appreciated, so please feel free to reach out to me with any questions or comments. You can find my contact information on the bio page above.&lt;/p&gt;
+&lt;p&gt;I hope you enjoy exploring this site and learning with me. Let&amp;rsquo;s take this journey together!&lt;/p&gt;
+&lt;p&gt;Best regards,   &lt;br&gt;
+Mohan&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
