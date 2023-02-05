@@ -1,0 +1,45 @@
+@import url(httpsfonts.googleapis.comcssfamily=Montserrat400,700);
+
+form { max-width420px; margin50px auto; }
+
+.form-input {
+colorwhite;
+font-family Helvetica, Arial, sans-serif;
+font-weight500;
+font-size 18px;
+border-radius 5px;
+line-height 22px;
+background-color transparent;
+border2px solid #CC6666;
+transition all 0.3s;
+padding 13px;
+margin-bottom 15px;
+width100%;
+box-sizing border-box;
+outline0;
+}
+
+.form-inputfocus { border2px solid #CC4949; }
+
+textarea {
+height 150px;
+line-height 150%;
+resizevertical;
+}
+
+[type=submit] {
+font-family 'Montserrat', Arial, Helvetica, sans-serif;
+width 100%;
+background#CC6666;
+border-radius5px;
+border0;
+cursorpointer;
+colorwhite;
+font-size24px;
+padding-top10px;
+padding-bottom10px;
+transition all 0.3s;
+margin-top-4px;
+font-weight700;
+}
+[type=submit]hover { background#CC4949; }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thankyou | Mohan Pudasaini</title>
+    <link>https://pudasainimohan.github.io/thankyou/</link>
+      <atom:link href="https://pudasainimohan.github.io/thankyou/index.xml" rel="self" type="application/rss+xml" />
+    <description>thankyou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://pudasainimohan.github.io/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <title>thankyou</title>
+      <link>https://pudasainimohan.github.io/thankyou/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://pudasainimohan.github.io/thankyou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.github.io/thankyou/</guid>
+      <description>&lt;h2 id=&#34;we-received-your-form-thank-you&#34;&gt;We received your form. Thank you&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pudasainimohan.github.io/thankyou/thankyou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.github.io/thankyou/thankyou/</guid>
+      <description>&lt;h2 id=&#34;i-love-you&#34;&gt;I love you&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

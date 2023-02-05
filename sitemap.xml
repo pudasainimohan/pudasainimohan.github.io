@@ -38,6 +38,9 @@
     <loc>https://pudasainimohan.github.io/post/fist_post/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://pudasainimohan.github.io/talk/form/</loc>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pudasainimohan.github.io/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
@@ -61,6 +64,12 @@
   </url><url>
     <loc>https://pudasainimohan.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.github.io/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.github.io/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.github.io/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
@@ -88,5 +97,11 @@
   </url><url>
     <loc>https://pudasainimohan.github.io/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.github.io/thankyou/</loc>
+  </url><url>
+    <loc>https://pudasainimohan.github.io/thankyou/thankyou/</loc>
+  </url><url>
+    <loc>https://pudasainimohan.github.io/thankyou/</loc>
   </url>
 </urlset>
