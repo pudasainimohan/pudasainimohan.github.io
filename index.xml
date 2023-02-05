@@ -155,7 +155,7 @@ font-weight:700;
 &lt;p&gt;&lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;&lt;/p&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;var submitted=false;&lt;/script&gt;
 &lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34; 
-onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
+onload=&#34;if(submitted) {window.location=&#39;/thankyou/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
 &lt;form action=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse&#34; 
 method=&#34;post&#34; target=&#34;hidden_iframe&#34; onsubmit=&#34;submitted=true;&#34;&gt;
 &lt;/form&gt;
