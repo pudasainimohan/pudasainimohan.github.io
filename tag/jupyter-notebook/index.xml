@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jupyter notebook | Mohan Pudasaini</title>
+    <link>https://pudasainimohan.github.io/tag/jupyter-notebook/</link>
+      <atom:link href="https://pudasainimohan.github.io/tag/jupyter-notebook/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jupyter notebook</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pudasainimohan.github.io/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <title>Jupyter notebook</title>
+      <link>https://pudasainimohan.github.io/tag/jupyter-notebook/</link>
+    </image>
+    
+    <item>
+      <title>Get Started with Jupyter notebook</title>
+      <link>https://pudasainimohan.github.io/post/jupyter_install/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.github.io/post/jupyter_install/</guid>
+      <description>&lt;p&gt;Jupyter Notebook is a free, open-source web-based platform that enables users to create and share documents that combine live code, mathematical equations, graphics, and narrative text. It has become a popular tool in the data science, machine learning, and scientific computing domains for conducting interactive computing and data analysis. The platform is user-friendly and enables collaboration through sharing and reproducibility. It is most popular platforom for python users.&lt;/p&gt;
+&lt;p&gt;Installing   Jupyter Notebook is a simple process that can be done in different ways, depending on your operating system and the resources available on your computer. In this article, we will look at the different ways to install Jupyter Notebook on your computer.&lt;/p&gt;
+&lt;h2 id=&#34;installing-jupyter-notebook-using-anaconda&#34;&gt;Installing Jupyter Notebook using Anaconda&lt;/h2&gt;
+&lt;p&gt;Anaconda is a distribution of the Python and R programming languages that comes with a comprehensive set of tools for data science and machine learning. To install Jupyter Notebook using Anaconda, follow these steps:&lt;/p&gt;
+&lt;h3 id=&#34;1-download-and-install-anaconda&#34;&gt;1. Download and install Anaconda:&lt;/h3&gt;
+&lt;p&gt;Visit the Anaconda website (
+&lt;a href=&#34;https://www.anaconda.com/products/distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anaconda.com/products/distribution&lt;/a&gt;) and download the latest version of Anaconda for your operating system.
+&lt;img src=&#34;./1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-start-anaconda-navigator&#34;&gt;2. Start Anaconda Navigator:&lt;/h3&gt;
+&lt;p&gt;After installation, you can start Anaconda Navigator from your applications menu or by typing &amp;ldquo;anaconda-navigator&amp;rdquo; in your terminal (MacOS/Linux) or Command Prompt (Windows).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;3launch-jupyter-notebook&#34;&gt;3.Launch Jupyter Notebook:&lt;/h3&gt;
+&lt;p&gt;In Anaconda Navigator, click on the Jupyter Notebook icon to launch the Jupyter Notebook application
+&lt;img src=&#34;4.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installing-jupyter-notebook-using-pip&#34;&gt;Installing Jupyter Notebook using pip&lt;/h2&gt;
+&lt;p&gt;pip is a package manager for Python that allows you to install and manage packages from the Python Package Index (PyPI). to installed the jupyter notebook first, check wether pip is installed in you system by typing &amp;lsquo;pip &amp;ndash;version&amp;rsquo; in you command prompt.. If pip is installed, you should see the version number of pip, for example, “pip 22.3.1”.o install Jupyter Notebook using pip, follow these steps:&lt;/p&gt;
+&lt;h3 id=&#34;1-install-jupyter-notebook&#34;&gt;1. Install Jupyter Notebook&lt;/h3&gt;
+&lt;p&gt;Open your terminal (MacOS/Linux) or Command Prompt (Windows) and type the following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pip install jupyter
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will install Jupyter Notebook and any dependencies required for the application to run.&lt;/p&gt;
+&lt;h3 id=&#34;2-launch-jupyter-notebook&#34;&gt;2. Launch Jupyter Notebook&lt;/h3&gt;
+&lt;p&gt;After the installation is complete, you can launch Jupyter Notebook by typing the following command in your terminal or Command Prompt&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will start the Jupyter Notebook server and open a web browser window with the Jupyter Notebook interface.&lt;/p&gt;
+&lt;p&gt;There are numerous additional Integrated Development Environments (IDEs) besides Jupyter Notebook that you can use to run Python.Some popular options include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual code studio&lt;/li&gt;
+&lt;li&gt;PyCharm&lt;/li&gt;
+&lt;li&gt;Python&amp;rsquo;s built-in IDE(IDLE)&lt;/li&gt;
+&lt;li&gt;Spyder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whichever IDE you decide on, it&amp;rsquo;s essential to have a decent understanding of the Python programming language and its syntax before beginning.&lt;/p&gt;
+&lt;p&gt;In conclusion, Jupyter Notebook is a powerful tool for data science and machine learning, but it is not the only option for running Python. Depending on your specific needs and preferences, other IDEs such as PyCharm, IDLE, Spyder, or Visual Studio Code may be more suitable for your projects. It&amp;rsquo;s important to familiarize yourself with the different options and choose the one that works best for you.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
