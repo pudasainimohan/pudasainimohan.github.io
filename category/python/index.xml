@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python | Mohan Pudasaini</title>
-    <link>https://pudasainimohan.github.io/category/python/</link>
-      <atom:link href="https://pudasainimohan.github.io/category/python/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://pudasainimohan.com.np/category/python/</link>
+      <atom:link href="https://pudasainimohan.com.np/category/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pudasainimohan.github.io/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
-      <link>https://pudasainimohan.github.io/category/python/</link>
+      <link>https://pudasainimohan.com.np/category/python/</link>
     </image>
     
     <item>
       <title>Get Started with Jupyter notebook</title>
-      <link>https://pudasainimohan.github.io/post/jupyter_install/</link>
+      <link>https://pudasainimohan.com.np/post/jupyter_install/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.github.io/post/jupyter_install/</guid>
+      <guid>https://pudasainimohan.com.np/post/jupyter_install/</guid>
       <description>&lt;p&gt;Jupyter Notebook is a free, open-source web-based platform that enables users to create and share documents that combine live code, mathematical equations, graphics, and narrative text. It has become a popular tool in the data science, machine learning, and scientific computing domains for conducting interactive computing and data analysis. The platform is user-friendly and enables collaboration through sharing and reproducibility. It is most popular platforom for python users.&lt;/p&gt;
 &lt;p&gt;Installing   Jupyter Notebook is a simple process that can be done in different ways, depending on your operating system and the resources available on your computer. In this article, we will look at the different ways to install Jupyter Notebook on your computer.&lt;/p&gt;
 &lt;h2 id=&#34;installing-jupyter-notebook-using-anaconda&#34;&gt;Installing Jupyter Notebook using Anaconda&lt;/h2&gt;
@@ -70,9 +70,9 @@
     
     <item>
       <title>Get Started with Python: An Installation Guide</title>
-      <link>https://pudasainimohan.github.io/post/python_install/</link>
+      <link>https://pudasainimohan.com.np/post/python_install/</link>
       <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.github.io/post/python_install/</guid>
+      <guid>https://pudasainimohan.com.np/post/python_install/</guid>
       <description>&lt;p&gt;Python is a popular, high-level programming language used for web development, scientific computing, data analysis, artificial intelligence, and more. Here is a simple guide to help you install Python on your computer&lt;/p&gt;
 &lt;p&gt;There are two main ways to install Python: using a &lt;strong&gt;package manager or downloading the Python executable&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;using-package-manager&#34;&gt;Using Package Manager:&lt;/h2&gt;
@@ -120,9 +120,9 @@ If pip is installed, you should see the version number of pip, for example, &amp
     
     <item>
       <title>Importance of Python in Data Science: A Comprehensive Overview of its Role and Advantages</title>
-      <link>https://pudasainimohan.github.io/post/ml_python_intro/</link>
+      <link>https://pudasainimohan.com.np/post/ml_python_intro/</link>
       <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.github.io/post/ml_python_intro/</guid>
+      <guid>https://pudasainimohan.com.np/post/ml_python_intro/</guid>
       <description>&lt;p&gt;Python is a high-level, open-source programming language with a wide range of applications, including web development, data analysis, machine learning, and deep learning. It was created in 1991 by Guido van Rossum and is maintained by the Python Software Foundation. Python is considered an essential tool for data scientists and engineers due to its simplicity, versatility, and large community, as well as its numerous libraries and tools that make it ideal for data science tasks. The language is easy to read and write, highly extensible, and has a wealth of resources available, making it a great choice for both beginners and experienced programmers alike. This article will explore the many advantages that make Python an essential language in data science.&lt;/p&gt;
 &lt;h3 id=&#34;easy-to-learn&#34;&gt;&lt;strong&gt;Easy to Learn:&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Python is widely recognized for its simple and intuitive syntax, which makes it a great language for beginners to learn. The syntax of Python is designed in a way that it is easy to understand and follow, even for those who are new to programming. It does not require a deep understanding of computer science concepts to get started, which allows individuals to focus on learning the basics of programming without getting bogged down by complex syntax or concepts. This simplicity and ease of use is one of the reasons why Python is a popular choice for introductory programming courses.&lt;/p&gt;

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Mohan Pudasaini</title>
-    <link>https://pudasainimohan.github.io/project/</link>
-      <atom:link href="https://pudasainimohan.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://pudasainimohan.com.np/project/</link>
+      <atom:link href="https://pudasainimohan.com.np/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pudasainimohan.github.io/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://pudasainimohan.github.io/project/</link>
+      <link>https://pudasainimohan.com.np/project/</link>
     </image>
     
     <item>
       <title>External Project</title>
-      <link>https://pudasainimohan.github.io/project/external-project/</link>
+      <link>https://pudasainimohan.com.np/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.github.io/project/external-project/</guid>
+      <guid>https://pudasainimohan.com.np/project/external-project/</guid>
       <description>&lt;h1 id=&#34;it-will-update-soon&#34;&gt;It will update soon&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>https://pudasainimohan.github.io/project/internal-project/</link>
+      <link>https://pudasainimohan.com.np/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.github.io/project/internal-project/</guid>
+      <guid>https://pudasainimohan.com.np/project/internal-project/</guid>
       <description>&lt;h1 id=&#34;it-will-update-soon&#34;&gt;It will update soon&amp;hellip;.&lt;/h1&gt;
 </description>
     </item>

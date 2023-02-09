@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Mohan Pudasaini</title>
-    <link>https://pudasainimohan.github.io/talk/</link>
-      <atom:link href="https://pudasainimohan.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://pudasainimohan.com.np/talk/</link>
+      <atom:link href="https://pudasainimohan.com.np/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pudasainimohan.github.io/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://pudasainimohan.github.io/talk/</link>
+      <link>https://pudasainimohan.com.np/talk/</link>
     </image>
     
     <item>
       <title>Online Workshop on data analysis</title>
-      <link>https://pudasainimohan.github.io/talk/example/</link>
+      <link>https://pudasainimohan.com.np/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.github.io/talk/example/</guid>
+      <guid>https://pudasainimohan.com.np/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -36,9 +36,9 @@
     
     <item>
       <title>Registration form for Python for Data Science</title>
-      <link>https://pudasainimohan.github.io/talk/form/</link>
+      <link>https://pudasainimohan.com.np/talk/form/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.github.io/talk/form/</guid>
+      <guid>https://pudasainimohan.com.np/talk/form/</guid>
       <description>&lt;style&gt;
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 

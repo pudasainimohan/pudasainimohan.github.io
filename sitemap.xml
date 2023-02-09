@@ -2,97 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pudasainimohan.github.io/courses/example/example1/</loc>
+    <loc>https://pudasainimohan.com.np/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/courses/example/</loc>
+    <loc>https://pudasainimohan.com.np/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/courses/example/example2/</loc>
+    <loc>https://pudasainimohan.com.np/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/</loc>
+    <loc>https://pudasainimohan.com.np/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/talk/example/</loc>
+    <loc>https://pudasainimohan.com.np/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/talk/</loc>
+    <loc>https://pudasainimohan.com.np/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/categories/</loc>
+    <loc>https://pudasainimohan.com.np/categories/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/tag/jupyter-notebook/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/category/mohan/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/post/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/tag/python-basics/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/tags/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/post/jupyter_start/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/post/jupyter_install/</loc>
     <lastmod>2023-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/post/jupyter_install/</loc>
+    <loc>https://pudasainimohan.com.np/category/python/</loc>
     <lastmod>2023-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/tag/jupyter-notebook/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.github.io/post/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.github.io/category/python/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.github.io/tag/python-basics/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.github.io/tags/</loc>
-    <lastmod>2023-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.github.io/post/python_install/</loc>
+    <loc>https://pudasainimohan.com.np/post/python_install/</loc>
     <lastmod>2023-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/post/ml_python_intro/</loc>
+    <loc>https://pudasainimohan.com.np/post/ml_python_intro/</loc>
     <lastmod>2023-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/tag/intro/</loc>
+    <loc>https://pudasainimohan.com.np/tag/intro/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/category/mohan/</loc>
+    <loc>https://pudasainimohan.com.np/post/fist_post/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/post/fist_post/</loc>
-    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.github.io/talk/form/</loc>
+    <loc>https://pudasainimohan.com.np/talk/form/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/courses/</loc>
+    <loc>https://pudasainimohan.com.np/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/slides/</loc>
+    <loc>https://pudasainimohan.com.np/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/slides/example/</loc>
+    <loc>https://pudasainimohan.com.np/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/privacy/</loc>
+    <loc>https://pudasainimohan.com.np/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/terms/</loc>
+    <loc>https://pudasainimohan.com.np/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/tag/deep-learning/</loc>
+    <loc>https://pudasainimohan.com.np/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/tag/demo/</loc>
+    <loc>https://pudasainimohan.com.np/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/project/external-project/</loc>
+    <loc>https://pudasainimohan.com.np/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/project/internal-project/</loc>
+    <loc>https://pudasainimohan.com.np/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/project/</loc>
+    <loc>https://pudasainimohan.com.np/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.github.io/thankyou/thankyou/</loc>
+    <loc>https://pudasainimohan.com.np/thankyou/thankyou/</loc>
   </url><url>
-    <loc>https://pudasainimohan.github.io/publication_types/</loc>
+    <loc>https://pudasainimohan.com.np/publication_types/</loc>
   </url><url>
-    <loc>https://pudasainimohan.github.io/thankyou/</loc>
+    <loc>https://pudasainimohan.com.np/thankyou/</loc>
   </url>
 </urlset>
