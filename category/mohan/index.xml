@@ -5,7 +5,7 @@
     <link>https://pudasainimohan.com.np/category/mohan/</link>
       <atom:link href="https://pudasainimohan.com.np/category/mohan/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Mohan</title>
@@ -13,163 +13,9 @@
     </image>
     
     <item>
-      <title>Work on Jupyter Notebook:Shortcut Keys</title>
-      <link>https://pudasainimohan.com.np/post/jupyter_start/</link>
-      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.com.np/post/jupyter_start/</guid>
-      <description>&lt;p&gt;Once you have installed Jupyter Notebook, you can start it by opening your terminal or command prompt and typing &lt;em&gt;&lt;strong&gt;&amp;ldquo;jupyter notebook&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;. This will launch Jupyter Notebook in your default web browser and open a new tab with the Jupyter Notebook dashboard.&lt;/p&gt;
-&lt;p&gt;If you haven&amp;rsquo;t installed Jupyter Notebook, follow this link to get started:  &lt;a href=&#34;../jupyter_install&#34; target=&#34;_blank&#34;&gt;Get Started with Jupyter notebook&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mohan.jpg&#34; alt=&#34;title&#34;&gt;&lt;/p&gt;
-&lt;p&gt;To open a new Jupyter Notebook in Jupyter Notebook dashboard, you can click on the &amp;ldquo;New&amp;rdquo; button on the right side of the screen, which will open a new tab in your web browser with a new Jupyter Notebook. From there, you can start writing and running your code.
-&lt;img src=&#34;mohan1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Now we are ready to write, note, and execute code. Let&amp;rsquo;s begin using Jupyter Notebook and its shortcut keys to perform high-level capabilities&lt;/p&gt;
-&lt;h3 id=&#34;command-vs-edit-modes&#34;&gt;Command vs. Edit Modes&lt;/h3&gt;
-&lt;p&gt;In Jupyter Notebook, there are two modes: command mode and edit mode.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Command mode&lt;/strong&gt; -Allows you to perform actions at the notebook level. Indicated by a grey cell border with a &lt;font color=teal&gt;&lt;strong&gt;blue&lt;/strong&gt;&lt;/font&gt; left margin.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit mode&lt;/strong&gt; -Allows you to type within a cell. Indicated by a green cell border with a &lt;font color=green&gt;&lt;strong&gt;green&lt;/strong&gt;&lt;/font&gt; left margin.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;If you&amp;rsquo;re in command mode, press &lt;kbd&gt;Enter&lt;/kbd&gt; to enter edit mode. If you&amp;rsquo;re in edit mode, press &lt;kbd&gt;Esc&lt;/kbd&gt; to enter command mode.&lt;/p&gt;
-&lt;h3 id=&#34;command-mode&#34;&gt;Command Mode&lt;/h3&gt;
-&lt;p&gt;In Command mode, you can perform various actions on cells, such as creating new cells, deleting cells, copying cells, cutting cells, and pasting cells. You can also move cells up and down, merge cells, split cells, and navigate to different cells. here are some examples&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Run current cell and selecct next cell: &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;Enter&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Run the current cell and select same cell: &lt;kbd&gt;Ctrl&lt;/kbd&gt;+ &lt;kbd&gt;Enter&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Run the current cell and insert new cell below: &lt;kbd&gt;Alt&lt;/kbd&gt;+ &lt;kbd&gt;Enter&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Save notebook: &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Insert a new cell above the current cell : &lt;kbd&gt;A&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Insert a new cell below the current cell : &lt;kbd&gt;B&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Copy and paste : Copy with  &lt;kbd&gt;C&lt;/kbd&gt; and then paste it with &lt;kbd&gt;V&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Deleting cell :  &lt;kbd&gt;D&lt;/kbd&gt; &lt;kbd&gt;D&lt;/kbd&gt; (i.e., hit the &lt;kbd&gt;D&lt;/kbd&gt; button twice)&lt;/li&gt;
-&lt;li&gt;Merge Cell: First select the cells to merge by pressing  &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;⬆&lt;/kbd&gt; or &lt;kbd&gt;⬇&lt;/kbd&gt; then Merge using   &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;M&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;Undo : &lt;kbd&gt;Esc&lt;/kbd&gt; + &lt;kbd&gt;Z&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;View all keyboard shortcut: &lt;kbd&gt;H&lt;/kbd&gt; (in Command mode)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To write code, you need to switch the cell to &lt;strong&gt;code&lt;/strong&gt; mode. For comments and notes, you need to switch the cell to &lt;strong&gt;markdown&lt;/strong&gt; mode. By default, new cells are in code mode, but you can use the following shortcut keys to switch between markdown and code.&lt;/p&gt;
-&lt;p&gt;&lt;kbd&gt;Y&lt;/kbd&gt; change the cell type to &lt;em&gt;Code&lt;/em&gt; modes.&lt;/p&gt;
-&lt;p&gt;&lt;kbd&gt;M&lt;/kbd&gt; change the cell type to &lt;em&gt;Markdown&lt;/em&gt; modes.&lt;/p&gt;
-&lt;h3 id=&#34;edit-mode&#34;&gt;Edit Mode&lt;/h3&gt;
-&lt;p&gt;In Edit mode, you can edit and modify the content within a cell. This mode allows you to enter and edit text, code, and markdown in the selected cell. Some common actions you can perform in Edit mode include typing, formatting text, executing code, and creating new lines. To enter Edit mode, simply click on a cell or press &amp;lsquo;Enter&amp;rsquo; key when the cell is selected. To exit Edit mode, press &amp;lsquo;Esc&amp;rsquo; or click outside the cell. here are some  functionalities and shortcut keys for edit modes.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Comment in the text &lt;kbd&gt;&lt;code&gt;Ctrl&lt;/code&gt;&lt;/kbd&gt; + &lt;kbd&gt;&lt;code&gt;/&lt;/code&gt;&lt;/kbd&gt;&lt;/li&gt;
-&lt;li&gt;quick access to all the commands in Jupyter Notebooks: &lt;kbd&gt;&lt;code&gt;Ctrl&lt;/code&gt;&lt;/kbd&gt; + &lt;kbd&gt;&lt;code&gt;Shift&lt;/code&gt;&lt;/kbd&gt; + &lt;kbd&gt;&lt;code&gt;P&lt;/code&gt;&lt;/kbd&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;insert-image&#34;&gt;Insert Image&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;![caption](picture name and location)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;![screenshot](mohan1.jpg)&lt;/code&gt;- This command imports the picture named &amp;lsquo;mohan1.jpg&amp;rsquo; located in the same folder as the Jupyter notebook.&lt;/p&gt;
-&lt;h3 id=&#34;markdown&#34;&gt;Markdown&lt;/h3&gt;
-&lt;p&gt;Jupyter Notebook&amp;rsquo;s markdown cells provide a way to write formatted text, headings, bullet points, links, images, and more. Markdown is a simple markup language that is easily readable and provides a lightweight way to add formatting to text.here are some examples:&lt;/p&gt;
-&lt;h4 id=&#34;heading&#34;&gt;Heading&lt;/h4&gt;
-&lt;p&gt;In Markdown, headings can be created by using the hash symbol (#) followed by a space and the text of the heading. The number of hashes used determines the level of the heading, with one hash being the largest heading (H1) and six hashes being the smallest (H6). For example&lt;/p&gt;
-&lt;p&gt;code:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Heading 1    
-## Heading 2    
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;output:&lt;/p&gt;
-&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
-&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
-&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
-&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
-&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;
-&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;
-&lt;h4 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h4&gt;
-&lt;p&gt;bold, italic, and strikethrough are formatting options in Markdown that can be used to add visual interest and clarity to text. here are some examples:&lt;/p&gt;
-&lt;p&gt;Code:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;*Italic* 
-_Italic_
-
-**B0ld** 
-__Bold__
- ~~Strikethrough.~~
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Output:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Italic&lt;/em&gt;    &lt;br&gt;
-&lt;em&gt;Italic&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;    &lt;br&gt;
-&lt;strong&gt;Bold&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;Strikethrough.&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a id=&#34;lists&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;lists&#34;&gt;Lists&lt;/h4&gt;
-&lt;p&gt;Lists are a great way to organize and present information in Markdown. here is some examples how we can make list in ordered and unordered way in markdown.&lt;/p&gt;
-&lt;p&gt;Unordered list can be creat using  &lt;code&gt;*,+,-&lt;/code&gt; for example:
-Code:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;+ Item 1
-- Item 2
-* Item 3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Output:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ordered list can be creat using numerical order:
-Code&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1. Item 1
-2. Item 2
-3. Item 3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Output&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Item 1&lt;/li&gt;
-&lt;li&gt;Item 2&lt;/li&gt;
-&lt;li&gt;Item 3&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Other Examples of list and sublist
-Code:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1. Today&#39;s
-2. date is:
-    * Monday
-    * 16th January 1991
-         - hello! how are
-         - how are you?
-             - Hope doing well  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Output:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Today&amp;rsquo;s&lt;/li&gt;
-&lt;li&gt;date is:
-&lt;ul&gt;
-&lt;li&gt;Monday&lt;/li&gt;
-&lt;li&gt;16th January 1991
-&lt;ul&gt;
-&lt;li&gt;hello! how are&lt;/li&gt;
-&lt;li&gt;how are you?
-&lt;ul&gt;
-&lt;li&gt;Hope doing well&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Code&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; - [ ] Item A
- - [x] Item B
- - [x] Item C
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Output&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item A&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item B&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Item C&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Welcome to my website</title>
       <link>https://pudasainimohan.com.np/post/fist_post/</link>
-      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://pudasainimohan.com.np/post/fist_post/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hello everyone,&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Welcome to my personal portfolio website! This site will be dedicated to sharing my skills and knowledge related to  SQL, R , Python and other data science related topics. I am passionate about these fields and aim to share my expertise with others in the hopes of supporting and inspiring others.&lt;/p&gt;
