@@ -5,12 +5,117 @@
     <link>https://pudasainimohan.com.np/tag/python-basics/</link>
       <atom:link href="https://pudasainimohan.com.np/tag/python-basics/index.xml" rel="self" type="application/rss+xml" />
     <description>Python Basics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Python Basics</title>
       <link>https://pudasainimohan.com.np/tag/python-basics/</link>
     </image>
+    
+    <item>
+      <title>Numbers and airthmetic Operators in Python</title>
+      <link>https://pudasainimohan.com.np/post/arithmetic_python/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/post/arithmetic_python/</guid>
+      <description>&lt;p&gt;Python offers a range of numeric data types, including integers, floating-point numbers, and complex numbers. In this article, our main focus will be on integers and floating-point numbers. Integers are whole numbers that can be either positive or negative, for instance 7 or -10. Floating-point numbers, on the other hand, have decimal components or use exponential (e) notation, such as 2.0, -2.1, or 4e2.&lt;/p&gt;
+&lt;p&gt;Here is a table of the two main types we will spend most of our time working with some examples:&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;
+    &lt;th&gt;Examples&lt;/th&gt; 
+    &lt;th&gt;Number &#34;Type&#34;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;1,2,-5,1000&lt;/td&gt;
+    &lt;td&gt;Integers&lt;/td&gt; 
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;1.2,-0.5,2e2,3E2&lt;/td&gt; 
+    &lt;td&gt;Floating-point numbers&lt;/td&gt; 
+&lt;/tr&gt;
+ &lt;/table&gt;
+&lt;p&gt;Now let&amp;rsquo;s start with some basic arithmetic.&lt;/p&gt;
+&lt;h3 id=&#34;basic-arithmetic&#34;&gt;Basic Arithmetic&lt;/h3&gt;
+&lt;p&gt;Python provides several built-in arithmetic operators for basic calculations, including: addition (+), subtraction (-), multiplication (*), division (/), and modulo division (%). Additionally, it provides the exponentiation operator (**) which computes the power of a number and the floor division operator (//) which returns the integer quotient of division.
+Here are some examples of each of these operators:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Addition
+7+4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;11
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Subtraction
+7-4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Multiplication
+7*4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;28
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Division
+7/4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;1.75
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Floor Division:
+7//4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unexpected result from 7 divided by 4 equals 1, not 1.75. This is because of the use of floor division (// operator). It returns the integer result by truncating the decimal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What if we just need the remainder?&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;7%4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;4 goes into 7 once, with a remainder of 3. The % operator returns the remainder after division.
+let&amp;rsquo;s continue with some other operators.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;2**3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The expression 2**3 in Python calculates 2 raised to the power of 3, which equals 8. The ** operator is used for exponentiation in Python. similary we can use power 0.05 to calculate the square root.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;4**0.5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;2.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;variable-assignments&#34;&gt;Variable Assignments&lt;/h3&gt;
+&lt;p&gt;With a basic understanding of numbers in Python, let&amp;rsquo;s move on to assigning labels to values through the use of variables. To create a variable, you simply use a single equals sign (=) followed by the value you want to assign. Let&amp;rsquo;s explore a few examples to illustrate this process.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We have created an object with a value of 10. If we reference the object, designated as a, within our Python script, Python will recognize it as the number 10&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a+a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;20
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What happens on reassignment? Will Python let us write it over?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a = 15
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;let&amp;rsquo;s check&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;15
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Yes! Python allows you to write over assigned variable names. We can also use the variables themselves when doing the reassignment.&lt;/p&gt;
+&lt;p&gt;When creating variables or objects in Python, certain guidelines must be followed to ensure their names are valid. This includes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Starting the name with a letter, not a number.&lt;/li&gt;
+&lt;li&gt;Utilizing underscores(_) instead of spaces.&lt;/li&gt;
+&lt;li&gt;Avoiding special characters like &amp;lsquo;&amp;rsquo;, &amp;ldquo;, &amp;lt;, &amp;gt;, /, ?, |, , (, ), !, @, #, $, %, ^, &amp;amp;, *, ~, -, and +.&lt;/li&gt;
+&lt;li&gt;Keeping names in lowercase, as recommended by PEP8.&lt;/li&gt;
+&lt;li&gt;Steering clear of single letter names such as l, O, and I which can be easily misconstrued.&lt;/li&gt;
+&lt;li&gt;Refraining from using words that hold special meaning in Python, for instance, &amp;ldquo;list&amp;rdquo; or &amp;ldquo;str&amp;rdquo;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Assigning values to variables in Python can greatly aid in organizing and tracking the data in your code. Here&amp;rsquo;s an example&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_salary = 50000
+
+tax_rate = 0.13
+
+total_tax = my_income*tax_rate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By accessing the total_tax variable, we can easily calculate the tax amount:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;total_tax
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;6500.0
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Work on Jupyter Notebook:Shortcut Keys</title>
