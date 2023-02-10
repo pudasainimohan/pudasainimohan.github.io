@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo | Mohan Pudasaini</title>
-    <link>https://pudasainimohan.com.np/tag/demo/</link>
-      <atom:link href="https://pudasainimohan.com.np/tag/demo/index.xml" rel="self" type="application/rss+xml" />
-    <description>Demo</description>
+    <title>Project | Mohan Pudasaini</title>
+    <link>https://pudasainimohan.com.np/tag/project/</link>
+      <atom:link href="https://pudasainimohan.com.np/tag/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Project</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
-      <title>Demo</title>
-      <link>https://pudasainimohan.com.np/tag/demo/</link>
+      <title>Project</title>
+      <link>https://pudasainimohan.com.np/tag/project/</link>
     </image>
     
     <item>
