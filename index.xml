@@ -5,7 +5,7 @@
     <link>https://pudasainimohan.com.np/</link>
       <atom:link href="https://pudasainimohan.com.np/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Pudasaini</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Mohan Pudasaini</title>
@@ -60,6 +60,183 @@
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       <guid>https://pudasainimohan.com.np/talk/example/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>String Formatting in Python</title>
+      <link>https://pudasainimohan.com.np/post/string_formating/</link>
+      <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/post/string_formating/</guid>
+      <description>&lt;p&gt;String formatting is a technique used to combine an existing string with other values to create a new string. This process is important in many programming languages, including Python, as it enables developers to create dynamic strings that can change based on different inputs. In data science, string formatting is particularly useful as it allows data scientists to present results in a clear and readable format, streamline their workflows, and effectively communicate their findings. With string formatting, data scientists can process, analyze, and visualize large amounts of data with ease. In this article, we will provide a comprehensive overview of string formatting in Python and explore the various methods available to help you get started with this important technique.&lt;/p&gt;
+&lt;p&gt;There are three ways to perform string formatting.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Placeholder Method using % character&lt;/li&gt;
+&lt;li&gt;.format() Method&lt;/li&gt;
+&lt;li&gt;f-strings Method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;formatting-with-placeholders&#34;&gt;Formatting with placeholders&lt;/h3&gt;
+&lt;p&gt;In Python, there are several placeholders that can be utilized for string formatting purposes. These placeholders include &lt;code&gt; %s, %r, and %d&lt;/code&gt;.
+lets&amp;rsquo; look some example of each placeholder:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;I&#39;m going to insert %s into the code.&amp;quot; %&#39;new text&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;I&#39;m going to insert new text into the code.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example,  The string &amp;ldquo;I&amp;rsquo;m going to insert &lt;code&gt;%s&lt;/code&gt; into the code.&amp;rdquo; serves as a template and includes a placeholder, represented by the &lt;code&gt;%s&lt;/code&gt;. This placeholder indicates where a value should be inserted into the string.&lt;/p&gt;
+&lt;p&gt;The value that is inserted into the string is &amp;rsquo;new text&amp;rsquo;, which is specified after the &lt;code&gt;%&lt;/code&gt; operator. When the code is executed, the output is the string &amp;ldquo;I&amp;rsquo;m going to insert new text into the code.&amp;rdquo;, which shows how the value of &amp;rsquo;new text&amp;rsquo; has been incorporated into the template string.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;I&#39;m going to insert %s information here, and %s data here.&amp;quot; %(&#39;critical&#39;,&#39;additional&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;I&#39;m going to insert critical information here, and additional data here.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, the placeholders %s are used to dynamically insert the values &amp;lsquo;critical&amp;rsquo; and &amp;lsquo;additional&amp;rsquo; into the string. The % operator is followed by a tuple of values that are inserted into the corresponding placeholders in the string.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a, b = &#39;important&#39;, &#39;updated&#39;
+print(&amp;quot;I&#39;m going to insert %s information here, and %s data here.&amp;quot; %(a,b))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;I&#39;m going to insert important information here, and updated data here.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;here, the variables a and b are assigned the values &amp;lsquo;important&amp;rsquo; and &amp;lsquo;updated&amp;rsquo; respectively. These variables are then used in the string formatting expression to insert the values into the corresponding placeholders in the string. This demonstrates that the values assigned to the variables can be changed easily, making the output dynamic and flexible.&lt;/p&gt;
+&lt;p&gt;It should be noted that two methods &lt;code&gt;%s&lt;/code&gt; and &lt;code&gt;%r&lt;/code&gt; convert any python object to a string using two separate methods: &lt;code&gt;str()&lt;/code&gt; and &lt;code&gt;repr()&lt;/code&gt;. We will learn more about these functions on upcomming posts, but you should note that &lt;code&gt;%r&lt;/code&gt; and &lt;code&gt;repr()&lt;/code&gt; deliver the &lt;em&gt;string representation&lt;/em&gt; of the object, including quotation marks and any escape characters. for example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;My name is  %s.&#39; %&#39;Mohan&#39;)
+print(&#39;My name is  %r.&#39; %&#39;Mohan&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;My name is  Mohan.
+My name is  &#39;Mohan&#39;.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, the string &amp;lsquo;Mohan&amp;rsquo; is being inserted into the sentence &amp;lsquo;My name is %s.&amp;rsquo; and &amp;lsquo;My name is %r.&amp;rsquo; using string formatting.&lt;/p&gt;
+&lt;p&gt;The %s placeholder is a placeholder for a string, and the % symbol followed by &amp;lsquo;Mohan&amp;rsquo; in parentheses is used to replace the %s placeholder with the string &amp;lsquo;Mohan&amp;rsquo;. similarly, The %r placeholder is a placeholder for a string representation of an object, which can be useful for debugging purposes. In this case, the string representation of the string &amp;lsquo;Mohan&amp;rsquo; is &amp;lsquo;Mohan&amp;rsquo;, so the %r placeholder is replaced with &amp;lsquo;Mohan&amp;rsquo;. let&amp;rsquo;s look another example of %r and %s&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;words = &#39;catch\nand\nrelease&#39;
+
+print(&#39;Remember to %s.&#39; % (&#39;catch\nand\nrelease&#39;))
+print(&#39;Remember to %r.&#39; % (&#39;catch\nand\nrelease&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Remember to catch
+and
+release.
+Remember to &#39;catch\nand\nrelease&#39;.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;here, first line&amp;rsquo;s result comes in three lines and the second line&amp;rsquo;s result comes in one line is due to the difference between &lt;code&gt;%s and %r&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;%s is used to insert a string representation of an object into a string, which means that any newline characters (\n) in the string representation will be displayed as separate lines in the output.&lt;/p&gt;
+&lt;p&gt;On the other hand,&lt;code&gt; %r &lt;/code&gt; is used to insert a raw, string representation of an object into a string, which includes any escape sequences such as newline characters.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;%s&lt;/code&gt; operator converts whatever it sees into a string, including integers and floats. The &lt;code&gt;%d&lt;/code&gt; operator converts numbers to integers first, without rounding. Note the difference below:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;I wrote %s programs today.&#39; %3.75)
+print(&#39;I wrote %d programs today.&#39; %3.75)   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;I wrote 3.75 programs today.
+I wrote 3 programs today.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;padding-and-precision-of-floating-point-numbers&#34;&gt;Padding and Precision of Floating Point Numbers&lt;/h3&gt;
+&lt;p&gt;In Python, you can control the display of floating-point numbers by using the % operator in combination with placeholder specifications. These placeholder specifications allow you to specify the number of decimal places to display, as well as the width of the output field.
+To control the precision of floating-point numbers, you can use the . character followed by the number of decimal places you want to display&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;Floating point numbers: %5.2f&#39; %(13.144))
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Floating point numbers: 13.14
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Floating point numbers use the format &lt;code&gt;%5.2f&lt;/code&gt;. Here, &lt;code&gt;5&lt;/code&gt; would be the minimum number of characters the string should contain; these may be padded with whitespace if the entire number does not have this many digits. Next to this, &lt;code&gt;.2f&lt;/code&gt; stands for two digits to show past the decimal point.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;Floating point numbers: %.0f&#39; %(1300.144))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Floating point numbers: 1300
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;formatting-with-the-format-method&#34;&gt;Formatting with the &lt;code&gt;.format()&lt;/code&gt; method&lt;/h3&gt;
+&lt;p&gt;A better way to format objects into your strings for print statements is with the string &lt;code&gt;.format()&lt;/code&gt; method. The syntax is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&#39;String here {} then also {}&#39;.format(&#39;something1&#39;,&#39;something2&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;This is a string with an {}&#39;.format(&#39;insert&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;This is a string with an insert
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;the-format-method-has-several-advantages-over-the-s-placeholder-method&#34;&gt;The .format() method has several advantages over the %s placeholder method:&lt;/h3&gt;
+&lt;h5 id=&#34;1-inserted-objects-can-be-called-by-index-position&#34;&gt;1. Inserted objects can be called by index position:&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;The {2} {1} {0}&#39;.format(&#39;fox&#39;,&#39;brown&#39;,&#39;quick&#39;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;The quick brown fox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;2-inserted-objects-can-be-assigned-keywords&#34;&gt;2. Inserted objects can be assigned keywords:&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;First Object: {a}, Second Object: {b}, Third Object: {c}&#39;.format(a=1,b=&#39;Two&#39;,c=12.3))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;First Object: 1, Second Object: Two, Third Object: 12.3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;3-inserted-objects-can-be-reused-avoiding-duplication&#34;&gt;3. Inserted objects can be reused, avoiding duplication:&lt;/h5&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+print(&#39;I %s you more every day, and my %s for you will never fade.&#39; %(&#39;love&#39;,&#39;love&#39;))
+#Vs
+print(&#39;I {w} you more every day, and my {w} for you will never fade.&#39;.format(w=&#39;love&#39;))
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;I love you more every day, and my love for you will never fade.
+I love you more every day, and my love for you will never fade.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;alignment-padding-and-precision-with-format&#34;&gt;Alignment, padding and precision with &lt;code&gt;.format()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Within the curly braces you can assign field lengths, left/right alignments, rounding parameters and more&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;{0:8} | {1:9}&#39;.format(&#39;Fruit&#39;, &#39;Quantity&#39;))
+print(&#39;{0:8} | {1:20}&#39;.format(&#39;Apples&#39;, 3.))
+print(&#39;{0:8} | {1:9}&#39;.format(&#39;Oranges&#39;, 10))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Fruit    | Quantity 
+Apples   |                  3.0
+Oranges  |        10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By default, &lt;code&gt;.format()&lt;/code&gt; aligns text to the left, numbers to the right. You can pass an optional &lt;code&gt;&amp;lt;&lt;/code&gt;,&lt;code&gt;^&lt;/code&gt;, or &lt;code&gt;&amp;gt;&lt;/code&gt; to set a left, center or right alignment:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;{0:&amp;lt;8} | {1:^8} | {2:&amp;gt;8}&#39;.format(&#39;Left&#39;,&#39;Center&#39;,&#39;Right&#39;))
+print(&#39;{0:&amp;lt;8} | {1:^8} | {2:&amp;gt;8}&#39;.format(11,22,33))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Left     |  Center  |    Right
+11       |    22    |       33
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can precede the aligment operator with a padding character&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;{0:=&amp;lt;8} | {1:-^8} | {2:.&amp;gt;8}&#39;.format(&#39;Left&#39;,&#39;Center&#39;,&#39;Right&#39;))
+print(&#39;{0:=&amp;lt;8} | {1:-^8} | {2:.&amp;gt;8}&#39;.format(11,22,33))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Left==== | -Center- | ...Right
+11====== | ---22--- | ......33
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Field widths and float precision are handled in a way similar to placeholders. The following two print statements are equivalent:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;This is my ten-character, two-decimal number:%10.2f&#39; %13.579)
+print(&#39;This is my ten-character, two-decimal number:{0:10.2f}&#39;.format(13.579))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;This is my ten-character, two-decimal number:     13.58
+This is my ten-character, two-decimal number:     13.58
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that there are 5 spaces following the colon, and 5 characters taken up by 13.58, for a total of ten characters.&lt;/p&gt;
+&lt;h3 id=&#34;formatted-string-literals-f-strings&#34;&gt;Formatted String Literals (f-strings)&lt;/h3&gt;
+&lt;p&gt;Introduced in Python 3.6, f-strings offer several benefits over the older &lt;code&gt;.format()&lt;/code&gt; string method described above. For one, you can bring outside variables immediately into to the string rather than pass them as arguments through &lt;code&gt;.format(var)&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;name = &#39;Fred&#39;
+
+print(f&amp;quot;He said his name is {name}.&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;He said his name is Fred.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Pass &lt;code&gt;!r&lt;/code&gt; to get the string representation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(f&amp;quot;He said his name is {name!r}&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;He said his name is &#39;Fred&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;float-formatting-follows-result-valuewidthprecision&#34;&gt;Float formatting follows &lt;code&gt;&amp;quot;result: {value:{width}.{precision}}&amp;quot;&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;Where with the &lt;code&gt;.format()&lt;/code&gt; method you might see &lt;code&gt;{value:10.4f}&lt;/code&gt;, with f-strings this can become &lt;code&gt;{value:{10}.{6}}&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;num = 23.45678
+print(&amp;quot;My 10 character, four decimal number is:{0:10.4f}&amp;quot;.format(num))
+print(f&amp;quot;My 10 character, four decimal number is:{num:{10}.{3}}&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;My 10 character, four decimal number is:   23.4568
+My 10 character, four decimal number is:      23.5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that with f-strings, &lt;em&gt;precision&lt;/em&gt; refers to the total number of digits, not just those following the decimal. This fits more closely with scientific notation and statistical analysis. Unfortunately, f-strings do not pad to the right of the decimal, even if precision allows it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;num = 23.45
+print(&amp;quot;My 10 character, four decimal number is:{0:10.4f}&amp;quot;.format(num))
+print(f&amp;quot;My 10 character, four decimal number is:{num:{10}.{6}}&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;My 10 character, four decimal number is:   23.4500
+My 10 character, four decimal number is:     23.45
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If this becomes important, you can always use &lt;code&gt;.format()&lt;/code&gt; method syntax inside an f-string:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;num = 23.45
+print(&amp;quot;My 10 character, four decimal number is:{0:10.4f}&amp;quot;.format(num))
+print(f&amp;quot;My 10 character, four decimal number is:{num:10.4f}&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;My 10 character, four decimal number is:   23.4500
+My 10 character, four decimal number is:   23.4500
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>

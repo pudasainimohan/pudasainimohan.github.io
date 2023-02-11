@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content=" Featuring an Analysis of Types of Numbers, Basic Arithmetic Procedures, the Distinction between Classic and Floor Division, and Object Allocation.">
+  <meta name="description" content="String formatting is an important technique used in many programming languages, including Python, to combine existing strings with other values to create new strings. This process is particularly useful in data science for presenting results in a clear and readable format. This article provides a comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as well as techniques for controlling the display of floating-point numbers in string formatting">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/arithmetic_python/">
+  <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/string_formating/">
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://pudasainimohan.com.np/post/arithmetic_python/">
+  <link rel="canonical" href="https://pudasainimohan.com.np/post/string_formating/">
 
   
   
@@ -277,15 +277,15 @@
   <meta property="twitter:creator" content="@pudasainimohan">
   
   <meta property="og:site_name" content="Mohan Pudasaini">
-  <meta property="og:url" content="https://pudasainimohan.com.np/post/arithmetic_python/">
-  <meta property="og:title" content="Numbers and airthmetic Operators in Python | Mohan Pudasaini">
-  <meta property="og:description" content=" Featuring an Analysis of Types of Numbers, Basic Arithmetic Procedures, the Distinction between Classic and Floor Division, and Object Allocation."><meta property="og:image" content="https://pudasainimohan.com.np/post/arithmetic_python/featured.png">
-  <meta property="twitter:image" content="https://pudasainimohan.com.np/post/arithmetic_python/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://pudasainimohan.com.np/post/string_formating/">
+  <meta property="og:title" content="String Formatting in Python | Mohan Pudasaini">
+  <meta property="og:description" content="String formatting is an important technique used in many programming languages, including Python, to combine existing strings with other values to create new strings. This process is particularly useful in data science for presenting results in a clear and readable format. This article provides a comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as well as techniques for controlling the display of floating-point numbers in string formatting"><meta property="og:image" content="https://pudasainimohan.com.np/post/string_formating/featured.png">
+  <meta property="twitter:image" content="https://pudasainimohan.com.np/post/string_formating/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2023-02-10T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-02-12T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2023-02-10T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-02-12T00:00:00&#43;00:00">
   
 
   
@@ -309,16 +309,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://pudasainimohan.com.np/post/arithmetic_python/"
+    "@id": "https://pudasainimohan.com.np/post/string_formating/"
   },
-  "headline": "Numbers and airthmetic Operators in Python",
+  "headline": "String Formatting in Python",
   
   "image": [
-    "https://pudasainimohan.com.np/post/arithmetic_python/featured.png"
+    "https://pudasainimohan.com.np/post/string_formating/featured.png"
   ],
   
-  "datePublished": "2023-02-10T00:00:00Z",
-  "dateModified": "2023-02-10T00:00:00Z",
+  "datePublished": "2023-02-12T00:00:00Z",
+  "dateModified": "2023-02-12T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -333,7 +333,7 @@
       "url": "https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": " Featuring an Analysis of Types of Numbers, Basic Arithmetic Procedures, the Distinction between Classic and Floor Division, and Object Allocation."
+  "description": "String formatting is an important technique used in many programming languages, including Python, to combine existing strings with other values to create new strings. This process is particularly useful in data science for presenting results in a clear and readable format. This article provides a comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as well as techniques for controlling the display of floating-point numbers in string formatting"
 }
 </script>
 
@@ -351,7 +351,7 @@
 
 
 
-  <title>Numbers and airthmetic Operators in Python | Mohan Pudasaini</title>
+  <title>String Formatting in Python | Mohan Pudasaini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -607,10 +607,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>Numbers and airthmetic Operators in Python</h1>
+  <h1>String Formatting in Python</h1>
 
   
-  <p class="page-subtitle">Basic types of  Numbers and   Arithmetic Operations in python</p>
+  <p class="page-subtitle">Techniques for Dynamic String Generation and Data Presentation</p>
   
 
   
@@ -637,7 +637,7 @@
     
       
     
-    Feb 10, 2023
+    Feb 12, 2023
   </span>
   
 
@@ -646,7 +646,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    8 min read
   </span>
   
 
@@ -683,7 +683,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
   <div style="position: relative">
-    <img src="/post/arithmetic_python/featured_huf9e8f51a3b7398186ec3e5d03d1e1639_188541_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <img src="/post/string_formating/featured_hu52a498266e0045ab7d0f010c8cff121a_150445_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -693,115 +693,174 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Python offers a range of numeric data types, including integers, floating-point numbers, and complex numbers. In this article, our main focus will be on integers and floating-point numbers. Integers are whole numbers that can be either positive or negative, for instance 7 or -10. Floating-point numbers, on the other hand, have decimal components or use exponential (e) notation, such as 2.0, -2.1, or 4e2.</p>
-<p>Here is a table of the two main types we will spend most of our time working with some examples:</p>
-<table>
-<tr>
-    <th>Examples</th> 
-    <th>Number "Type"</th>
-</tr>
-<tr>
-    <td>1,2,-5,1000</td>
-    <td>Integers</td> 
-</tr>
-<tr>
-    <td>1.2,-0.5,2e2,3E2</td> 
-    <td>Floating-point numbers</td> 
-</tr>
- </table>
-<p>Now let&rsquo;s start with some basic arithmetic.</p>
-<h3 id="basic-arithmetic">Basic Arithmetic</h3>
-<p>Python provides several built-in arithmetic operators for basic calculations, including: addition (+), subtraction (-), multiplication (*), division (/), and modulo division (%). Additionally, it provides the exponentiation operator (**) which computes the power of a number and the floor division operator (//) which returns the integer quotient of division.
-Here are some examples of each of these operators:</p>
-<pre><code class="language-python">Addition
-7+4
+      <p>String formatting is a technique used to combine an existing string with other values to create a new string. This process is important in many programming languages, including Python, as it enables developers to create dynamic strings that can change based on different inputs. In data science, string formatting is particularly useful as it allows data scientists to present results in a clear and readable format, streamline their workflows, and effectively communicate their findings. With string formatting, data scientists can process, analyze, and visualize large amounts of data with ease. In this article, we will provide a comprehensive overview of string formatting in Python and explore the various methods available to help you get started with this important technique.</p>
+<p>There are three ways to perform string formatting.</p>
+<ul>
+<li>Placeholder Method using % character</li>
+<li>.format() Method</li>
+<li>f-strings Method</li>
+</ul>
+<h3 id="formatting-with-placeholders">Formatting with placeholders</h3>
+<p>In Python, there are several placeholders that can be utilized for string formatting purposes. These placeholders include <code> %s, %r, and %d</code>.
+lets&rsquo; look some example of each placeholder:</p>
+<pre><code class="language-python">print(&quot;I'm going to insert %s into the code.&quot; %'new text')
 </code></pre>
-<pre><code>11
+<pre><code>I'm going to insert new text into the code.
 </code></pre>
-<pre><code class="language-python">Subtraction
-7-4
+<p>In this example,  The string &ldquo;I&rsquo;m going to insert <code>%s</code> into the code.&rdquo; serves as a template and includes a placeholder, represented by the <code>%s</code>. This placeholder indicates where a value should be inserted into the string.</p>
+<p>The value that is inserted into the string is &rsquo;new text&rsquo;, which is specified after the <code>%</code> operator. When the code is executed, the output is the string &ldquo;I&rsquo;m going to insert new text into the code.&rdquo;, which shows how the value of &rsquo;new text&rsquo; has been incorporated into the template string.</p>
+<pre><code class="language-python">print(&quot;I'm going to insert %s information here, and %s data here.&quot; %('critical','additional'))
 </code></pre>
-<pre><code>3
+<pre><code>I'm going to insert critical information here, and additional data here.
 </code></pre>
-<pre><code class="language-python">Multiplication
-7*4
+<p>In this example, the placeholders %s are used to dynamically insert the values &lsquo;critical&rsquo; and &lsquo;additional&rsquo; into the string. The % operator is followed by a tuple of values that are inserted into the corresponding placeholders in the string.</p>
+<pre><code class="language-python">a, b = 'important', 'updated'
+print(&quot;I'm going to insert %s information here, and %s data here.&quot; %(a,b))
 </code></pre>
-<pre><code>28
+<pre><code>I'm going to insert important information here, and updated data here.
 </code></pre>
-<pre><code class="language-python">Division
-7/4
+<p>here, the variables a and b are assigned the values &lsquo;important&rsquo; and &lsquo;updated&rsquo; respectively. These variables are then used in the string formatting expression to insert the values into the corresponding placeholders in the string. This demonstrates that the values assigned to the variables can be changed easily, making the output dynamic and flexible.</p>
+<p>It should be noted that two methods <code>%s</code> and <code>%r</code> convert any python object to a string using two separate methods: <code>str()</code> and <code>repr()</code>. We will learn more about these functions on upcomming posts, but you should note that <code>%r</code> and <code>repr()</code> deliver the <em>string representation</em> of the object, including quotation marks and any escape characters. for example:</p>
+<pre><code class="language-python">print('My name is  %s.' %'Mohan')
+print('My name is  %r.' %'Mohan')
 </code></pre>
-<pre><code>1.75
+<pre><code>My name is  Mohan.
+My name is  'Mohan'.
 </code></pre>
-<pre><code class="language-python">Floor Division:
-7//4
-</code></pre>
-<p>Unexpected result from 7 divided by 4 equals 1, not 1.75. This is because of the use of floor division (// operator). It returns the integer result by truncating the decimal.</p>
-<p><strong>What if we just need the remainder?</strong></p>
-<pre><code class="language-python">7%4
-</code></pre>
-<pre><code>3
-</code></pre>
-<p>4 goes into 7 once, with a remainder of 3. The % operator returns the remainder after division.
-let&rsquo;s continue with some other operators.</p>
-<pre><code class="language-python">Exponential
-2**3
-</code></pre>
-<p>The expression 2**3 in Python calculates 2 raised to the power of 3, which equals 8. The ** operator is used for exponentiation in Python. similary we can use power 0.05 to calculate the square root.</p>
-<pre><code class="language-python">4**0.5
-</code></pre>
-<pre><code>2.0
-</code></pre>
-<h3 id="variable-assignments">Variable Assignments</h3>
-<p>With a basic understanding of numbers in Python, let&rsquo;s move on to assigning labels to values through the use of variables. To create a variable, you simply use a single equals sign (=) followed by the value you want to assign. Let&rsquo;s explore a few examples to illustrate this process.</p>
-<pre><code class="language-python">a = 10
-</code></pre>
-<p>We have created an object with a value of 10. If we reference the object, designated as a, within our Python script, Python will recognize it as the number 10</p>
-<pre><code class="language-python">a+a
-</code></pre>
-<pre><code>20
-</code></pre>
-<p>What happens on reassignment? Will Python let us write it over?</p>
-<pre><code class="language-python">a = 15
-</code></pre>
-<p>let&rsquo;s check</p>
-<pre><code class="language-python">a
-</code></pre>
-<pre><code>15
-</code></pre>
-<p>Python lets you reassign variables with a reference to the same object.</p>
-<pre><code class="language-python">a=a+15
-a
-</code></pre>
-<pre><code>30
-</code></pre>
-<p>There&rsquo;s actually a shortcut for this. Python lets you add, subtract, multiply and divide numbers with reassignment using <code>+=</code>, <code>-=</code>, <code>*=</code>, and <code>/=</code>.</p>
-<pre><code class="language-python">a += 15
-a
-</code></pre>
-<pre><code>45
-</code></pre>
-<p>Yes! Python allows you to write over assigned variable names. We can also use the variables themselves when doing the reassignment.</p>
-<p>When creating variables or objects in Python, certain guidelines must be followed to ensure their names are valid. This includes:</p>
-<ol>
-<li>Starting the name with a letter, not a number.</li>
-<li>Utilizing underscores(_) instead of spaces.</li>
-<li>Avoiding special characters like &lsquo;&rsquo;, &ldquo;, &lt;, &gt;, /, ?, |, , (, ), !, @, #, $, %, ^, &amp;, *, ~, -, and +.</li>
-<li>Keeping names in lowercase, as recommended by PEP8.</li>
-<li>Steering clear of single letter names such as l, O, and I which can be easily misconstrued.</li>
-<li>Refraining from using words that hold special meaning in Python, for instance, &ldquo;list&rdquo; or &ldquo;str&rdquo;.</li>
-</ol>
-<p>Assigning values to variables in Python can greatly aid in organizing and tracking the data in your code. Here&rsquo;s an example</p>
-<pre><code class="language-python">my_salary = 50000
+<p>In this example, the string &lsquo;Mohan&rsquo; is being inserted into the sentence &lsquo;My name is %s.&rsquo; and &lsquo;My name is %r.&rsquo; using string formatting.</p>
+<p>The %s placeholder is a placeholder for a string, and the % symbol followed by &lsquo;Mohan&rsquo; in parentheses is used to replace the %s placeholder with the string &lsquo;Mohan&rsquo;. similarly, The %r placeholder is a placeholder for a string representation of an object, which can be useful for debugging purposes. In this case, the string representation of the string &lsquo;Mohan&rsquo; is &lsquo;Mohan&rsquo;, so the %r placeholder is replaced with &lsquo;Mohan&rsquo;. let&rsquo;s look another example of %r and %s</p>
+<pre><code class="language-python">words = 'catch\nand\nrelease'
 
-tax_rate = 0.13
+print('Remember to %s.' % ('catch\nand\nrelease'))
+print('Remember to %r.' % ('catch\nand\nrelease'))
+</code></pre>
+<pre><code>Remember to catch
+and
+release.
+Remember to 'catch\nand\nrelease'.
+</code></pre>
+<p>here, first line&rsquo;s result comes in three lines and the second line&rsquo;s result comes in one line is due to the difference between <code>%s and %r</code>.</p>
+<p>%s is used to insert a string representation of an object into a string, which means that any newline characters (\n) in the string representation will be displayed as separate lines in the output.</p>
+<p>On the other hand,<code> %r </code> is used to insert a raw, string representation of an object into a string, which includes any escape sequences such as newline characters.</p>
+<p>The <code>%s</code> operator converts whatever it sees into a string, including integers and floats. The <code>%d</code> operator converts numbers to integers first, without rounding. Note the difference below:</p>
+<pre><code class="language-python">print('I wrote %s programs today.' %3.75)
+print('I wrote %d programs today.' %3.75)   
+</code></pre>
+<pre><code>I wrote 3.75 programs today.
+I wrote 3 programs today.
+</code></pre>
+<h3 id="padding-and-precision-of-floating-point-numbers">Padding and Precision of Floating Point Numbers</h3>
+<p>In Python, you can control the display of floating-point numbers by using the % operator in combination with placeholder specifications. These placeholder specifications allow you to specify the number of decimal places to display, as well as the width of the output field.
+To control the precision of floating-point numbers, you can use the . character followed by the number of decimal places you want to display</p>
+<pre><code class="language-python">print('Floating point numbers: %5.2f' %(13.144))
 
-total_tax = my_income*tax_rate
 </code></pre>
-<p>By accessing the total_tax variable, we can easily calculate the tax amount:</p>
-<pre><code class="language-python">total_tax
+<pre><code>Floating point numbers: 13.14
 </code></pre>
-<pre><code>6500.0
+<p>Floating point numbers use the format <code>%5.2f</code>. Here, <code>5</code> would be the minimum number of characters the string should contain; these may be padded with whitespace if the entire number does not have this many digits. Next to this, <code>.2f</code> stands for two digits to show past the decimal point.</p>
+<pre><code class="language-python">print('Floating point numbers: %.0f' %(1300.144))
+</code></pre>
+<pre><code>Floating point numbers: 1300
+</code></pre>
+<h3 id="formatting-with-the-format-method">Formatting with the <code>.format()</code> method</h3>
+<p>A better way to format objects into your strings for print statements is with the string <code>.format()</code> method. The syntax is:</p>
+<pre><code>'String here {} then also {}'.format('something1','something2')
+</code></pre>
+<p>For example:</p>
+<pre><code class="language-python">print('This is a string with an {}'.format('insert'))
+</code></pre>
+<pre><code>This is a string with an insert
+</code></pre>
+<h3 id="the-format-method-has-several-advantages-over-the-s-placeholder-method">The .format() method has several advantages over the %s placeholder method:</h3>
+<h5 id="1-inserted-objects-can-be-called-by-index-position">1. Inserted objects can be called by index position:</h5>
+<pre><code class="language-python">print('The {2} {1} {0}'.format('fox','brown','quick'))
+</code></pre>
+<pre><code>The quick brown fox
+</code></pre>
+<h5 id="2-inserted-objects-can-be-assigned-keywords">2. Inserted objects can be assigned keywords:</h5>
+<pre><code class="language-python">print('First Object: {a}, Second Object: {b}, Third Object: {c}'.format(a=1,b='Two',c=12.3))
+</code></pre>
+<pre><code>First Object: 1, Second Object: Two, Third Object: 12.3
+</code></pre>
+<h5 id="3-inserted-objects-can-be-reused-avoiding-duplication">3. Inserted objects can be reused, avoiding duplication:</h5>
+<pre><code class="language-python">
+print('I %s you more every day, and my %s for you will never fade.' %('love','love'))
+#Vs
+print('I {w} you more every day, and my {w} for you will never fade.'.format(w='love'))
+
+</code></pre>
+<pre><code>I love you more every day, and my love for you will never fade.
+I love you more every day, and my love for you will never fade.
+</code></pre>
+<h3 id="alignment-padding-and-precision-with-format">Alignment, padding and precision with <code>.format()</code></h3>
+<p>Within the curly braces you can assign field lengths, left/right alignments, rounding parameters and more</p>
+<pre><code class="language-python">print('{0:8} | {1:9}'.format('Fruit', 'Quantity'))
+print('{0:8} | {1:20}'.format('Apples', 3.))
+print('{0:8} | {1:9}'.format('Oranges', 10))
+</code></pre>
+<pre><code>Fruit    | Quantity 
+Apples   |                  3.0
+Oranges  |        10
+</code></pre>
+<p>By default, <code>.format()</code> aligns text to the left, numbers to the right. You can pass an optional <code>&lt;</code>,<code>^</code>, or <code>&gt;</code> to set a left, center or right alignment:</p>
+<pre><code class="language-python">print('{0:&lt;8} | {1:^8} | {2:&gt;8}'.format('Left','Center','Right'))
+print('{0:&lt;8} | {1:^8} | {2:&gt;8}'.format(11,22,33))
+</code></pre>
+<pre><code>Left     |  Center  |    Right
+11       |    22    |       33
+</code></pre>
+<p>You can precede the aligment operator with a padding character</p>
+<pre><code class="language-python">print('{0:=&lt;8} | {1:-^8} | {2:.&gt;8}'.format('Left','Center','Right'))
+print('{0:=&lt;8} | {1:-^8} | {2:.&gt;8}'.format(11,22,33))
+</code></pre>
+<pre><code>Left==== | -Center- | ...Right
+11====== | ---22--- | ......33
+</code></pre>
+<p>Field widths and float precision are handled in a way similar to placeholders. The following two print statements are equivalent:</p>
+<pre><code class="language-python">print('This is my ten-character, two-decimal number:%10.2f' %13.579)
+print('This is my ten-character, two-decimal number:{0:10.2f}'.format(13.579))
+</code></pre>
+<pre><code>This is my ten-character, two-decimal number:     13.58
+This is my ten-character, two-decimal number:     13.58
+</code></pre>
+<p>Note that there are 5 spaces following the colon, and 5 characters taken up by 13.58, for a total of ten characters.</p>
+<h3 id="formatted-string-literals-f-strings">Formatted String Literals (f-strings)</h3>
+<p>Introduced in Python 3.6, f-strings offer several benefits over the older <code>.format()</code> string method described above. For one, you can bring outside variables immediately into to the string rather than pass them as arguments through <code>.format(var)</code>.</p>
+<pre><code class="language-python">name = 'Fred'
+
+print(f&quot;He said his name is {name}.&quot;)
+</code></pre>
+<pre><code>He said his name is Fred.
+</code></pre>
+<p>Pass <code>!r</code> to get the string representation:</p>
+<pre><code class="language-python">print(f&quot;He said his name is {name!r}&quot;)
+</code></pre>
+<pre><code>He said his name is 'Fred'
+</code></pre>
+<h4 id="float-formatting-follows-result-valuewidthprecision">Float formatting follows <code>&quot;result: {value:{width}.{precision}}&quot;</code></h4>
+<p>Where with the <code>.format()</code> method you might see <code>{value:10.4f}</code>, with f-strings this can become <code>{value:{10}.{6}}</code></p>
+<pre><code class="language-python">num = 23.45678
+print(&quot;My 10 character, four decimal number is:{0:10.4f}&quot;.format(num))
+print(f&quot;My 10 character, four decimal number is:{num:{10}.{3}}&quot;)
+</code></pre>
+<pre><code>My 10 character, four decimal number is:   23.4568
+My 10 character, four decimal number is:      23.5
+</code></pre>
+<p>Note that with f-strings, <em>precision</em> refers to the total number of digits, not just those following the decimal. This fits more closely with scientific notation and statistical analysis. Unfortunately, f-strings do not pad to the right of the decimal, even if precision allows it:</p>
+<pre><code class="language-python">num = 23.45
+print(&quot;My 10 character, four decimal number is:{0:10.4f}&quot;.format(num))
+print(f&quot;My 10 character, four decimal number is:{num:{10}.{6}}&quot;)
+</code></pre>
+<pre><code>My 10 character, four decimal number is:   23.4500
+My 10 character, four decimal number is:     23.45
+</code></pre>
+<p>If this becomes important, you can always use <code>.format()</code> method syntax inside an f-string:</p>
+<pre><code class="language-python">num = 23.45
+print(&quot;My 10 character, four decimal number is:{0:10.4f}&quot;.format(num))
+print(f&quot;My 10 character, four decimal number is:{num:10.4f}&quot;)
+</code></pre>
+<pre><code>My 10 character, four decimal number is:   23.4500
+My 10 character, four decimal number is:   23.4500
 </code></pre>
 
     </div>
@@ -817,7 +876,7 @@ total_tax = my_income*tax_rate
   
   <a class="badge badge-light" href="/tag/python-basics/">Python Basics</a>
   
-  <a class="badge badge-light" href="/tag/airthmetic-operators/">Airthmetic Operators</a>
+  <a class="badge badge-light" href="/tag/string/">String</a>
   
 </div>
 
@@ -834,7 +893,7 @@ total_tax = my_income*tax_rate
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/arithmetic_python/&amp;text=Numbers%20and%20airthmetic%20Operators%20in%20Python" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/string_formating/&amp;text=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -847,7 +906,7 @@ total_tax = my_income*tax_rate
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/arithmetic_python/&amp;t=Numbers%20and%20airthmetic%20Operators%20in%20Python" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/string_formating/&amp;t=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -860,7 +919,7 @@ total_tax = my_income*tax_rate
       
       
       <li>
-        <a href="mailto:?subject=Numbers%20and%20airthmetic%20Operators%20in%20Python&amp;body=https://pudasainimohan.com.np/post/arithmetic_python/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=String%20Formatting%20in%20Python&amp;body=https://pudasainimohan.com.np/post/string_formating/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -873,7 +932,7 @@ total_tax = my_income*tax_rate
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/arithmetic_python/&amp;title=Numbers%20and%20airthmetic%20Operators%20in%20Python" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/string_formating/&amp;title=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -886,7 +945,7 @@ total_tax = my_income*tax_rate
       
       
       <li>
-        <a href="whatsapp://send?text=Numbers%20and%20airthmetic%20Operators%20in%20Python%20https://pudasainimohan.com.np/post/arithmetic_python/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=String%20Formatting%20in%20Python%20https://pudasainimohan.com.np/post/string_formating/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -899,7 +958,7 @@ total_tax = my_income*tax_rate
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/arithmetic_python/&amp;title=Numbers%20and%20airthmetic%20Operators%20in%20Python" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/string_formating/&amp;title=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1091,9 +1150,9 @@ total_tax = my_income*tax_rate
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/string_formating/">String Formatting in Python</a></li>
-      
       <li><a href="/post/string_basic/">An Introduction to Strings in Python</a></li>
+      
+      <li><a href="/post/arithmetic_python/">Numbers and airthmetic Operators in Python</a></li>
       
       <li><a href="/post/jupyter_install/">Get Started with Jupyter notebook</a></li>
       
