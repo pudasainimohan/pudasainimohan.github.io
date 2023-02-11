@@ -68,7 +68,8 @@ Here are some examples of each of these operators:&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;4 goes into 7 once, with a remainder of 3. The % operator returns the remainder after division.
 let&amp;rsquo;s continue with some other operators.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;2**3
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Exponential
+2**3
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The expression 2**3 in Python calculates 2 raised to the power of 3, which equals 8. The ** operator is used for exponentiation in Python. similary we can use power 0.05 to calculate the square root.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;4**0.5
@@ -91,6 +92,18 @@ let&amp;rsquo;s continue with some other operators.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;15
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Python lets you reassign variables with a reference to the same object.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a=a+15
+a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;30
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There&amp;rsquo;s actually a shortcut for this. Python lets you add, subtract, multiply and divide numbers with reassignment using &lt;code&gt;+=&lt;/code&gt;, &lt;code&gt;-=&lt;/code&gt;, &lt;code&gt;*=&lt;/code&gt;, and &lt;code&gt;/=&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;a += 15
+a
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;45
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Yes! Python allows you to write over assigned variable names. We can also use the variables themselves when doing the reassignment.&lt;/p&gt;
 &lt;p&gt;When creating variables or objects in Python, certain guidelines must be followed to ensure their names are valid. This includes:&lt;/p&gt;

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>String | Mohan Pudasaini</title>
+    <link>https://pudasainimohan.com.np/tag/string/</link>
+      <atom:link href="https://pudasainimohan.com.np/tag/string/index.xml" rel="self" type="application/rss+xml" />
+    <description>String</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <title>String</title>
+      <link>https://pudasainimohan.com.np/tag/string/</link>
+    </image>
+    
+    <item>
+      <title>An Introduction to Strings in Python</title>
+      <link>https://pudasainimohan.com.np/post/string_basic/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/post/string_basic/</guid>
+      <description>&lt;p&gt;In Python, strings are a vital data type that play a significant role in storing text information, such as names, addresses, and other textual data. Strings are viewed as a series of characters, each with a unique position or index in the sequence. This allows us to easily access individual characters within a string using indexing.&lt;/p&gt;
+&lt;p&gt;For instance, the string &amp;ldquo;Nepal&amp;rdquo; is considered a sequence of five letters (&amp;lsquo;N&amp;rsquo;, &amp;rsquo;e&amp;rsquo;, &amp;lsquo;p&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;rsquo;l&amp;rsquo;) arranged in a specific order. With the help of indexing, we can extract individual letters from the string, such as the first letter &amp;lsquo;N&amp;rsquo; or the last letter &amp;rsquo;l&amp;rsquo;. This property of strings as sequences in Python makes them extremely versatile and useful for a variety of applications, including text processing and manipulation.&lt;/p&gt;
+&lt;p&gt;In this article, we will explore the creation, indexing, formatting, and various properties of strings in Python.&lt;/p&gt;
+&lt;h3 id=&#34;creating-a-string&#34;&gt;Creating a String&lt;/h3&gt;
+&lt;p&gt;To create a string in Python you need to use either single quotes or double quotes. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39;Nepal&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Nepal&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;We can also use double quote
+&amp;quot;Buddha was born in Nepal&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Buddha was born in Nepal&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39; I&#39;m passionate about data science&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;  File &amp;quot;&amp;lt;ipython-input-4-da9a34b3dc31&amp;gt;&amp;quot;, line 2
+    &#39; I&#39;m passionate about data science&#39;
+        ^
+SyntaxError: invalid syntax
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;** error?**&lt;/p&gt;
+&lt;p&gt;The reason for the error above is because the single quote in &lt;code&gt;I&amp;rsquo;m&lt;/code&gt; stopped the string. You can use combinations of double and single quotes to get the complete statement or use backslash(\).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;quot;I&#39;m passionate about data science&amp;quot;
+&#39;I\&#39;m passionate about data science&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;I&#39;m passionate about data science&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;printing-a-string&#34;&gt;Printing a String&lt;/h3&gt;
+&lt;p&gt;The example above only displays one output despite having two lines of input. Is your assumption that it&amp;rsquo;s due to the identical sentences ? It&amp;rsquo;s important to note that simply entering a string in a Jupyter notebook cell will result in automatic output, but to display multiple strings properly, the &lt;strong&gt;print&lt;/strong&gt; function should be utilized. to show both line we can do as follow&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;I&#39;m passionate about data science&amp;quot;)
+print(&#39;I\&#39;m passionate about data science&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;I&#39;m passionate about data science
+I&#39;m passionate about data science
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can use a print statement to print a string. here are some examples and their outputs:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&#39;Hello World 1&#39;)
+print(&#39;Hello World 2&#39;)
+print(&#39;Use \n to print a new line&#39;)
+print(&#39;\n&#39;)
+print(&#39;See what I mean?&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Hello World 1
+Hello World 2
+Use 
+ to print a new line
+
+
+See what I mean?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;string-length&#34;&gt;String length&lt;/h3&gt;
+&lt;p&gt;In Python, you can find the length of a string using the len function. The len function returns the number of characters in a string. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(&#39;Hello World&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;11
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;string-indexing&#34;&gt;String Indexing&lt;/h3&gt;
+&lt;p&gt;string indexing is a process of accessing individual characters in a string using an index. The index of a character in a string starts from 0, and the last character in a string has an index of len(string) - 1. You can access a character at a specific index in a string using square brackets &lt;code&gt;[]&lt;/code&gt;. Let&amp;rsquo;s learn how this works.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Assign s as string and print it
+s = &#39;Hello World&#39;
+Print(s)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Hello World&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Show first element (in this case a letter)
+s[0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;H&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s[1]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;e&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can use a &lt;code&gt;:&lt;/code&gt; to perform &lt;em&gt;slicing&lt;/em&gt; which grabs everything up to a designated point. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s[1:]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;ello World&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;here, [1:] is a slice of the string that starts from the second character (index 1) and goes to the end of the string.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s[:3]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Hel&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this case, we tell Python to extract the characters from the first position (index 0) until the fourth position (index 3), but not including the character at the fourth position. This concept of &amp;ldquo;up to but not including&amp;rdquo; is a common occurrence in Python, and can be seen frequently in various statements and contexts.
+We can also use negative indexing to go backwards.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s[-1]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;d&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can extract elements from a sequence by using index and slice notation, where the step size  can be specified. To do so, we can use two colons followed by a number that represents the frequency of extraction. For example, to retrieve all elements with a step size of 2, we can use the following syntax.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s[::2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;HloWrd&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Similary, We can use this to print a string backwards too&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s[::-1]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;dlroW olleH&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;string-properties&#34;&gt;String Properties&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s important to note that strings have an important property known as &lt;em&gt;immutability&lt;/em&gt;. This means that once a string is created, the elements within it can not be changed or replaced. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Hello World&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let&amp;rsquo;s try to change the first letter to &amp;lsquo;x&amp;rsquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+s[0] = &#39;x&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+&amp;lt;ipython-input-26-976942677f11&amp;gt; in &amp;lt;module&amp;gt;()
+      1 # Let&#39;s try to change the first letter to &#39;x&#39;
+----&amp;gt; 2 s[0] = &#39;x&#39;
+
+
+TypeError: &#39;str&#39; object does not support item assignment
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice how the error tells us directly what we can&amp;rsquo;t do, change the item assignment!&lt;/p&gt;
+&lt;p&gt;Something we &lt;em&gt;can&lt;/em&gt; do is concatenate strings!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s= s + &#39; concatenate me!&#39;
+print(s)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Hello World concatenate me!&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;we can use the multiplication operator to achieve repetition of elements.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;letter = &#39;z&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;letter*10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;zzzzzzzzzz&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;basic-built-in-string-methods&#34;&gt;Basic Built-in String methods&lt;/h3&gt;
+&lt;p&gt;Python objects often have pre-defined methods that come as part of the object. These methods, which are essentially functions within the object, can perform various operations on the object itself. To access these methods, we use the dot notation, followed by the method name. The general syntax for using methods is as follows:&lt;/p&gt;
+&lt;p&gt;object.method(arguments)&lt;/p&gt;
+&lt;p&gt;Where the arguments are optional parameters that can be passed to the method. If some parts of this explanation are not clear at this moment, don&amp;rsquo;t worry, we will delve into it further when we start creating our own objects and functions.&lt;/p&gt;
+&lt;p&gt;Below are a few examples of built-in methods for strings:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Hello World concatenate me!&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To change to uppercase:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+s.upper()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;HELLO WORLD CONCATENATE ME!&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To change to lowercase:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;s.lower()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;hello world concatenate me!&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Split a string by blank space (this is the default):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+s.split()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Hello&#39;, &#39;World&#39;, &#39;concatenate&#39;, &#39;me!&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Split by a specific element (doesn&amp;rsquo;t include the element that was split on)&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+s.split(&#39;W&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Hello &#39;, &#39;orld concatenate me!&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are many more methods than the ones covered here. we will cover it on future posts&lt;/p&gt;
+&lt;h3 id=&#34;print-formatting&#34;&gt;Print Formatting&lt;/h3&gt;
+&lt;p&gt;We can use the .format() method to add formatted objects to printed string statements.&lt;/p&gt;
+&lt;p&gt;The easiest way to show this is through an example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39;Insert another string with curly brackets: {}&#39;.format(&#39;The inserted string&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Insert another string with curly brackets: The inserted string&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We will discuss other options for print formatting in future articles.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

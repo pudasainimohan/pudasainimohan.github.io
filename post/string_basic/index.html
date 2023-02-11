@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="This guide provides a step-by-step process to help you download, install and set up Python on your computer.">
+  <meta name="description" content=" Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/python_install/">
+  <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/string_basic/">
 
   
 
@@ -259,7 +259,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://pudasainimohan.com.np/post/python_install/">
+  <link rel="canonical" href="https://pudasainimohan.com.np/post/string_basic/">
 
   
   
@@ -277,15 +277,15 @@
   <meta property="twitter:creator" content="@pudasainimohan">
   
   <meta property="og:site_name" content="Mohan Pudasaini">
-  <meta property="og:url" content="https://pudasainimohan.com.np/post/python_install/">
-  <meta property="og:title" content="Get Started with Python: An Installation Guide | Mohan Pudasaini">
-  <meta property="og:description" content="This guide provides a step-by-step process to help you download, install and set up Python on your computer."><meta property="og:image" content="https://pudasainimohan.com.np/post/python_install/featured.png">
-  <meta property="twitter:image" content="https://pudasainimohan.com.np/post/python_install/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://pudasainimohan.com.np/post/string_basic/">
+  <meta property="og:title" content="An Introduction to Strings in Python | Mohan Pudasaini">
+  <meta property="og:description" content=" Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings"><meta property="og:image" content="https://pudasainimohan.com.np/post/string_basic/featured.png">
+  <meta property="twitter:image" content="https://pudasainimohan.com.np/post/string_basic/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2023-02-07T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-02-11T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2023-02-07T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-02-11T00:00:00&#43;00:00">
   
 
   
@@ -309,16 +309,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://pudasainimohan.com.np/post/python_install/"
+    "@id": "https://pudasainimohan.com.np/post/string_basic/"
   },
-  "headline": "Get Started with Python: An Installation Guide",
+  "headline": "An Introduction to Strings in Python",
   
   "image": [
-    "https://pudasainimohan.com.np/post/python_install/featured.png"
+    "https://pudasainimohan.com.np/post/string_basic/featured.png"
   ],
   
-  "datePublished": "2023-02-07T00:00:00Z",
-  "dateModified": "2023-02-07T00:00:00Z",
+  "datePublished": "2023-02-11T00:00:00Z",
+  "dateModified": "2023-02-11T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -333,7 +333,7 @@
       "url": "https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "This guide provides a step-by-step process to help you download, install and set up Python on your computer."
+  "description": " Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings"
 }
 </script>
 
@@ -351,7 +351,7 @@
 
 
 
-  <title>Get Started with Python: An Installation Guide | Mohan Pudasaini</title>
+  <title>An Introduction to Strings in Python | Mohan Pudasaini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -607,10 +607,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>Get Started with Python: An Installation Guide</h1>
+  <h1>An Introduction to Strings in Python</h1>
 
   
-  <p class="page-subtitle">Learn how to download, install and set up Python on your computer</p>
+  <p class="page-subtitle">Understanding the Creation, Indexing, and Properties of Strings</p>
   
 
   
@@ -637,7 +637,7 @@
     
       
     
-    Feb 7, 2023
+    Feb 11, 2023
   </span>
   
 
@@ -646,7 +646,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    6 min read
   </span>
   
 
@@ -683,7 +683,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
   <div style="position: relative">
-    <img src="/post/python_install/featured_hu0f5a5ac2632351e1f6c0cee2776a624b_912554_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <img src="/post/string_basic/featured_hu4e668e1e1b894d438443e6252b637a7b_113938_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -693,48 +693,182 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Python is a popular, high-level programming language used for web development, scientific computing, data analysis, artificial intelligence, and more. Here is a simple guide to help you install Python on your computer</p>
-<p>There are two main ways to install Python: using a <strong>package manager or downloading the Python executable</strong>.</p>
-<h2 id="using-package-manager">Using Package Manager:</h2>
-<p>One option to install Python on your computer is to use a package manager or a platform-specific store. For example, on macOS, you can use the Homebrew package manager to install Python. Simply open Terminal and type &ldquo;brew install python&rdquo; to download and install the latest version of Python and its dependencies. On Windows, you can use the Microsoft Store to install Python. Simply search for &ldquo;Python&rdquo; in the Microsoft Store, select the latest version, and click the &ldquo;Get&rdquo; or &ldquo;Install&rdquo; button to download and install Python on your computer. These package managers and platform-specific stores provide a convenient and efficient way to install and manage software packages, including Python, without having to manually download and install them.
-<img src="0.jpg" alt=""></p>
-<h2 id="downloading-the-python-executable">Downloading the Python Executable:</h2>
-<p>Another option to install Python on your computer is to download the Python executable from the official Python website. The following are the basic steps to install Python using this method:</p>
-<p><strong>Step 1: Go to the Official Website and download Version</strong></p>
-<p>Visit the official Python website (
-<a href="https://www.python.org/" target="_blank" rel="noopener">https://www.python.org/</a>) and navigate to the downloads section.
-Choose the appropriate version of Python that you want to install on your computer. For example, if you&rsquo;re a beginner, you might want to start with Python 3.x.x.
-<img src="1.jpg" alt=""></p>
-<p>Once you&rsquo;ve selected the appropriate version of Python, click the download button to start the download process.
-Make sure to save the installation file to a location where you can easily find it.</p>
-<p><strong>Step 2: Click Install and Make Sure Add to Path is Checked</strong></p>
-<p>Once the download is complete, double-click the installation file to start the installation process.
-Follow the on-screen instructions to install Python on your computer.
-Make sure to check the option &ldquo;Add to Path&rdquo; when prompted during the installation process. This will ensure that Python is added to your system PATH, making it easier to run Python from the Command Prompt or Terminal.</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="2.jpg" alt=""></td>
-<td style="text-align:center"><img src="3.jpg" alt=""></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Step 3: Check Whether Python is Installed Using CMD</strong></p>
-<p>Open the Command Prompt or Terminal and type &ldquo;python&rdquo; or &ldquo;python &ndash;version&rdquo; to check if Python has been installed successfully.
-If Python has been installed successfully, you should see a prompt that looks like this: &ldquo;Python 3.11.1&rdquo;. This means that you can start using Python in the Command Prompt or Terminal.
-<img src="4.jpg" alt=""></p>
-<p><strong>Step 5: Make Sure Pip is Installed</strong></p>
-<p>Pip is a package management system used to install and manage Python packages. It is included with Python 3.4 and later versions.
-To check if pip is installed, open the Command Prompt or Terminal and type &ldquo;pip &ndash;version&rdquo;.
-If pip is installed, you should see the version number of pip, for example, &ldquo;pip 22.3.1&rdquo;.
-<img src="5.jpg" alt=""></p>
-<p>That&rsquo;s it! You&rsquo;ve successfully installed Python on your computer. You&rsquo;re now ready to start exploring the world of Python programming!</p>
+      <p>In Python, strings are a vital data type that play a significant role in storing text information, such as names, addresses, and other textual data. Strings are viewed as a series of characters, each with a unique position or index in the sequence. This allows us to easily access individual characters within a string using indexing.</p>
+<p>For instance, the string &ldquo;Nepal&rdquo; is considered a sequence of five letters (&lsquo;N&rsquo;, &rsquo;e&rsquo;, &lsquo;p&rsquo;, &lsquo;a&rsquo;, &rsquo;l&rsquo;) arranged in a specific order. With the help of indexing, we can extract individual letters from the string, such as the first letter &lsquo;N&rsquo; or the last letter &rsquo;l&rsquo;. This property of strings as sequences in Python makes them extremely versatile and useful for a variety of applications, including text processing and manipulation.</p>
+<p>In this article, we will explore the creation, indexing, formatting, and various properties of strings in Python.</p>
+<h3 id="creating-a-string">Creating a String</h3>
+<p>To create a string in Python you need to use either single quotes or double quotes. For example:</p>
+<pre><code class="language-python">'Nepal'
+</code></pre>
+<pre><code>'Nepal'
+</code></pre>
+<pre><code class="language-python">We can also use double quote
+&quot;Buddha was born in Nepal&quot;
+</code></pre>
+<pre><code>'Buddha was born in Nepal'
+</code></pre>
+<pre><code class="language-python">' I'm passionate about data science'
+</code></pre>
+<pre><code>  File &quot;&lt;ipython-input-4-da9a34b3dc31&gt;&quot;, line 2
+    ' I'm passionate about data science'
+        ^
+SyntaxError: invalid syntax
+</code></pre>
+<p>** error?**</p>
+<p>The reason for the error above is because the single quote in <code>I&rsquo;m</code> stopped the string. You can use combinations of double and single quotes to get the complete statement or use backslash(\).</p>
+<pre><code class="language-python">&quot;I'm passionate about data science&quot;
+'I\'m passionate about data science'
+</code></pre>
+<pre><code>'I'm passionate about data science'
+</code></pre>
+<h3 id="printing-a-string">Printing a String</h3>
+<p>The example above only displays one output despite having two lines of input. Is your assumption that it&rsquo;s due to the identical sentences ? It&rsquo;s important to note that simply entering a string in a Jupyter notebook cell will result in automatic output, but to display multiple strings properly, the <strong>print</strong> function should be utilized. to show both line we can do as follow</p>
+<pre><code class="language-python">print(&quot;I'm passionate about data science&quot;)
+print('I\'m passionate about data science')
+</code></pre>
+<pre><code>I'm passionate about data science
+I'm passionate about data science
+</code></pre>
+<p>We can use a print statement to print a string. here are some examples and their outputs:</p>
+<pre><code class="language-python">print('Hello World 1')
+print('Hello World 2')
+print('Use \n to print a new line')
+print('\n')
+print('See what I mean?')
+</code></pre>
+<pre><code>Hello World 1
+Hello World 2
+Use 
+ to print a new line
+
+
+See what I mean?
+</code></pre>
+<h3 id="string-length">String length</h3>
+<p>In Python, you can find the length of a string using the len function. The len function returns the number of characters in a string. Here&rsquo;s an example:</p>
+<pre><code class="language-python">len('Hello World')
+</code></pre>
+<pre><code>11
+</code></pre>
+<h3 id="string-indexing">String Indexing</h3>
+<p>string indexing is a process of accessing individual characters in a string using an index. The index of a character in a string starts from 0, and the last character in a string has an index of len(string) - 1. You can access a character at a specific index in a string using square brackets <code>[]</code>. Let&rsquo;s learn how this works.</p>
+<pre><code class="language-python">Assign s as string and print it
+s = 'Hello World'
+Print(s)
+</code></pre>
+<pre><code>'Hello World'
+</code></pre>
+<pre><code class="language-python">Show first element (in this case a letter)
+s[0]
+</code></pre>
+<pre><code>'H'
+</code></pre>
+<pre><code class="language-python">s[1]
+</code></pre>
+<pre><code>'e'
+</code></pre>
+<p>We can use a <code>:</code> to perform <em>slicing</em> which grabs everything up to a designated point. For example:</p>
+<pre><code class="language-python">s[1:]
+</code></pre>
+<pre><code>'ello World'
+</code></pre>
+<p>here, [1:] is a slice of the string that starts from the second character (index 1) and goes to the end of the string.</p>
+<pre><code class="language-python">s[:3]
+</code></pre>
+<pre><code>'Hel'
+</code></pre>
+<p>In this case, we tell Python to extract the characters from the first position (index 0) until the fourth position (index 3), but not including the character at the fourth position. This concept of &ldquo;up to but not including&rdquo; is a common occurrence in Python, and can be seen frequently in various statements and contexts.
+We can also use negative indexing to go backwards.</p>
+<pre><code class="language-python">s[-1]
+</code></pre>
+<pre><code>'d'
+</code></pre>
+<p>We can extract elements from a sequence by using index and slice notation, where the step size  can be specified. To do so, we can use two colons followed by a number that represents the frequency of extraction. For example, to retrieve all elements with a step size of 2, we can use the following syntax.</p>
+<pre><code class="language-python">s[::2]
+</code></pre>
+<pre><code>'HloWrd'
+</code></pre>
+<p>Similary, We can use this to print a string backwards too</p>
+<pre><code class="language-python">s[::-1]
+</code></pre>
+<pre><code>'dlroW olleH'
+</code></pre>
+<h3 id="string-properties">String Properties</h3>
+<p>It&rsquo;s important to note that strings have an important property known as <em>immutability</em>. This means that once a string is created, the elements within it can not be changed or replaced. For example:</p>
+<pre><code class="language-python">s
+</code></pre>
+<pre><code>'Hello World'
+</code></pre>
+<p>Let&rsquo;s try to change the first letter to &lsquo;x&rsquo;</p>
+<pre><code class="language-python">
+s[0] = 'x'
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+&lt;ipython-input-26-976942677f11&gt; in &lt;module&gt;()
+      1 # Let's try to change the first letter to 'x'
+----&gt; 2 s[0] = 'x'
+
+
+TypeError: 'str' object does not support item assignment
+</code></pre>
+<p>Notice how the error tells us directly what we can&rsquo;t do, change the item assignment!</p>
+<p>Something we <em>can</em> do is concatenate strings!</p>
+<pre><code class="language-python">s= s + ' concatenate me!'
+print(s)
+</code></pre>
+<pre><code>'Hello World concatenate me!'
+</code></pre>
+<p>we can use the multiplication operator to achieve repetition of elements.</p>
+<pre><code class="language-python">letter = 'z'
+</code></pre>
+<pre><code class="language-python">letter*10
+</code></pre>
+<pre><code>'zzzzzzzzzz'
+</code></pre>
+<h3 id="basic-built-in-string-methods">Basic Built-in String methods</h3>
+<p>Python objects often have pre-defined methods that come as part of the object. These methods, which are essentially functions within the object, can perform various operations on the object itself. To access these methods, we use the dot notation, followed by the method name. The general syntax for using methods is as follows:</p>
+<p>object.method(arguments)</p>
+<p>Where the arguments are optional parameters that can be passed to the method. If some parts of this explanation are not clear at this moment, don&rsquo;t worry, we will delve into it further when we start creating our own objects and functions.</p>
+<p>Below are a few examples of built-in methods for strings:</p>
+<pre><code class="language-python">s
+</code></pre>
+<pre><code>'Hello World concatenate me!'
+</code></pre>
+<p>To change to uppercase:</p>
+<pre><code class="language-python">
+s.upper()
+</code></pre>
+<pre><code>'HELLO WORLD CONCATENATE ME!'
+</code></pre>
+<p>To change to lowercase:</p>
+<pre><code class="language-python">s.lower()
+</code></pre>
+<pre><code>'hello world concatenate me!'
+</code></pre>
+<p>Split a string by blank space (this is the default):</p>
+<pre><code class="language-python">
+s.split()
+</code></pre>
+<pre><code>['Hello', 'World', 'concatenate', 'me!']
+</code></pre>
+<p>Split by a specific element (doesn&rsquo;t include the element that was split on)</p>
+<pre><code class="language-python">
+s.split('W')
+</code></pre>
+<pre><code>['Hello ', 'orld concatenate me!']
+</code></pre>
+<p>There are many more methods than the ones covered here. we will cover it on future posts</p>
+<h3 id="print-formatting">Print Formatting</h3>
+<p>We can use the .format() method to add formatted objects to printed string statements.</p>
+<p>The easiest way to show this is through an example:</p>
+<pre><code class="language-python">'Insert another string with curly brackets: {}'.format('The inserted string')
+</code></pre>
+<pre><code>'Insert another string with curly brackets: The inserted string'
+</code></pre>
+<p>We will discuss other options for print formatting in future articles.</p>
 
     </div>
 
@@ -748,6 +882,8 @@ If pip is installed, you should see the version number of pip, for example, &ldq
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tag/python-basics/">Python Basics</a>
+  
+  <a class="badge badge-light" href="/tag/string/">String</a>
   
 </div>
 
@@ -764,7 +900,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/python_install/&amp;text=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/string_basic/&amp;text=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -777,7 +913,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/python_install/&amp;t=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/string_basic/&amp;t=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -790,7 +926,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="mailto:?subject=Get%20Started%20with%20Python:%20An%20Installation%20Guide&amp;body=https://pudasainimohan.com.np/post/python_install/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=An%20Introduction%20to%20Strings%20in%20Python&amp;body=https://pudasainimohan.com.np/post/string_basic/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -803,7 +939,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/python_install/&amp;title=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/string_basic/&amp;title=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -816,7 +952,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="whatsapp://send?text=Get%20Started%20with%20Python:%20An%20Installation%20Guide%20https://pudasainimohan.com.np/post/python_install/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=An%20Introduction%20to%20Strings%20in%20Python%20https://pudasainimohan.com.np/post/string_basic/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -829,7 +965,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/python_install/&amp;title=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/string_basic/&amp;title=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1021,11 +1157,11 @@ If pip is installed, you should see the version number of pip, for example, &ldq
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/string_basic/">An Introduction to Strings in Python</a></li>
-      
       <li><a href="/post/arithmetic_python/">Numbers and airthmetic Operators in Python</a></li>
       
       <li><a href="/post/jupyter_install/">Get Started with Jupyter notebook</a></li>
+      
+      <li><a href="/post/python_install/">Get Started with Python: An Installation Guide</a></li>
       
       <li><a href="/post/ml_python_intro/">Importance of Python in Data Science: A Comprehensive Overview of its Role and Advantages</a></li>
       
