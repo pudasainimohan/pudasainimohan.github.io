@@ -5,12 +5,168 @@
     <link>https://pudasainimohan.com.np/post/</link>
       <atom:link href="https://pudasainimohan.com.np/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://pudasainimohan.com.np/post/</link>
     </image>
+    
+    <item>
+      <title>Working with Lists in Python</title>
+      <link>https://pudasainimohan.com.np/post/python_list/</link>
+      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/post/python_list/</guid>
+      <description>&lt;p&gt;A list in Python is a collection of items, which can be of any data type, including numbers, strings, and other objects. Lists are defined using square brackets [] and the items are separated by commas. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fruits = [&amp;quot;apple&amp;quot;, &amp;quot;banana&amp;quot;, &amp;quot;cherry&amp;quot;]
+numbers = [1, 2, 3, 4, 5]
+my_list = [&#39;Ram&#39;,23,100.232,&#39;Book&#39;,True]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Just like strings, the &lt;code&gt;len() &lt;/code&gt; function will tell you how many items are in the sequence of the list.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(my_list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;indexing-and-slicing&#34;&gt;Indexing and Slicing&lt;/h3&gt;
+&lt;p&gt;Indexing and slicing are two important concepts in Python when it comes to working with lists.&lt;/p&gt;
+&lt;p&gt;Indexing refers to accessing individual elements of a list. The elements of a list are stored in a specific order and can be retrieved using their index, which is an integer that starts from 0. For example, consider the following list&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list = [&#39;Ram&#39;,23,100.232,&#39;Book&#39;,True]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can access the first element of the list using the following syntax:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+my_list[0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;Ram&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Slicing, on the other hand, allows you to retrieve a portion of the list. The syntax for slicing is &lt;code&gt; list[start:stop:step] &lt;/code&gt;, where start is the starting index (inclusive), stop is the ending index (exclusive), and step is the increment between elements.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example of slicing a list:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list[1:]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 100.232, True]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;here, The expression &lt;code&gt;my_list[1:] &lt;/code&gt; is a slice of the list that starts from the index 1 and goes until the end of the list. In other words, it returns all the elements of the list except for the first one&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list[::2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 100.232, True]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The expression &lt;code&gt;my_list[::2] &lt;/code&gt; is a slice of the list that starts from the first element (index 0) and goes until the end of the list, taking steps of 2. In other words, it returns every other element of the list, starting from the first one&lt;/p&gt;
+&lt;h3 id=&#34;concatinating-list&#34;&gt;Concatinating list&lt;/h3&gt;
+&lt;p&gt;You can concatenate two or more lists using the + operator. The + operator creates a new list that is the combination of the elements from the original lists.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list + [&#39;new item&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 23, 100.232, &#39;Book&#39;, True, &#39;new item&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note: This doesn&amp;rsquo;t actually change the original list!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 23, 100.232, &#39;Book&#39;, True]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You would have to reassign the list to make the change permanent.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+my_list = my_list + [&#39;new1&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 23, 100.232, &#39;Book&#39;, True, &#39;new1&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The&lt;code&gt; * &lt;/code&gt; operator can  be utilized for duplication, similar to strings,for example&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+my_list * 2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;,
+ 23,
+ 100.232,
+ &#39;Book&#39;,
+ True,
+ &#39;add new item permanently&#39;,
+ &#39;Ram&#39;,
+ 23,
+ 100.232,
+ &#39;Book&#39;,
+ True,
+ &#39;add new item permanently&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;basic-list-methods&#34;&gt;Basic List Methods&lt;/h3&gt;
+&lt;p&gt;There are several built-in methods in Python that you can use to manipulate lists. Here are some of the most commonly used methods.
+&lt;strong&gt;append(element)&lt;/strong&gt; - Adds an element to the end of the list&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list = [1,2,3]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list.append(4)
+print(list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 2, 3, 4]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;insert(index, element)&lt;/strong&gt; - Inserts an element at a specific position in the list&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list.insert(0,&amp;quot;First&amp;quot;)
+print(my_list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;First&#39;, 1, 2, 3, 4]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;remove(element)&lt;/strong&gt; - Removes the first occurrence of an element from the list.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list.remove(&amp;quot;First&amp;quot;)
+print(list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 2, 3, 4]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;pop(index)&lt;/strong&gt; - Removes the element at a specific position in the list and returns it.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list.pop(0)
+print(my_list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[2, 3, 4]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;sort()&lt;/strong&gt; - Sorts the elements of the list in ascending order.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list.sort(reverse=True)
+print(my_list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[4, 3, 2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;reverse()&lt;/strong&gt; - Reverses the order of the elements in the list&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list.reverse()
+print(my_list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[2, 3, 4]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;extend(list)&lt;/strong&gt; - Adds the elements of one list to the end of another list.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list1 =[&amp;quot;Book&amp;quot;,&amp;quot;Copy&amp;quot;]
+my_list.append(my_list1)
+print(my_list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[2, 3, 4, [&#39;Book&#39;, &#39;Copy&#39;]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list.extend(my_list1)
+print(my_list)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[2, 3, 4, [&#39;Book&#39;, &#39;Copy&#39;],  &#39;Book&#39;, &#39;Copy&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The difference between extend() and append() is that the extend method modifies the original list my_list, adding the elements of my_list1 to the end of it. On the other hand, the append() methods creates a new list that contains the elements of both my_list and my_list1.&lt;/p&gt;
+&lt;h3 id=&#34;nesting-lists&#34;&gt;Nesting Lists&lt;/h3&gt;
+&lt;p&gt;The term &amp;ldquo;nesting lists&amp;rdquo; refers to creating a list that contains other lists as its elements. This can be useful when you want to group related items together&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s see how this works!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Let&#39;s make three lists
+lst_1=[1,2,3]
+lst_2=[4,5,6]
+lst_3=[7,8,9]
+
+Make a list of lists to form a combined_list
+combined_list = [lst_1,lst_2,lst_3]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;combined_list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We can again use indexing to access elements, but now there are two levels for the index. The items in the combined_list object, and then the items inside that list!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;access first item in combined_list object
+combined_list[0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[1, 2, 3]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;access first item of the first item in the combined_list object
+matrix[0][0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;1
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>String Formatting in Python</title>
