@@ -5,7 +5,7 @@
     <link>https://pudasainimohan.com.np/</link>
       <atom:link href="https://pudasainimohan.com.np/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Pudasaini</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Sun, 26 Feb 2023 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Mohan Pudasaini</title>
@@ -13,53 +13,182 @@
     </image>
     
     <item>
-      <title>Example Page 1</title>
-      <link>https://pudasainimohan.com.np/courses/ds_basics/example1/</link>
+      <title>Syllabus</title>
+      <link>https://pudasainimohan.com.np/courses/ds_basics/syllabus/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://pudasainimohan.com.np/courses/ds_basics/example1/</guid>
-      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://pudasainimohan.com.np/courses/ds_basics/syllabus/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Introduction to Python
+&lt;ul&gt;
+&lt;li&gt;Overview of Python and its IDEs&lt;/li&gt;
+&lt;li&gt;Installing Python and Jupyter Notebook&lt;/li&gt;
+&lt;li&gt;Introduction to Jupyter Notebook environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Basic Data Types in Python
+&lt;ul&gt;
+&lt;li&gt;Lists, Dictionaries, Tuples, and Sets&lt;/li&gt;
+&lt;li&gt;Using Python as a calculator&lt;/li&gt;
+&lt;li&gt;Basic arithmetic and logical operations&lt;/li&gt;
+&lt;li&gt;Descriptive statistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Types, Objects, and Methods in Python
+&lt;ul&gt;
+&lt;li&gt;Understanding objects and data types&lt;/li&gt;
+&lt;li&gt;Converting data types&lt;/li&gt;
+&lt;li&gt;Method syntax&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Working with Strings in Python
+&lt;ul&gt;
+&lt;li&gt;Built-in string operations, functions, and methods&lt;/li&gt;
+&lt;li&gt;Reading and writing text files (local and internet)&lt;/li&gt;
+&lt;li&gt;Indexing and slicing strings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Numpy Arrays
+&lt;ul&gt;
+&lt;li&gt;Creating arrays with Numpy&lt;/li&gt;
+&lt;li&gt;Manipulating arrays: indexing, slicing, transforming&lt;/li&gt;
+&lt;li&gt;Understanding the difference between Numpy arrays and Python lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Plotting with Matplotlib
+&lt;ul&gt;
+&lt;li&gt;Line charts&lt;/li&gt;
+&lt;li&gt;Histograms&lt;/li&gt;
+&lt;li&gt;Bar charts&lt;/li&gt;
+&lt;li&gt;Introduction to the Seaborn library for visualization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Data Management with Pandas
+&lt;ul&gt;
+&lt;li&gt;Summarizing data&lt;/li&gt;
+&lt;li&gt;Cross tabluation&lt;/li&gt;
+&lt;li&gt;Filtering and transforming data&lt;/li&gt;
+&lt;li&gt;mutating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Loops and Functions in Python
+&lt;ul&gt;
+&lt;li&gt;If-Else statements&lt;/li&gt;
+&lt;li&gt;For and While loops&lt;/li&gt;
+&lt;li&gt;Defining functions in Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Details of the dates and times for the programs:
+&lt;a href=&#34;https://pudasainimohan.com.np/talk/basic_data_analysis&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Example Page 2</title>
-      <link>https://pudasainimohan.com.np/courses/ds_basics/example2/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://pudasainimohan.com.np/courses/ds_basics/example2/</guid>
-      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title></title>
+      <link>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</guid>
+      <description>&lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data anallysis with Python&lt;/h2&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
+&lt;style&gt;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+.form-input {
+color:black;
+
+font-family: Helvetica, Arial, sans-serif;
+font-weight:500;
+font-size: 18px;
+border-radius: 5px;
+line-height: 22px;
+background-color: transparent;
+border:2px solid #CC6666;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 15px;
+width:100%;
+box-sizing: border-box;
+outline:0;
+}
+
+.form-input:focus { border:2px solid #CC4949; }
+
+textarea {
+height: 150px;
+line-height: 150%;
+resize:vertical;
+}
+
+[type=&#34;submit&#34;] {
+font-family: &#39;Montserrat&#39;, Arial, Helvetica, sans-serif;
+width: 100%;
+background:#CC6666;
+border-radius:5px;
+border:0;
+cursor:pointer;
+color:white;
+font-size:24px;
+padding-top:10px;
+padding-bottom:10px;
+transition: all 0.3s;
+margin-top:-4px;
+font-weight:700;
+}
+[type=&#34;submit&#34;]:hover { background:#CC4949; }
+&lt;/style&gt;
+&lt;form action=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse&#34; method=&#34;post&#34; target=&#34;hidden_iframe&#34; onsubmit=&#34;submitted=true&#34;&gt;
+  &lt;label&gt;Name*&lt;/label&gt;
+        &lt;input type=&#34;text&#34; placeholder=&#34;Name*&#34; class=&#34;form-input&#34; name=&#34;entry.2005620554&#34; required&gt;
+&lt;p&gt;&lt;label&gt;Email*&lt;/label&gt;
+&lt;input type=&#34;email&#34; placeholder=&#34;Email address*&#34; class=&#34;form-input&#34; name=&#34;entry.1045781291&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Organization*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Organization*&#34; class=&#34;form-input&#34; name=&#34;entry.1065046570&#34; required&gt;
+&lt;label&gt;Designation*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Designation*&#34; class=&#34;form-input&#34; name=&#34;entry.1937940652&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Mobile Number*&lt;/label&gt;
+&lt;input type=&#34;text&#34; pattern=&#34;[0-9]{10}&#34; placeholder=&#34;Mobile Number*&#34; class=&#34;form-input&#34; name=&#34;entry.1166974658&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Do you have Prior knowledge on Python?*&lt;/label&gt;
+&lt;select name=&#34;entry.1328943848&#34; class=&#34;form-input&#34; &gt;
+&lt;option value=&#34;&#34; disabled selected&gt;Select an option&lt;/option&gt;
+&lt;option value=&#34;Yes&#34;&gt;Yes&lt;/option&gt;
+&lt;option value=&#34;No&#34;&gt;No&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button type=&#34;submit&#34;&gt;Submit&lt;/button&gt;&lt;/p&gt;
+   &lt;p style=&#34;text-align: center;&#34;&gt;Please wait a moment after clicking the submit button.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;var submitted=false;&lt;/script&gt;
+&lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34; 
+onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
+&lt;form action=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse&#34; 
+method=&#34;post&#34; target=&#34;hidden_iframe&#34; onsubmit=&#34;submitted=true;&#34;&gt;
+&lt;/form&gt;
 </description>
     </item>
     
     <item>
-      <title>Online Workshop on data analysis</title>
-      <link>https://pudasainimohan.com.np/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.com.np/talk/example/</guid>
-      <description></description>
+      <title>Online Workshop on Data Analysis with Python</title>
+      <link>https://pudasainimohan.com.np/talk/basic_data_analysis/</link>
+      <pubDate>Sun, 26 Feb 2023 20:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/basic_data_analysis/</guid>
+      <description>&lt;p&gt;          &lt;strong&gt;Fee&lt;/strong&gt;            Rs 2000 only&lt;/p&gt;
+&lt;p&gt;          &lt;strong&gt;Syllabus&lt;/strong&gt;          
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/syllabus&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;          &lt;strong&gt;For registration&lt;/strong&gt; 
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Python has become a critical tool for data scientists and analysts, offering a vast range of capabilities for analyzing and visualizing data. Whether you are a beginner or looking to enhance your existing skills in python, then this workshop is for you. This workshop is designed for individuals from a variety of backgrounds who have an interest in data analysis and visualization and want to learn the basics of Python programming without prior coding knowledge. The workshop is specifically targeted towards:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Analysts/Data scientist: Currently working with different software and looking to expand their skills by learning Python for data analysis.&lt;/li&gt;
+&lt;li&gt;Students: Interested in starting a career in data analysis or data science and want to learn the basics of data analysis using Python.&lt;/li&gt;
+&lt;li&gt;Researchers and Scholars: Who need to analyze data for their thesis, research projects, or academic papers.&lt;/li&gt;
+&lt;li&gt;Educators and Teachers: Who want to incorporate data analysis and visualization into their curriculum or learn Python as a tool for teaching data science.&lt;/li&gt;
+&lt;li&gt;Business Professionals: Who need to analyze data for their work and want to learn a powerful and versatile programming language for data analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By the end of the workshop, you will have a solid foundation in Python programming and the ability to use Python for various data analysis and visualization tasks. With hands-on experience using Jupyter Notebook and the various libraries used in the workshop, you will be ready to tackle real-world data analysis projects.
+To view the full syllabus, please visit: 
+&lt;a href=&#34;https://www.kpt.com/syllabus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;www.kpt.com/syllabus&lt;/a&gt;
+Don&amp;rsquo;t miss out on this opportunity to learn the most in-demand skills in the data analysis field. With a low fee, this comprehensive beginner&amp;rsquo;s workshop offers exceptional value for anyone looking to become a proficient Python data analyst. Enroll now to take your skills to the next level!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -1038,15 +1167,6 @@ Mohan&lt;/p&gt;
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://pudasainimohan.com.np/project/internal-project/</guid>
       <description>&lt;h1 id=&#34;it-will-update-soon&#34;&gt;It will update soon&amp;hellip;.&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://pudasainimohan.com.np/thankyou/thankyou/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.com.np/thankyou/thankyou/</guid>
-      <description>&lt;h2 id=&#34;we-received-your-form&#34;&gt;We received your form&lt;/h2&gt;
 </description>
     </item>
     

@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pudasainimohan.com.np/courses/ds_basics/example1/</loc>
+    <loc>https://pudasainimohan.com.np/courses/ds_basics/syllabus/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/courses/ds_basics/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.com.np/courses/ds_basics/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <loc>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</loc>
+    <lastmod>2023-02-14T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2023-02-26T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.com.np/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://pudasainimohan.com.np/talk/basic_data_analysis/</loc>
+    <lastmod>2023-02-26T20:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2023-02-26T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/courses/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/categories/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
@@ -80,9 +83,6 @@
     <loc>https://pudasainimohan.com.np/post/fist_post/</loc>
     <lastmod>2023-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.com.np/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://pudasainimohan.com.np/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -110,10 +110,8 @@
     <loc>https://pudasainimohan.com.np/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.com.np/thankyou/thankyou/</loc>
+    <loc>https://pudasainimohan.com.np/thankyou/</loc>
   </url><url>
     <loc>https://pudasainimohan.com.np/publication_types/</loc>
-  </url><url>
-    <loc>https://pudasainimohan.com.np/thankyou/</loc>
   </url>
 </urlset>
