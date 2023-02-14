@@ -692,14 +692,14 @@ font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
 </style>
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse" method="post" target="hidden_iframe" onsubmit="document.getElementById('submitBtn').disabled=true; submitted=true;">
   <label>Name*</label>
-        <input type="text" placeholder="Name*" class="form-input" name="entry.2005620554" required>
+  <input type="text" placeholder="Name*" class="form-input" name="entry.2005620554" required>
 <p><label>Email*</label>
 <input type="email" placeholder="Email address*" class="form-input" name="entry.1045781291" required></p>
 <p><label>Organization*</label>
-<input type="text" placeholder="Organization*" class="form-input" name="entry.1065046570" required>
-<label>Designation*</label>
+<input type="text" placeholder="Organization*" class="form-input" name="entry.1065046570" required></p>
+<p><label>Designation*</label>
 <input type="text" placeholder="Designation*" class="form-input" name="entry.1937940652" required></p>
 <p><label>Mobile Number*</label>
 <input type="text" pattern="[0-9]{10}" placeholder="Mobile Number*" class="form-input" name="entry.1166974658" required></p>
@@ -709,14 +709,12 @@ font-weight:700;
 <option value="Yes">Yes</option>
 <option value="No">No</option>
 </select></p>
-<p><button type="submit">Submit</button></p>
-   <p style="text-align: center;">Please wait a moment after clicking the submit button.</p>
+<p><button type="submit" id="submitBtn">Submit</button></p>
+</form>
+<p style="text-align: center;">Please wait a moment after clicking the submit button.</p>
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
 onload="if(submitted) {window.location='/thankyou';}"></iframe>
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse" 
-method="post" target="hidden_iframe" onsubmit="submitted=true;">
-</form>
 
           </div>
 
