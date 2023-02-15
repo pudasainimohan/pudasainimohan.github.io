@@ -17,7 +17,41 @@
       <link>https://pudasainimohan.com.np/courses/ds_basics/syllabus/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
       <guid>https://pudasainimohan.com.np/courses/ds_basics/syllabus/</guid>
-      <description>&lt;ol&gt;
+      <description>&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+&lt;/style&gt;
+&lt;div class=&#34;callout note&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;To participate in the workshop, please click here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol&gt;
 &lt;li&gt;Introduction to Python
 &lt;ul&gt;
 &lt;li&gt;Overview of Python and its IDEs&lt;/li&gt;
