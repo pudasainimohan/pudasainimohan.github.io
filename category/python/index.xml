@@ -5,12 +5,107 @@
     <link>https://pudasainimohan.com.np/category/python/</link>
       <atom:link href="https://pudasainimohan.com.np/category/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Python</title>
       <link>https://pudasainimohan.com.np/category/python/</link>
     </image>
+    
+    <item>
+      <title>An Introduction to Python Dictionaries: Key-Value Pair Mapping</title>
+      <link>https://pudasainimohan.com.np/post/python_dictionary/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/post/python_dictionary/</guid>
+      <description>&lt;p&gt;Python dictionaries provide a powerful way to store and organize data as key-value pairs, which is known as mapping. Unlike sequences that store objects by their relative position, mappings use a unique key to store objects. This key-based approach makes Python dictionaries incredibly versatile and suitable for representing a wide range of real-world scenarios. It&amp;rsquo;s important to note that since mappings are not defined by order, Python dictionaries won&amp;rsquo;t retain the order of objects. In this article, we&amp;rsquo;ll delve into the basics of Python dictionaries, including how to construct a dictionary, access objects within it, create nested dictionaries, and use some of the basic dictionary methods.&lt;/p&gt;
+&lt;h3 id=&#34;constructing-a-dictionary&#34;&gt;Constructing a Dictionary&lt;/h3&gt;
+&lt;p&gt;In Python, you can construct a dictionary using a set of key-value pairs enclosed in curly braces {}. Each key-value pair is separated by a colon, and the pairs are separated by commas. Here&amp;rsquo;s an example of a simple dictionary&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fruit = {&#39;apple&#39;: 2, &#39;banana&#39;: 3, &#39;orange&#39;: 5}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, the keys are strings (&amp;lsquo;apple&amp;rsquo;, &amp;lsquo;banana&amp;rsquo;, &amp;lsquo;orange&amp;rsquo;) and the values are integers (2, 3, 5). You can access the values in the dictionary by using the keys as indices. For example, fruit[&amp;lsquo;apple&amp;rsquo;] would return the value 2.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fruit[&#39;apple&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Its important to note that dictionaries are very flexible in the data types they can hold. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fruit = {&#39;name&#39;: &#39;apple&#39;,&#39;color&#39;: &#39;red&#39;,&#39;vitamins&#39;: [&#39;A&#39;, &#39;C&#39;]}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;here Vitamin contains the list and to access the value associated with a particular key in a dictionary, you can use square bracket notation with the key inside the brackets. For example, to access the value associated with the &amp;lsquo;vitamins&amp;rsquo; key in the &amp;lsquo;fruit&amp;rsquo; dictionary, you can use the following code: fruit[&amp;lsquo;vitamins&amp;rsquo;]&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fruit[&#39;vitamins&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;[&#39;A&#39;, &#39;C&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will return the value associated with the &amp;lsquo;vitamins&amp;rsquo; key, which in this case is the list [&amp;lsquo;A&amp;rsquo;, &amp;lsquo;C&amp;rsquo;].Once you have the list, you can perform various operations on it. For example, you can access individual elements in the list using their index, like this: fruit[&amp;lsquo;vitamins&amp;rsquo;][0]. This would return the string &amp;lsquo;A&amp;rsquo;, which is the first item in the list.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;fruit[&#39;vitamins&#39;][0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;A&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;you can also call methods on that value, for example&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+fruit[&#39;vitamins&#39;][0].lower()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;a&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This would return the string &amp;lsquo;a&amp;rsquo;, since the lower() method converts the string &amp;lsquo;A&amp;rsquo; to lowercase.&lt;/p&gt;
+&lt;p&gt;you can modifiy the element of the dictionary. for example&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+fruit[&#39;vitamins&#39;].append(&#39;B&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+fruit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;{&#39;name&#39;: &#39;apple&#39;, &#39;color&#39;: &#39;red&#39;, &#39;vitamins&#39;: [&#39;A&#39;, &#39;C&#39;, &#39;B&#39;]}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;here, new element &amp;lsquo;B&amp;rsquo; to the vitamins has been added.&lt;/p&gt;
+&lt;p&gt;We can also create keys by assignment. For instance if we started off with an empty dictionary, we could continually add to it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Create a new dictionary
+d = {}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Create a new key through assignment
+d[&#39;animal&#39;] = &#39;Dog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Can do this with any object
+d[&#39;answer&#39;] = 42
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#Show
+d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;{&#39;animal&#39;: &#39;Dog&#39;, &#39;answer&#39;: 42}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;nesting-with-dictionaries&#34;&gt;Nesting with Dictionaries&lt;/h3&gt;
+&lt;p&gt;By now, you might be realizing how flexible and powerful Python is, especially when it comes to nesting objects and calling methods on them. To further illustrate this, consider the following example of a dictionary nested inside another dictionary&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt; Dictionary nested inside a dictionary nested inside a dictionary
+d = {&#39;key1&#39;:{&#39;nestkey&#39;:{&#39;subnestkey&#39;:&#39;value&#39;}}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Wow! That&amp;rsquo;s a quite the inception of dictionaries! Let&amp;rsquo;s see how we can grab that value:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Keep calling the keys
+d[&#39;key1&#39;][&#39;nestkey&#39;][&#39;subnestkey&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;value&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;a-few-dictionary-methods&#34;&gt;A few Dictionary Methods&lt;/h3&gt;
+&lt;p&gt;There are a few methods we can call on a dictionary. Let&amp;rsquo;s get a quick introduction to a few of them:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Create a typical dictionary
+d = {&#39;key1&#39;:1,&#39;key2&#39;:2,&#39;key3&#39;:3}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Method to return a list of all keys 
+d.keys()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;dict_keys([&#39;key1&#39;, &#39;key2&#39;, &#39;key3&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Method to grab all values
+d.values()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;dict_values([1, 2, 3])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;items() emthod  return tuples of all items  , we will discuss about tuple in next article.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;d.items()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;dict_items([(&#39;key1&#39;, 1), (&#39;key2&#39;, 2), (&#39;key3&#39;, 3)])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In summary, dictionaries in Python are a powerful and flexible data structure that allow you to store and organize data in key-value pairs. Dictionaries are unordered collections of objects, where each object is identified by a unique key. They are mutable, which means you can modify their contents by adding, removing, or updating key-value pairs. Additionally, the keys in a dictionary are unique, which means you cannot have multiple entries with the same key.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Working with Lists in Python</title>
