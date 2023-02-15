@@ -67,8 +67,7 @@ d[&#39;animal&#39;] = &#39;Dog&#39;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Can do this with any object
 d[&#39;answer&#39;] = 42
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#Show
-d
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;d
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;{&#39;animal&#39;: &#39;Dog&#39;, &#39;answer&#39;: 42}
 &lt;/code&gt;&lt;/pre&gt;

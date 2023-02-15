@@ -172,8 +172,26 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
       <description>&lt;p&gt;          &lt;strong&gt;Fee&lt;/strong&gt;            Rs 2000 only&lt;/p&gt;
 &lt;p&gt;          &lt;strong&gt;Syllabus&lt;/strong&gt;          
 &lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/syllabus&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;          &lt;strong&gt;For registration&lt;/strong&gt; 
-&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+&lt;/style&gt;
+&lt;div class=&#34;callout note&#34;&gt;
+&lt;p&gt;To participate in the workshop, please 
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;Python has become a critical tool for data scientists and analysts, offering a vast range of capabilities for analyzing and visualizing data. Whether you are a beginner or looking to enhance your existing skills in python, then this workshop is for you. This workshop is designed for individuals from a variety of backgrounds who have an interest in data analysis and visualization and want to learn the basics of Python programming without prior coding knowledge. The workshop is specifically targeted towards:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Data Analysts/Data scientist:&lt;/strong&gt; Currently working with different software and looking to expand their skills by learning Python for data analysis.&lt;/li&gt;
@@ -244,8 +262,7 @@ d[&#39;animal&#39;] = &#39;Dog&#39;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;Can do this with any object
 d[&#39;answer&#39;] = 42
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#Show
-d
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;d
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;{&#39;animal&#39;: &#39;Dog&#39;, &#39;answer&#39;: 42}
 &lt;/code&gt;&lt;/pre&gt;
