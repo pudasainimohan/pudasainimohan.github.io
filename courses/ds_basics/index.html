@@ -660,9 +660,23 @@ Syllabus for the workshop:
     font-size: 1.2em;
     display: block;
     font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
   
   .callout.note {
     border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 </style>
 <div class="callout note">
