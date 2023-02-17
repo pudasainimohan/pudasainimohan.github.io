@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tuple | Mohan Pudasaini</title>
+    <link>https://pudasainimohan.com.np/tag/tuple/</link>
+      <atom:link href="https://pudasainimohan.com.np/tag/tuple/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tuple</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <title>Tuple</title>
+      <link>https://pudasainimohan.com.np/tag/tuple/</link>
+    </image>
+    
+    <item>
+      <title>An Introduction to Tuples in Python</title>
+      <link>https://pudasainimohan.com.np/post/intro_tuple/</link>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/post/intro_tuple/</guid>
+      <description>&lt;p&gt;In Python, a tuple is a data structure that is similar to a 
+&lt;a href=&#34;../python_list&#34;&gt;list&lt;/a&gt;, but with a key difference: tuples are immutable. This means that once a tuple is created, its elements cannot be changed. Tuples are often used to store collections of related values that should not be modified, such as days of the week, or dates on a calendar. In this article, we will explore tuples in more detail, including how to construct them, some basic tuple methods. We will also discuss the concept of immutability, which is a fundamental feature of tuples that sets them apart from other data structures&lt;/p&gt;
+&lt;h3 id=&#34;constructing-tuples&#34;&gt;Constructing Tuples&lt;/h3&gt;
+&lt;p&gt;There are several ways to create a tuple. &lt;strong&gt;The most common way is to enclose a sequence of values in parentheses, separated by commas&lt;/strong&gt;. For example, you can create a tuple that stores the names of the months like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Create a tuple
+months = (&amp;quot;January&amp;quot;, &amp;quot;February&amp;quot;, &amp;quot;March&amp;quot;, &amp;quot;April&amp;quot;, &amp;quot;May&amp;quot;, &amp;quot;June&amp;quot;, &amp;quot;July&amp;quot;, &amp;quot;August&amp;quot;, &amp;quot;September&amp;quot;, &amp;quot;October&amp;quot;, &amp;quot;November&amp;quot;, &amp;quot;December&amp;quot;)
+months
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;(&#39;January&#39;,
+ &#39;February&#39;,
+ &#39;March&#39;,
+ &#39;April&#39;,
+ &#39;May&#39;,
+ &#39;June&#39;,
+ &#39;July&#39;,
+ &#39;August&#39;,
+ &#39;September&#39;,
+ &#39;October&#39;,
+ &#39;November&#39;,
+ &#39;December&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also create a tuple using the built-in tuple() function, which takes an iterable (such as a list or another tuple) and converts it into a tuple. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list = [1, 2, 3]
+my_tuple = tuple(my_list)
+my_tuple
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;(1, 2, 3)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you have a tuple containing the months of the year, you can use len() to find out how many months are in the tuple:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;len(months)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;12
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One of the benefits of tuples in Python is that they can contain elements of different types. For example, you can create a tuple that stores both integers and strings:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_tuple = (1, &amp;quot;hello&amp;quot;, 3.14)
+my_tuple
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;(1, &#39;hello&#39;, 3.14)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Indexing and slicing tuples is similar to indexing and slicing lists in Python. To access a single element of a tuple, you can use square brackets and the index of the element you want to access. In Python, indices start at 0, so the first element of a tuple has an index of 0, the second element has an index of 1, and so on. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;months[0]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&#39;January&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;months[::2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;(&#39;January&#39;, &#39;March&#39;, &#39;May&#39;, &#39;July&#39;, &#39;September&#39;, &#39;November&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;basic-tuple-methods&#34;&gt;Basic Tuple Methods&lt;/h3&gt;
+&lt;p&gt;Tuples have built-in methods, but not as many as lists do. Let&amp;rsquo;s look at two of them:&lt;/p&gt;
+&lt;p&gt;You can use the .index() method to find the index of a specific value in a tuple. If the value is found in the tuple, the method returns the index of the first occurrence of the value. If the value is not found, the method raises a ValueError&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;months.index(&amp;quot;January&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;months.index(&amp;quot;Nepal&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;---------------------------------------------------------------------------
+
+ValueError                                Traceback (most recent call last)
+
+Cell In[10], line 1
+----&amp;gt; 1 months.index(&amp;quot;Nepal&amp;quot;)
+
+
+ValueError: tuple.index(x): x not in tuple
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can use the .count() method to count the number of times a specific value appears in a tuple. This method returns an integer that represents the number of occurrences of the value in the tuple. for example&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;t=(1,2,3,4,2,1,2,4)
+t.count(2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;immutability&#34;&gt;Immutability&lt;/h3&gt;
+&lt;p&gt;Tuple can&amp;rsquo;t be stressed enough thay are immutable. To drive that point home, let&amp;rsquo;s take an example and try to replace  &amp;ldquo;january&amp;rdquo; by &amp;ldquo;Jan&amp;rdquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;months[0]= &#39;Jan&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+Cell In[13], line 1
+----&amp;gt; 1 months[0]= &#39;Jan&#39;
+
+
+TypeError: &#39;tuple&#39; object does not support item assignment
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Because of this immutability, tuples can&amp;rsquo;t grow. Once a tuple is made we can not add to it.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;months.append(&#39;Baishakh&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;---------------------------------------------------------------------------
+
+AttributeError                            Traceback (most recent call last)
+
+Cell In[14], line 1
+----&amp;gt; 1 months.append(&#39;Baishakh&#39;)
+
+
+AttributeError: &#39;tuple&#39; object has no attribute &#39;append&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In summary, Tuples are immutable data structures in Python, similar to lists but with key differences. They can be constructed using parentheses, and can contain multiple data types. Tuples support basic methods like indexing, slicing, counting, and returning the length of the tuple. The immutability of tuples makes them useful for representing constant values, while their compact size and faster processing speed make them a good choice for certain types of data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

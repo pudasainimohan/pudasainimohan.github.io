@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="This guide provides a step-by-step process to help you download, install and set up Python on your computer.">
+  <meta name="description" content="Tuples in Python, a data structure that is similar to lists but immutable. It covers constructing tuples, indexing and slicing them, and basic tuple methods. The concept of immutability is discussed, highlighting its fundamental feature. Tuples are useful for storing related values that should not be modified and are faster and more compact than lists.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/python_install/">
+  <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/intro_tuple/">
 
   
 
@@ -257,7 +257,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://pudasainimohan.com.np/post/python_install/">
+  <link rel="canonical" href="https://pudasainimohan.com.np/post/intro_tuple/">
 
   
   
@@ -275,15 +275,15 @@
   <meta property="twitter:creator" content="@pudasainimohan">
   
   <meta property="og:site_name" content="Mohan Pudasaini">
-  <meta property="og:url" content="https://pudasainimohan.com.np/post/python_install/">
-  <meta property="og:title" content="Get Started with Python: An Installation Guide | Mohan Pudasaini">
-  <meta property="og:description" content="This guide provides a step-by-step process to help you download, install and set up Python on your computer."><meta property="og:image" content="https://pudasainimohan.com.np/post/python_install/featured.png">
-  <meta property="twitter:image" content="https://pudasainimohan.com.np/post/python_install/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://pudasainimohan.com.np/post/intro_tuple/">
+  <meta property="og:title" content="An Introduction to Tuples in Python | Mohan Pudasaini">
+  <meta property="og:description" content="Tuples in Python, a data structure that is similar to lists but immutable. It covers constructing tuples, indexing and slicing them, and basic tuple methods. The concept of immutability is discussed, highlighting its fundamental feature. Tuples are useful for storing related values that should not be modified and are faster and more compact than lists."><meta property="og:image" content="https://pudasainimohan.com.np/post/intro_tuple/featured.png">
+  <meta property="twitter:image" content="https://pudasainimohan.com.np/post/intro_tuple/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2023-02-07T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-02-17T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2023-02-07T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-02-17T00:00:00&#43;00:00">
   
 
   
@@ -307,16 +307,16 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://pudasainimohan.com.np/post/python_install/"
+    "@id": "https://pudasainimohan.com.np/post/intro_tuple/"
   },
-  "headline": "Get Started with Python: An Installation Guide",
+  "headline": "An Introduction to Tuples in Python",
   
   "image": [
-    "https://pudasainimohan.com.np/post/python_install/featured.png"
+    "https://pudasainimohan.com.np/post/intro_tuple/featured.png"
   ],
   
-  "datePublished": "2023-02-07T00:00:00Z",
-  "dateModified": "2023-02-07T00:00:00Z",
+  "datePublished": "2023-02-17T00:00:00Z",
+  "dateModified": "2023-02-17T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -331,7 +331,7 @@
       "url": "https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "This guide provides a step-by-step process to help you download, install and set up Python on your computer."
+  "description": "Tuples in Python, a data structure that is similar to lists but immutable. It covers constructing tuples, indexing and slicing them, and basic tuple methods. The concept of immutability is discussed, highlighting its fundamental feature. Tuples are useful for storing related values that should not be modified and are faster and more compact than lists."
 }
 </script>
 
@@ -349,7 +349,7 @@
 
 
 
-  <title>Get Started with Python: An Installation Guide | Mohan Pudasaini</title>
+  <title>An Introduction to Tuples in Python | Mohan Pudasaini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -634,10 +634,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>Get Started with Python: An Installation Guide</h1>
+  <h1>An Introduction to Tuples in Python</h1>
 
   
-  <p class="page-subtitle">Learn how to download, install and set up Python on your computer</p>
+  <p class="page-subtitle">Exploring Immutable Data Structures for Efficient Data Storage</p>
   
 
   
@@ -664,7 +664,7 @@
     
       
     
-    Feb 7, 2023
+    Feb 17, 2023
   </span>
   
 
@@ -673,7 +673,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -710,7 +710,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
   <div style="position: relative">
-    <img src="/post/python_install/featured_hu0f5a5ac2632351e1f6c0cee2776a624b_912554_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <img src="/post/intro_tuple/featured_hude9fb803902aecf9a34e79ecbe01e92e_120538_720x0_resize_lanczos_3.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -720,48 +720,107 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Python is a popular, high-level programming language used for web development, scientific computing, data analysis, artificial intelligence, and more. Here is a simple guide to help you install Python on your computer</p>
-<p>There are two main ways to install Python: using a <strong>package manager or downloading the Python executable</strong>.</p>
-<h2 id="using-package-manager">Using Package Manager:</h2>
-<p>One option to install Python on your computer is to use a package manager or a platform-specific store. For example, on macOS, you can use the Homebrew package manager to install Python. Simply open Terminal and type &ldquo;brew install python&rdquo; to download and install the latest version of Python and its dependencies. On Windows, you can use the Microsoft Store to install Python. Simply search for &ldquo;Python&rdquo; in the Microsoft Store, select the latest version, and click the &ldquo;Get&rdquo; or &ldquo;Install&rdquo; button to download and install Python on your computer. These package managers and platform-specific stores provide a convenient and efficient way to install and manage software packages, including Python, without having to manually download and install them.
-<img src="0.jpg" alt=""></p>
-<h2 id="downloading-the-python-executable">Downloading the Python Executable:</h2>
-<p>Another option to install Python on your computer is to download the Python executable from the official Python website. The following are the basic steps to install Python using this method:</p>
-<p><strong>Step 1: Go to the Official Website and download Version</strong></p>
-<p>Visit the official Python website (
-<a href="https://www.python.org/" target="_blank" rel="noopener">https://www.python.org/</a>) and navigate to the downloads section.
-Choose the appropriate version of Python that you want to install on your computer. For example, if you&rsquo;re a beginner, you might want to start with Python 3.x.x.
-<img src="1.jpg" alt=""></p>
-<p>Once you&rsquo;ve selected the appropriate version of Python, click the download button to start the download process.
-Make sure to save the installation file to a location where you can easily find it.</p>
-<p><strong>Step 2: Click Install and Make Sure Add to Path is Checked</strong></p>
-<p>Once the download is complete, double-click the installation file to start the installation process.
-Follow the on-screen instructions to install Python on your computer.
-Make sure to check the option &ldquo;Add to Path&rdquo; when prompted during the installation process. This will ensure that Python is added to your system PATH, making it easier to run Python from the Command Prompt or Terminal.</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="2.jpg" alt=""></td>
-<td style="text-align:center"><img src="3.jpg" alt=""></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Step 3: Check Whether Python is Installed Using CMD</strong></p>
-<p>Open the Command Prompt or Terminal and type &ldquo;python&rdquo; or &ldquo;python &ndash;version&rdquo; to check if Python has been installed successfully.
-If Python has been installed successfully, you should see a prompt that looks like this: &ldquo;Python 3.11.1&rdquo;. This means that you can start using Python in the Command Prompt or Terminal.
-<img src="4.jpg" alt=""></p>
-<p><strong>Step 5: Make Sure Pip is Installed</strong></p>
-<p>Pip is a package management system used to install and manage Python packages. It is included with Python 3.4 and later versions.
-To check if pip is installed, open the Command Prompt or Terminal and type &ldquo;pip &ndash;version&rdquo;.
-If pip is installed, you should see the version number of pip, for example, &ldquo;pip 22.3.1&rdquo;.
-<img src="5.jpg" alt=""></p>
-<p>That&rsquo;s it! You&rsquo;ve successfully installed Python on your computer. You&rsquo;re now ready to start exploring the world of Python programming!</p>
+      <p>In Python, a tuple is a data structure that is similar to a 
+<a href="../python_list">list</a>, but with a key difference: tuples are immutable. This means that once a tuple is created, its elements cannot be changed. Tuples are often used to store collections of related values that should not be modified, such as days of the week, or dates on a calendar. In this article, we will explore tuples in more detail, including how to construct them, some basic tuple methods. We will also discuss the concept of immutability, which is a fundamental feature of tuples that sets them apart from other data structures</p>
+<h3 id="constructing-tuples">Constructing Tuples</h3>
+<p>There are several ways to create a tuple. <strong>The most common way is to enclose a sequence of values in parentheses, separated by commas</strong>. For example, you can create a tuple that stores the names of the months like this:</p>
+<pre><code class="language-python"># Create a tuple
+months = (&quot;January&quot;, &quot;February&quot;, &quot;March&quot;, &quot;April&quot;, &quot;May&quot;, &quot;June&quot;, &quot;July&quot;, &quot;August&quot;, &quot;September&quot;, &quot;October&quot;, &quot;November&quot;, &quot;December&quot;)
+months
+</code></pre>
+<pre><code>('January',
+ 'February',
+ 'March',
+ 'April',
+ 'May',
+ 'June',
+ 'July',
+ 'August',
+ 'September',
+ 'October',
+ 'November',
+ 'December')
+</code></pre>
+<p>You can also create a tuple using the built-in tuple() function, which takes an iterable (such as a list or another tuple) and converts it into a tuple. For example:</p>
+<pre><code class="language-python">my_list = [1, 2, 3]
+my_tuple = tuple(my_list)
+my_tuple
+</code></pre>
+<pre><code>(1, 2, 3)
+</code></pre>
+<p>If you have a tuple containing the months of the year, you can use len() to find out how many months are in the tuple:</p>
+<pre><code class="language-python">len(months)
+</code></pre>
+<pre><code>12
+</code></pre>
+<p>One of the benefits of tuples in Python is that they can contain elements of different types. For example, you can create a tuple that stores both integers and strings:</p>
+<pre><code class="language-python">my_tuple = (1, &quot;hello&quot;, 3.14)
+my_tuple
+</code></pre>
+<pre><code>(1, 'hello', 3.14)
+</code></pre>
+<p>Indexing and slicing tuples is similar to indexing and slicing lists in Python. To access a single element of a tuple, you can use square brackets and the index of the element you want to access. In Python, indices start at 0, so the first element of a tuple has an index of 0, the second element has an index of 1, and so on. For example:</p>
+<pre><code class="language-python">months[0]
+</code></pre>
+<pre><code>'January'
+</code></pre>
+<pre><code class="language-python">months[::2]
+</code></pre>
+<pre><code>('January', 'March', 'May', 'July', 'September', 'November')
+</code></pre>
+<h3 id="basic-tuple-methods">Basic Tuple Methods</h3>
+<p>Tuples have built-in methods, but not as many as lists do. Let&rsquo;s look at two of them:</p>
+<p>You can use the .index() method to find the index of a specific value in a tuple. If the value is found in the tuple, the method returns the index of the first occurrence of the value. If the value is not found, the method raises a ValueError</p>
+<pre><code class="language-python">months.index(&quot;January&quot;)
+</code></pre>
+<pre><code>0
+</code></pre>
+<pre><code class="language-python">months.index(&quot;Nepal&quot;)
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+ValueError                                Traceback (most recent call last)
+
+Cell In[10], line 1
+----&gt; 1 months.index(&quot;Nepal&quot;)
+
+
+ValueError: tuple.index(x): x not in tuple
+</code></pre>
+<p>You can use the .count() method to count the number of times a specific value appears in a tuple. This method returns an integer that represents the number of occurrences of the value in the tuple. for example</p>
+<pre><code class="language-python">t=(1,2,3,4,2,1,2,4)
+t.count(2)
+</code></pre>
+<pre><code>3
+</code></pre>
+<h3 id="immutability">Immutability</h3>
+<p>Tuple can&rsquo;t be stressed enough thay are immutable. To drive that point home, let&rsquo;s take an example and try to replace  &ldquo;january&rdquo; by &ldquo;Jan&rdquo;</p>
+<pre><code class="language-python">months[0]= 'Jan'
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+TypeError                                 Traceback (most recent call last)
+
+Cell In[13], line 1
+----&gt; 1 months[0]= 'Jan'
+
+
+TypeError: 'tuple' object does not support item assignment
+</code></pre>
+<p>Because of this immutability, tuples can&rsquo;t grow. Once a tuple is made we can not add to it.</p>
+<pre><code class="language-python">months.append('Baishakh')
+</code></pre>
+<pre><code>---------------------------------------------------------------------------
+
+AttributeError                            Traceback (most recent call last)
+
+Cell In[14], line 1
+----&gt; 1 months.append('Baishakh')
+
+
+AttributeError: 'tuple' object has no attribute 'append'
+</code></pre>
+<p>In summary, Tuples are immutable data structures in Python, similar to lists but with key differences. They can be constructed using parentheses, and can contain multiple data types. Tuples support basic methods like indexing, slicing, counting, and returning the length of the tuple. The immutability of tuples makes them useful for representing constant values, while their compact size and faster processing speed make them a good choice for certain types of data.</p>
 
     </div>
 
@@ -772,6 +831,8 @@ If pip is installed, you should see the version number of pip, for example, &ldq
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tag/python-basics/">Python Basics</a>
+  
+  <a class="badge badge-light" href="/tag/tuple/">Tuple</a>
   
   <a class="badge badge-light" href="/tag/data-science/">Data Science</a>
   
@@ -790,7 +851,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/python_install/&amp;text=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/intro_tuple/&amp;text=An%20Introduction%20to%20Tuples%20in%20Python" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -803,7 +864,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/python_install/&amp;t=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/intro_tuple/&amp;t=An%20Introduction%20to%20Tuples%20in%20Python" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -816,7 +877,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="mailto:?subject=Get%20Started%20with%20Python:%20An%20Installation%20Guide&amp;body=https://pudasainimohan.com.np/post/python_install/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=An%20Introduction%20to%20Tuples%20in%20Python&amp;body=https://pudasainimohan.com.np/post/intro_tuple/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -829,7 +890,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/python_install/&amp;title=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/intro_tuple/&amp;title=An%20Introduction%20to%20Tuples%20in%20Python" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -842,7 +903,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="whatsapp://send?text=Get%20Started%20with%20Python:%20An%20Installation%20Guide%20https://pudasainimohan.com.np/post/python_install/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=An%20Introduction%20to%20Tuples%20in%20Python%20https://pudasainimohan.com.np/post/intro_tuple/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -855,7 +916,7 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/python_install/&amp;title=Get%20Started%20with%20Python:%20An%20Installation%20Guide" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/intro_tuple/&amp;title=An%20Introduction%20to%20Tuples%20in%20Python" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1047,8 +1108,6 @@ If pip is installed, you should see the version number of pip, for example, &ldq
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/post/intro_tuple/">An Introduction to Tuples in Python</a></li>
-      
       <li><a href="/post/python_dictionary/">Python Dictionaries: Key-Value Pair Mapping</a></li>
       
       <li><a href="/post/python_list/">Working with Lists in Python</a></li>
@@ -1056,6 +1115,8 @@ If pip is installed, you should see the version number of pip, for example, &ldq
       <li><a href="/post/string_formating/">String Formatting in Python</a></li>
       
       <li><a href="/post/string_basic/">An Introduction to Strings in Python</a></li>
+      
+      <li><a href="/post/arithmetic_python/">Numbers and airthmetic Operators in Python</a></li>
       
     </ul>
   </div>
