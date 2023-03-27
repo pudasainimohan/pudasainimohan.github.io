@@ -81,6 +81,19 @@ To view the full syllabus, please
     </item>
     
     <item>
+      <title>Workshop on Writing Reproducible Research Papers with R</title>
+      <link>https://pudasainimohan.com.np/talk/2022_rmarkdown/</link>
+      <pubDate>Thu, 25 Aug 2022 20:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2022_rmarkdown/</guid>
+      <description>&lt;p&gt;Mohan Pudasaini organized a 5-day virtual workshop titled &amp;ldquo;Writing Reproducible Research Papers with R&amp;rdquo; from August 25th to 29th, 2022. The workshop was designed to help students, researchers, data analysts, and teaching faculties write scientific journal papers that are reproducible and can be easily shared with others.&lt;/p&gt;
+&lt;p&gt;The workshop had 45 participants from different parts of the world, who attended virtually through Zoom. The participants learned how to create dynamic documents using R markdown and how to format documents in predefined templates and their own templates in R markdown. They were also taught how to arrange titles, subtitles, and dates, manage text format and style, manage references and citations, develop tables, and more using R markdown.&lt;/p&gt;
+&lt;p&gt;The workshop was organized by Mohan Pudasaini in his personal initiative to help researchers and students enhance their skills in writing reproducible research papers. The participants were required to have basic knowledge of R and R studio to attend the workshop.&lt;/p&gt;
+&lt;p&gt;The first four days of the workshop were dedicated to teaching the participants about the different components of R markdown and how to use them. The final day of the workshop was focused on practical application, where the participants were given a sample research paper to format and finalize using the skills they had learned over the previous days.
+&lt;img src=&#34;banner.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R for Data Analysis Workshop at Hetauda School of Management</title>
       <link>https://pudasainimohan.com.np/talk/2022_hetauda/</link>
       <pubDate>Thu, 23 Jun 2022 10:00:00 +0000</pubDate>
