@@ -5,7 +5,7 @@
     <link>https://pudasainimohan.com.np/tag/deep-learning/</link>
       <atom:link href="https://pudasainimohan.com.np/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
@@ -13,11 +13,58 @@
     </image>
     
     <item>
-      <title>Internal Project</title>
-      <link>https://pudasainimohan.com.np/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.com.np/project/internal-project/</guid>
-      <description>&lt;h1 id=&#34;it-will-update-soon&#34;&gt;It will update soon&amp;hellip;.&lt;/h1&gt;
+      <title>Chatbot using GPT-2</title>
+      <link>https://pudasainimohan.com.np/project/chat_bot/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/project/chat_bot/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s digital age, providing quick and accurate information to your website visitors is crucial. Whether you run an e-commerce business or a travel agency, having a chatbot that can assist users with their inquiries can greatly enhance the user experience. In this post, we&amp;rsquo;ll explore the development of a chatbot using the GPT-2 pretrained model to provide Nepal Customs information.&lt;/p&gt;
+&lt;p&gt;GPT-2, which stands for &amp;ldquo;Generative Pre-trained Transformer 2,&amp;rdquo; is an advanced language model developed by OpenAI. It&amp;rsquo;s designed to understand and generate human-like text, making it an ideal candidate for developing chatbots and virtual assistants. The GPT-2 pretrained model is trained on a massive amount of text data, making it highly proficient in understanding and generating natural language.&lt;/p&gt;
+&lt;p&gt;Creating a chatbot to provide Nepal Customs information can be invaluable for various users, including travelers, importers, and exporters. Accuracy, availability, efficiency and user-friendliness are the major features of the chatbot.&lt;/p&gt;
+&lt;p&gt;The development of the Nepal Customs Information Chatbot relies on deep learning technology. Deep learning is a subset of machine learning that employs artificial neural networks to mimic human decision-making processes. In this case, the GPT-2 pre-trained model utilizes deep learning techniques to understand and generate text based on patterns and context.&lt;/p&gt;
+&lt;p&gt;Deep learning technology allows the chatbot to continually improve and adapt to user interactions. It learns from every conversation, making it smarter and more efficient over time.&lt;/p&gt;
+&lt;p&gt;To give you a glimpse of the Nepal Customs Information Chatbot in action, here&amp;rsquo;s a short video demonstrating how it can assist users with their customs-related queries:
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;./chatbot.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HS Code Classification Model</title>
+      <link>https://pudasainimohan.com.np/project/hs_classification/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/project/hs_classification/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s globalized world, international trade serves as the lifeblood of economic growth. The seamless exchange of goods across borders has never been more crucial, and at the heart of this intricate process lies the Harmonized System (HS). HS codes, standardized numerical identifiers assigned to products, play a pivotal role in streamlining the import and export of goods worldwide. This robust system was created by the World Customs Organization (WCO) to provide a common framework for classifying products, ensuring consistency and efficiency in global trade. However, accurately classifying products can be a daunting challenge for both customs authorities and businesses alike, given the complexity and scope of modern international commerce.&lt;/p&gt;
+&lt;p&gt;But fear not, for the advent of artificial intelligence (AI) and machine learning has ushered in a new era of efficiency and precision in the realm of HS code classification. In this  post, we introduce you to our revolutionary HS code classification model, powered by the BERT architecture, which promises to make the process smoother than ever before.&lt;/p&gt;
+&lt;h3 id=&#34;understanding-the-hs-classification-model&#34;&gt;Understanding the HS Classification Model&lt;/h3&gt;
+&lt;p&gt;Our  model is designed to classify products based on user-provided descriptions. It offers a breakthrough solution by presenting the top three most likely HS codes for a given product description. What&amp;rsquo;s even more remarkable is that we&amp;rsquo;ve tailored this model to the specific context of Nepal, a country that uses an 8-digit level HS code classification system.&lt;/p&gt;
+&lt;p&gt;Additionally, our model is versatile and user-friendly. It caters to a wider audience by accepting product descriptions in three languages: English, Nepali, and Romanized Nepali text. This multilingual capability ensures that users from different linguistic backgrounds can easily utilize the model to classify products, making international trade even more accessible.&lt;/p&gt;
+&lt;h3 id=&#34;the-power-of-bert-and-the-fight-against-fraud&#34;&gt;The Power of BERT and the Fight Against Fraud&lt;/h3&gt;
+&lt;p&gt;Our preliminary version of the model is constructed using a deep neural network based on the BERT architecture. BERT (Bidirectional Encoder Representations from Transformers) is renowned for its natural language processing capabilities, which enable it to understand and interpret textual data more comprehensively. By harnessing the power of BERT, our HS code classification model not only simplifies the classification process but also enhances its accuracy.&lt;/p&gt;
+&lt;p&gt;Beyond simply improving efficiency, our model also serves as a valuable tool in mitigating fraudulent activities. Accurate product classification is a fundamental step in preventing goods from being misclassified, which can lead to underpayment of customs duties and taxes. By reducing the probability of fraudulent activities, our model contributes to the integrity of international trade.&lt;/p&gt;
+&lt;p&gt;In conclusion, our HS code classification model represents a significant step forward in the world of international trade. Its ability to efficiently and accurately classify products, its multilingual support, and its application in Nepal&amp;rsquo;s 8-digit HS code context make it a valuable asset for businesses, customs authorities, and trade professionals. As we continue to refine and expand upon this model, it has the potential to revolutionize the way we approach global trade.&lt;/p&gt;
+&lt;p&gt;To see our model in action and learn more about its features, check out the following video:&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; overflow: hidden;&#34;&gt;
+    &lt;iframe style=&#34;position: absolute; width: 100%; height: 100%;&#34;
+        src=&#34;https://www.youtube.com/embed/7AtSbU11waU&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;Stay tuned for more updates on our journey to enhance international trade through the power of AI and HS code classification.&lt;/p&gt;
 </description>
     </item>
     

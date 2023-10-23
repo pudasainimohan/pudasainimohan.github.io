@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Mohan Pudasaini</title>
-    <link>https://pudasainimohan.com.np/project/</link>
-      <atom:link href="https://pudasainimohan.com.np/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>NLP | Mohan Pudasaini</title>
+    <link>https://pudasainimohan.com.np/tag/nlp/</link>
+      <atom:link href="https://pudasainimohan.com.np/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
-      <title>Projects</title>
-      <link>https://pudasainimohan.com.np/project/</link>
+      <title>NLP</title>
+      <link>https://pudasainimohan.com.np/tag/nlp/</link>
     </image>
     
     <item>
