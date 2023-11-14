@@ -5,12 +5,52 @@
     <link>https://pudasainimohan.com.np/tag/deep-learning/</link>
       <atom:link href="https://pudasainimohan.com.np/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
       <link>https://pudasainimohan.com.np/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>COVID CT Scan Classification: ResNet50 vs. EfficientNet-B0</title>
+      <link>https://pudasainimohan.com.np/project/covid_classification/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/project/covid_classification/</guid>
+      <description>&lt;p&gt;Despite the waning presence of COVID, CT scan images captured during the pandemic persist as a crucial resource for deep learning practitioners in medical imaging. In my recent Image Classification project, I delved into the realm of multi-class classification using two influential deep learning models, ResNet50 and EfficientNet-B0. In this post, I present a detailed analysis of my recent Image Classification project, where I utilized two popular deep learning models, ResNet50 and EfficientNet-B0, to classify COVID CT scans.&lt;/p&gt;
+&lt;h2 id=&#34;dataset-overview&#34;&gt;Dataset Overview&lt;/h2&gt;
+&lt;p&gt;The dataset consists of a diverse range of CT scans, including:&lt;/p&gt;
+&lt;p&gt;Healthy scans: 758
+SARS-CoV-2 infected scans: 2,168
+Other pulmonary conditions: 1,247&lt;/p&gt;
+&lt;h2 id=&#34;models-used&#34;&gt;Models Used&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;ResNet50&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Training Accuracy: 94.48%&lt;/li&gt;
+&lt;li&gt;Testing Accuracy: 87.81%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;EfficientNet-B0&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Training Accuracy: 98.95%&lt;/li&gt;
+&lt;li&gt;Testing Accuracy: 92.14%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results-and-insights&#34;&gt;Results and Insights&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ResNet50 Performance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ResNet50 model achieved an impressive training accuracy of 94.48% and a testing accuracy of 87.81%. This indicates robust learning capabilities and generalization to unseen data. The model excelled in distinguishing between healthy scans, SARS-CoV-2 infected scans, and other pulmonary conditions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EfficientNet-B0 Performance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The EfficientNet-B0 model outperformed ResNet50, achieving a training accuracy of 98.95% and a testing accuracy of 92.14%. This suggests that the model has a higher capacity to learn intricate patterns and features within the dataset. The enhanced performance could be attributed to the model&amp;rsquo;s architecture, which optimizes both depth and width.&lt;/p&gt;
+&lt;h2 id=&#34;code-contribution&#34;&gt;Code Contribution&lt;/h2&gt;
+&lt;p&gt;To foster collaboration and transparency, I have made our Python code publicly available on two prominent platforms:&lt;/p&gt;
+&lt;p&gt;GitHub: 
+&lt;a href=&#34;https://github.com/pudasainimohan/COVID-multiclass-CT-scan-Classification-with-ResNet50-and-EfficientNet-B0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kaggle: 
+&lt;a href=&#34;https://www.kaggle.com/code/mohanpudasaini/image-classification-resnet50-and-efficientnetb0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Chatbot using GPT-2</title>
