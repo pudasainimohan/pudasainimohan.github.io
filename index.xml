@@ -1658,80 +1658,103 @@ Mohan&lt;/p&gt;
       <link>https://pudasainimohan.com.np/certificates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pudasainimohan.com.np/certificates/</guid>
-      <description>  &lt;style&gt;
-      /* CSS styles */
-      body {
-          font-family: &#39;Arial&#39;, sans-serif;
-          margin: 20px;
-      }
+      <description>&lt;style&gt;
+    /* CSS styles */
+    body {
+        font-family: &#39;Arial&#39;, sans-serif;
+        margin: 20px;
+    }
 
-      .certificate-box {
-          border: 2px solid #ddd;
-          border-radius: 8px;
-          padding: 15px;
-          margin-bottom: 20px;
-      }
+  .certificate-box {
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 20px;
+  }
 
-      .certificate-box h3 {
-          color: #333;
-      }
+  .certificate-box h3 {
+      color: #333;
+  }
 
-      .certificate-box p {
-          margin: 10px 0;
-          color: #555;
-      }
+  .certificate-box p {
+      margin: 10px 0;
+      color: #555;
+  }
 
-      .certificate-box a {
-          color: #007BFF;
-          text-decoration: none;
-          font-weight: bold;
-      }
+  .certificate-box a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+  }
 
-      .certificate-box a:hover {
-          text-decoration: underline;
-      }
-  
-  &lt;/style&gt;
+  .certificate-box a:hover {
+      text-decoration: underline;
+  }
+&lt;/style&gt;
 &lt;div class=&#34;award-section&#34;&gt;
     &lt;h3 class=&#34;award-heading&#34;&gt;Awards&lt;/h3&gt;
 &lt;div class=&#34;certificate-box&#34;&gt;
-&lt;h5&gt;Best Emplyee Award-2021&lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Best Employee Award  was awarded by the Department of Customs in Nepal on World Customs Day in 2021&lt;/p&gt;
+&lt;h5&gt;Best Employee Award-2021&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Best Employee Award was awarded by the Department of Customs in Nepal on World Customs Day in 2021&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Department of Customs, Nepal&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;../uploads/customs_2021.pdf&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;certificate-box&#34;&gt;
 &lt;h5&gt;Best Teacher Award-2013&lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Private and Boarding School Organization awarded the Best Teacher Award for excellence in teaching, recognizing the recipient for their achievement in securing the highest Math marks in district in SLC exam&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Private and Boarding School Organization awarded the Best Teacher Award for excellence in teaching, recognizing the recipient for their achievement in securing the highest Math marks in the district in SLC exam&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Private and Boarding School Organization (PABSON)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;../uploads/t_2013.pdf&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&#34;certificate-box&#34;&gt;
 &lt;h5&gt;Best Teacher Award-2012&lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Private and Boarding School Organization awarded the Best Teacher Award for excellence in teaching, recognizing the recipient for their achievement in securing the highest Math marks in district in SLC exam&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Private and Boarding School Organization awarded the Best Teacher Award for excellence in teaching, recognizing the recipient for their achievement in securing the highest Math marks in the district in SLC exam&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Private and Boarding School Organization (PABSON)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;../uploads/t_2012.pdf&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;certificate-section&#34;&gt;
 &lt;h3 class=&#34;certificate-heading&#34;&gt;Certifications&lt;/h3&gt;
 &lt;div class=&#34;certificate-box&#34;&gt;
-&lt;h5&gt;WCO Acrredition- Pre Accredition Completed&lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;Pre-Accredited on Customs Risk management by World Customs Organization &lt;/p&gt;
+&lt;h5&gt;WCO Accreditation- Pre Accreditation Completed&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Pre-Accredited on Customs Risk management by World Customs Organization&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; World Customs Organization(WCO)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;../uploads/pre_wco.pdf&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class=&#34;certificate-box&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;certificate-box&#34;&gt;
 &lt;h5&gt;Artificial Intelligence in Border Management&lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;Course offered by the University of Victoria (Canada) in partnership with Border in Globalization(BiG) Lab &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt;University of Victoria (Canada)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Course offered by the University of Victoria (Canada) in partnership with Border in Globalization(BiG) Lab&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; University of Victoria (Canada)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;https://pudasainimohan.com.np/talk/2023_uvic/featured_hud6a3a30f0052c7c58196c8dfc664bbfa_285045_720x0_resize_lanczos_3.png&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;certificate-box&#34;&gt;
-&lt;h5&gt;Certificate of appriciatation &lt;/h5&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;Certificate of appreciation as a Trainer from Sudurpashim Province, Nepal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;certificate-box&#34;&gt;
+&lt;h5&gt;Certificate of Appreciation&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Certificate of appreciation as a Trainer from Sudurpashim Province, Nepal.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Sudur Paschim Province Government, Nepal&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;../uploads/sudur.pdf&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
-  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;certificate-box&#34;&gt;
+&lt;h5&gt;Project Management&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Seven weeks Course funded by Colombo Plan Secretariat&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Kothari agricultural management centre, India&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;https://drive.google.com/file/d/1KXH5s-xCnjRtfJglT05wZ1j-nwclYwMj/view&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;certificate-box&#34;&gt;
+&lt;h5&gt;Basic Python&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt; HackerRank&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;https://www.hackerrank.com/certificates/61dd4b1e8c4c&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;certificate-box&#34;&gt;
+&lt;h5&gt;The Role of Standards in Sustainable Supply Chains&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; A online course offered by ITC&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt;International Trade Centre(ITC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;../uploads/ITC_2.pdf&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;certificate-box&#34;&gt;
+&lt;h5&gt;How to Analyse Trade Flows&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; A online course offered by ITC&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organization:&lt;/strong&gt;International Trade Centre(ITC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Certificate Link:&lt;/strong&gt; &lt;a href=&#34;../uploads/ITC_1.pdf&#34;&gt;View Certificate&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
