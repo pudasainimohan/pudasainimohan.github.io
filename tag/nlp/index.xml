@@ -5,12 +5,38 @@
     <link>https://pudasainimohan.com.np/tag/nlp/</link>
       <atom:link href="https://pudasainimohan.com.np/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Mohan Pudasaini </copyright><lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>NLP</title>
       <link>https://pudasainimohan.com.np/tag/nlp/</link>
     </image>
+    
+    <item>
+      <title>HS recommendation from image</title>
+      <link>https://pudasainimohan.com.np/project/hs_classification_image/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/project/hs_classification_image/</guid>
+      <description>&lt;p&gt;This marks my second venture into the realm of Harmonic code classification for products. In my initial project, I employed the BERT pre-trained model, fine-tuning it with proprietary data to create an effective classification model. However, the winds of change have led me to my latest project, where I harnessed the capabilities of Google Gemini, the forefront of AI innovation.&lt;/p&gt;
+&lt;h3 id=&#34;google-gemini-redefining-the-ai-landscape&#34;&gt;Google Gemini: Redefining the AI Landscape&lt;/h3&gt;
+&lt;p&gt;The emergence of Google Gemini represents a paradigm shift in the era of AI. Unlike its predecessors, this model stands out for its unique ability to seamlessly integrate both textual and visual information. This means that whether you provide a commercial description or a picture of the product, Google Gemini has the prowess to decipher and recommend the most fitting Harmonic code.&lt;/p&gt;
+&lt;h3 id=&#34;technical-insights-into-model-architecture&#34;&gt;Technical Insights into Model Architecture&lt;/h3&gt;
+&lt;p&gt;From a technical standpoint, I leveraged two key components of the Gemini suite – Gemini-Pro-Vision for image analysis and Gemini-Pro for text processing. The synergy between these components allows for a holistic approach to Harmonic code classification. The secret sauce lies not only in the model architecture but also in the meticulous engineering of prompts, ensuring consistent and reliable results with every query.&lt;/p&gt;
+&lt;h3 id=&#34;threefold-output-for-comprehensive-insights&#34;&gt;Threefold Output for Comprehensive Insights&lt;/h3&gt;
+&lt;p&gt;This dynamic model delivers results in three distinct parts, each contributing to a comprehensive understanding of the product:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recommended HS Code and Rationale&lt;/strong&gt;: The primary output is the suggested Harmonic code along with a detailed explanation of the reasoning behind it. This ensures transparency and builds confidence in the accuracy of the classification.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description of the Image&lt;/strong&gt;: For queries involving product images, Google Gemini provides a detailed description. This not only aids in verification but also serves as an additional layer of information for users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Other Possible HS Codes&lt;/strong&gt;: Acknowledging the nuances of product classification, the model goes beyond a singular recommendation. It provides alternative Harmonic codes, allowing users to explore different categorization possibilities.&lt;/p&gt;
+&lt;h3 id=&#34;ensuring-consistency-with-prompt-engineering&#34;&gt;Ensuring Consistency with Prompt Engineering&lt;/h3&gt;
+&lt;p&gt;An often-overlooked but crucial aspect of this model is prompt engineering. Through meticulous crafting of prompts, I have ensured that the structure remains consistent, guaranteeing reliable outcomes each time the model is engaged.&lt;/p&gt;
+&lt;p&gt;A quick demo and further details have been presented in the following video:&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; overflow: hidden;&#34;&gt;
+    &lt;iframe style=&#34;position: absolute; width: 100%; height: 100%;&#34;
+        src=&#34;https://www.youtube.com/embed/BbELyCMC47c&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Chatbot using GPT-2</title>
@@ -65,32 +91,6 @@
     &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;p&gt;Stay tuned for more updates on our journey to enhance international trade through the power of AI and HS code classification.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HS recommendation from image</title>
-      <link>https://pudasainimohan.com.np/project/hs_classification_image/</link>
-      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://pudasainimohan.com.np/project/hs_classification_image/</guid>
-      <description>&lt;p&gt;This marks my second venture into the realm of Harmonic code classification for products. In my initial project, I employed the BERT pre-trained model, fine-tuning it with proprietary data to create an effective classification model. However, the winds of change have led me to my latest project, where I harnessed the capabilities of Google Gemini, the forefront of AI innovation.&lt;/p&gt;
-&lt;h3 id=&#34;google-gemini-redefining-the-ai-landscape&#34;&gt;Google Gemini: Redefining the AI Landscape&lt;/h3&gt;
-&lt;p&gt;The emergence of Google Gemini represents a paradigm shift in the era of AI. Unlike its predecessors, this model stands out for its unique ability to seamlessly integrate both textual and visual information. This means that whether you provide a commercial description or a picture of the product, Google Gemini has the prowess to decipher and recommend the most fitting Harmonic code.&lt;/p&gt;
-&lt;h3 id=&#34;technical-insights-into-model-architecture&#34;&gt;Technical Insights into Model Architecture&lt;/h3&gt;
-&lt;p&gt;From a technical standpoint, I leveraged two key components of the Gemini suite – Gemini-Pro-Vision for image analysis and Gemini-Pro for text processing. The synergy between these components allows for a holistic approach to Harmonic code classification. The secret sauce lies not only in the model architecture but also in the meticulous engineering of prompts, ensuring consistent and reliable results with every query.&lt;/p&gt;
-&lt;h3 id=&#34;threefold-output-for-comprehensive-insights&#34;&gt;Threefold Output for Comprehensive Insights&lt;/h3&gt;
-&lt;p&gt;This dynamic model delivers results in three distinct parts, each contributing to a comprehensive understanding of the product:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Recommended HS Code and Rationale&lt;/strong&gt;: The primary output is the suggested Harmonic code along with a detailed explanation of the reasoning behind it. This ensures transparency and builds confidence in the accuracy of the classification.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description of the Image&lt;/strong&gt;: For queries involving product images, Google Gemini provides a detailed description. This not only aids in verification but also serves as an additional layer of information for users.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Other Possible HS Codes&lt;/strong&gt;: Acknowledging the nuances of product classification, the model goes beyond a singular recommendation. It provides alternative Harmonic codes, allowing users to explore different categorization possibilities.&lt;/p&gt;
-&lt;h3 id=&#34;ensuring-consistency-with-prompt-engineering&#34;&gt;Ensuring Consistency with Prompt Engineering&lt;/h3&gt;
-&lt;p&gt;An often-overlooked but crucial aspect of this model is prompt engineering. Through meticulous crafting of prompts, I have ensured that the structure remains consistent, guaranteeing reliable outcomes each time the model is engaged.&lt;/p&gt;
-&lt;p&gt;A quick demo and further details have been presented in the following video:&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; overflow: hidden;&#34;&gt;
-    &lt;iframe style=&#34;position: absolute; width: 100%; height: 100%;&#34;
-        src=&#34;https://www.youtube.com/embed/BbELyCMC47c&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
 </description>
     </item>
     
