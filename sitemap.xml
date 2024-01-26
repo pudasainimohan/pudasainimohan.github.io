@@ -11,10 +11,31 @@
     <loc>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</loc>
     <lastmod>2023-02-14T00:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://pudasainimohan.com.np/tag/ai/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/category/bacuda/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/categories/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/post/bacuda_closing/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/tag/customs/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pudasainimohan.com.np/article/icd_2024/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/post/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/tags/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/article/</loc>
@@ -32,9 +53,6 @@
     <loc>https://pudasainimohan.com.np/project/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.com.np/tags/</loc>
-    <lastmod>2023-12-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://pudasainimohan.com.np/tag/computer-vision/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -47,25 +65,7 @@
     <loc>https://pudasainimohan.com.np/project/hs_classification/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pudasainimohan.com.np/category/bacuda/</loc>
-    <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.com.np/categories/</loc>
-    <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.com.np/tag/data-science/</loc>
-    <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://pudasainimohan.com.np/post/bacuda_opening/</loc>
-    <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.com.np/tag/jupyter-notebook/</loc>
-    <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.com.np/post/</loc>
-    <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pudasainimohan.com.np/tag/python-basics/</loc>
     <lastmod>2023-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/talk/2023_uvic/</loc>
@@ -83,7 +83,13 @@
     <loc>https://pudasainimohan.com.np/post/intro_tuple/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://pudasainimohan.com.np/tag/data-science/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pudasainimohan.com.np/category/python/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/tag/python-basics/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/tag/tuple/</loc>
@@ -118,6 +124,9 @@
   </url><url>
     <loc>https://pudasainimohan.com.np/post/arithmetic_python/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pudasainimohan.com.np/tag/jupyter-notebook/</loc>
+    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pudasainimohan.com.np/category/pyhton/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
