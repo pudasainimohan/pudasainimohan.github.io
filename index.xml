@@ -5,12 +5,115 @@
     <link>https://pudasainimohan.com.np/</link>
       <atom:link href="https://pudasainimohan.com.np/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Pudasaini</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Mohan Pudasaini</title>
       <link>https://pudasainimohan.com.np/</link>
     </image>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://pudasainimohan.com.np/courses/python_ml/syllabus/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/python_ml/syllabus/</guid>
+      <description>&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+&lt;/style&gt;
+&lt;div class=&#34;callout note&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;To participate in the workshop, please click here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to Python:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Overview of Python and its benefits for data science&lt;/li&gt;
+&lt;li&gt;Setting up your development environment: Installing Python and Jupyter Notebook&lt;/li&gt;
+&lt;li&gt;Introduction to the Jupyter Notebook interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Python Fundamentals:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic data types: Numbers, Strings, Booleans etc.&lt;/li&gt;
+&lt;li&gt;Descriptive statistics with Python&lt;/li&gt;
+&lt;li&gt;Understanding objects, data types, and methods in Python: Conversion between data types&lt;/li&gt;
+&lt;li&gt;Reading and writing files (local and from the internet)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Introduction to Data Manipulation with Pandas:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating and exploring DataFrames&lt;/li&gt;
+&lt;li&gt;Summarizing data with descriptive statistics&lt;/li&gt;
+&lt;li&gt;Data cleaning, filtering, and transformation techniques&lt;/li&gt;
+&lt;li&gt;Introduction to mutation vs. non-mutation in data manipulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Data Visualization with Python:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Matplotlib&lt;/li&gt;
+&lt;li&gt;Creating common visualizations: Line charts, Bar charts, Scatter plots, Histograms&lt;/li&gt;
+&lt;li&gt;Customization of plots for clarity and aesthetics&lt;/li&gt;
+&lt;li&gt;Effective storytelling with data visualizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Control Flow with Loops and Functions:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Logic control with if-else statements&lt;/li&gt;
+&lt;li&gt;Iterating through data using for and while loops&lt;/li&gt;
+&lt;li&gt;Defining and using functions to improve code reusability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Introduction to Machine Learning with Python:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding the core concepts of machine learning&lt;/li&gt;
+&lt;li&gt;Exploring different machine learning tasks (classification, regression, etc.)&lt;/li&gt;
+&lt;li&gt;Introduction to popular machine learning libraries in Python (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Building a simple machine learning model (hands-on example)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Introduction to Large Language Models (LLMs) Like: ChatGPT,Gemini:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;What are LLMs and how do they work?&lt;/li&gt;
+&lt;li&gt;Understanding the potential of LLMs for various applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Details of the dates and times for the programs:
+&lt;a href=&#34;https://pudasainimohan.com.np/talk/basic_data_analysis&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Syllabus</title>
@@ -118,113 +221,10 @@
     </item>
     
     <item>
-      <title>Syllabus</title>
-      <link>https://pudasainimohan.com.np/courses/python_ml/syllabus/</link>
-      <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
-      <guid>https://pudasainimohan.com.np/courses/python_ml/syllabus/</guid>
-      <description>&lt;style&gt;
-  .callout {
-    background-color: #f8f8f8;
-    border: 6px solid #ffa500;
-    margin: 1em auto;
-    padding: 0.3em 10px;
-    text-align: center;
-    border-width: 2px;
-    font-size: 1.2em;
-    display: block;
-    font-weight: 1000;
-    animation: blink 01.5s infinite;
-  }
-  
-  .callout.note {
-    border-color: #00bfff;
-  }
-  
-  @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-&lt;/style&gt;
-&lt;div class=&#34;callout note&#34;&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;To participate in the workshop, please click here&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;Introduction to Python:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Overview of Python and its benefits for data science&lt;/li&gt;
-&lt;li&gt;Setting up your development environment: Installing Python and Jupyter Notebook&lt;/li&gt;
-&lt;li&gt;Introduction to the Jupyter Notebook interface&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Python Fundamentals:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Basic data types: Numbers, Strings, Booleans etc.&lt;/li&gt;
-&lt;li&gt;Descriptive statistics with Python&lt;/li&gt;
-&lt;li&gt;Understanding objects, data types, and methods in Python: Conversion between data types&lt;/li&gt;
-&lt;li&gt;Reading and writing files (local and from the internet)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;Introduction to Data Manipulation with Pandas:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating and exploring DataFrames&lt;/li&gt;
-&lt;li&gt;Summarizing data with descriptive statistics&lt;/li&gt;
-&lt;li&gt;Data cleaning, filtering, and transformation techniques&lt;/li&gt;
-&lt;li&gt;Introduction to mutation vs. non-mutation in data manipulation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;Data Visualization with Python:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduction to Matplotlib&lt;/li&gt;
-&lt;li&gt;Creating common visualizations: Line charts, Bar charts, Scatter plots, Histograms&lt;/li&gt;
-&lt;li&gt;Customization of plots for clarity and aesthetics&lt;/li&gt;
-&lt;li&gt;Effective storytelling with data visualizations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;Control Flow with Loops and Functions:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Logic control with if-else statements&lt;/li&gt;
-&lt;li&gt;Iterating through data using for and while loops&lt;/li&gt;
-&lt;li&gt;Defining and using functions to improve code reusability&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Introduction to Machine Learning with Python:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;Understanding the core concepts of machine learning&lt;/li&gt;
-&lt;li&gt;Exploring different machine learning tasks (classification, regression, etc.)&lt;/li&gt;
-&lt;li&gt;Introduction to popular machine learning libraries in Python (Scikit-learn)&lt;/li&gt;
-&lt;li&gt;Building a simple machine learning model (hands-on example)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;7&#34;&gt;
-&lt;li&gt;Introduction to Large Language Models (LLMs) Like: ChatGPT,Gemini:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;What are LLMs and how do they work?&lt;/li&gt;
-&lt;li&gt;Understanding the potential of LLMs for various applications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Details of the dates and times for the programs:
-&lt;a href=&#34;https://pudasainimohan.com.np/talk/basic_data_analysis&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Registration form: Data analysis with Python</title>
-      <link>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</link>
-      <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
-      <guid>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</guid>
+      <title>Registration form: Python Data science</title>
+      <link>https://pudasainimohan.com.np/courses/python_ml/registration-form/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/python_ml/registration-form/</guid>
       <description>&lt;!-- &lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data analysis with Python&lt;/h2&gt; --&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
 &lt;style&gt;
@@ -303,9 +303,9 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
     
     <item>
       <title>Registration form: Data analysis with Python</title>
-      <link>https://pudasainimohan.com.np/courses/python_ml/registration-form/</link>
+      <link>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
-      <guid>https://pudasainimohan.com.np/courses/python_ml/registration-form/</guid>
+      <guid>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</guid>
       <description>&lt;!-- &lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data analysis with Python&lt;/h2&gt; --&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
 &lt;style&gt;
