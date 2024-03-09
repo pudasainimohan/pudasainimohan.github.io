@@ -47,10 +47,13 @@
     }
   }
 &lt;/style&gt;
+&lt;!--
 &lt;div class=&#34;callout note&#34;&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;To participate in the workshop, please click here&lt;/a&gt;.&lt;/p&gt;
+
+   [To participate in the workshop, please click here](/courses/ds_basics/registration-form/).
+
 &lt;/div&gt;
+--&gt;
 &lt;ol&gt;
 &lt;li&gt;Introduction to Python
 &lt;ul&gt;

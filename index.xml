@@ -150,10 +150,13 @@
     }
   }
 &lt;/style&gt;
+&lt;!--
 &lt;div class=&#34;callout note&#34;&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;To participate in the workshop, please click here&lt;/a&gt;.&lt;/p&gt;
+
+   [To participate in the workshop, please click here](/courses/ds_basics/registration-form/).
+
 &lt;/div&gt;
+--&gt;
 &lt;ol&gt;
 &lt;li&gt;Introduction to Python
 &lt;ul&gt;
@@ -490,6 +493,65 @@ Other pulmonary conditions: 1,247&lt;/p&gt;
       <description>&lt;p&gt;The United States Department of Energy, National Nuclear Security Administration conducted a three-day event in Kathmandu, Nepal called &amp;ldquo;Nepal Border Security Workshop&amp;rdquo;. The event was held from March 23 to 25, 2023, and was attended by personnel from various organizations such as Nepal Customs, Nepali Army, Nepal Police, Armed Police Force, and border experts.
 The primary focus of the event was on nuclear and radioactive materials detection, location, and identification. Experts from the United States demonstrated their expertise in nuclear and radioactive materials technology, various devices used for detection, location, and identification of such materials, and best practices from other countries. Scenario-based discussions were conducted to address the challenges and issues related to nuclear smuggling, detection, and deterrence.&lt;/p&gt;
 &lt;p&gt;The &amp;ldquo;Nepal Border Security Workshop&amp;rdquo; was a valuable opportunity for personnel from different organizations to come together and discuss critical issues related to border security, particularly in the detection and prevention of nuclear and radioactive materials smuggling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online Workshop on Data Analysis with Python</title>
+      <link>https://pudasainimohan.com.np/talk/2024_python/</link>
+      <pubDate>Sun, 26 Feb 2023 20:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_python/</guid>
+      <description>&lt;p&gt;          &lt;strong&gt;Fee&lt;/strong&gt;            Rs 3000 only&lt;/p&gt;
+&lt;p&gt;          &lt;strong&gt;Syllabus&lt;/strong&gt;          
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/python_ml/syllabus&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+&lt;/style&gt;
+&lt;!--
+&lt;div class=&#34;callout note&#34;&gt;
+
+   [For the video of the Opening session, click here.](https://youtu.be/VEtlBfkiUsA).
+
+&lt;/div&gt; --&gt;
+&lt;p&gt;Python has become a critical tool for data scientists and analysts, offering a vast range of capabilities for analyzing and visualizing data. Whether you are a beginner or looking to enhance your existing skills in python, then this workshop is for you. This workshop is designed for individuals from a variety of backgrounds who have an interest in data analysis and visualization and want to learn the basics of Python programming without prior coding knowledge. The workshop is specifically targeted towards:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Analysts/Data scientist:&lt;/strong&gt; Currently working with different software and looking to expand their skills by learning Python for data analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Students:&lt;/strong&gt; Interested in starting a career in data analysis or data science and want to learn the basics of data analysis using Python.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Researchers and Scholars:&lt;/strong&gt; Who need to analyze data for their thesis, research projects, or academic papers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Educators and Teachers:&lt;/strong&gt; Who want to incorporate data analysis and visualization into their curriculum or learn Python as a tool for teaching data science.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Professionals:&lt;/strong&gt; Who need to analyze data for their work and want to learn a powerful and versatile programming language for data analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By the end of the workshop, you will have a solid foundation in Python programming and the ability to use Python for various data analysis , visualization and machine learning tasks. With hands-on experience using Jupyter Notebook and the various libraries used in the workshop, you will be ready to tackle real-world data analysis projects.
+To view the full syllabus, please 
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/python_ml/syllabus&#34;&gt;Click here&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t miss out on this opportunity to learn the most in-demand skills in the data analysis field. With a low fee, this comprehensive beginner&amp;rsquo;s workshop offers exceptional value for anyone looking to become a proficient Python data analyst. Enroll now to take your skills to the next level!&lt;/p&gt;
 </description>
     </item>
     
