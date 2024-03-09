@@ -118,10 +118,194 @@
     </item>
     
     <item>
+      <title>Syllabus</title>
+      <link>https://pudasainimohan.com.np/courses/python_ml/syllabus/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/python_ml/syllabus/</guid>
+      <description>&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+&lt;/style&gt;
+&lt;div class=&#34;callout note&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/ds_basics/registration-form/&#34;&gt;To participate in the workshop, please click here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to Python:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Overview of Python and its benefits for data science&lt;/li&gt;
+&lt;li&gt;Setting up your development environment: Installing Python and Jupyter Notebook&lt;/li&gt;
+&lt;li&gt;Introduction to the Jupyter Notebook interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Python Fundamentals:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic data types: Numbers, Strings, Booleans etc.&lt;/li&gt;
+&lt;li&gt;Descriptive statistics with Python&lt;/li&gt;
+&lt;li&gt;Understanding objects, data types, and methods in Python: Conversion between data types&lt;/li&gt;
+&lt;li&gt;Reading and writing files (local and from the internet)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Introduction to Data Manipulation with Pandas:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating and exploring DataFrames&lt;/li&gt;
+&lt;li&gt;Summarizing data with descriptive statistics&lt;/li&gt;
+&lt;li&gt;Data cleaning, filtering, and transformation techniques&lt;/li&gt;
+&lt;li&gt;Introduction to mutation vs. non-mutation in data manipulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Data Visualization with Python:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Matplotlib&lt;/li&gt;
+&lt;li&gt;Creating common visualizations: Line charts, Bar charts, Scatter plots, Histograms&lt;/li&gt;
+&lt;li&gt;Customization of plots for clarity and aesthetics&lt;/li&gt;
+&lt;li&gt;Effective storytelling with data visualizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Control Flow with Loops and Functions:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Logic control with if-else statements&lt;/li&gt;
+&lt;li&gt;Iterating through data using for and while loops&lt;/li&gt;
+&lt;li&gt;Defining and using functions to improve code reusability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Introduction to Machine Learning with Python:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding the core concepts of machine learning&lt;/li&gt;
+&lt;li&gt;Exploring different machine learning tasks (classification, regression, etc.)&lt;/li&gt;
+&lt;li&gt;Introduction to popular machine learning libraries in Python (Scikit-learn)&lt;/li&gt;
+&lt;li&gt;Building a simple machine learning model (hands-on example)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Introduction to Large Language Models (LLMs) Like: ChatGPT,Gemini:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;What are LLMs and how do they work?&lt;/li&gt;
+&lt;li&gt;Understanding the potential of LLMs for various applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Details of the dates and times for the programs:
+&lt;a href=&#34;https://pudasainimohan.com.np/talk/basic_data_analysis&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Registration form: Data analysis with Python</title>
       <link>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
       <guid>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</guid>
+      <description>&lt;!-- &lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data analysis with Python&lt;/h2&gt; --&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
+&lt;style&gt;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+.form-input {
+color:black;
+
+font-family: Helvetica, Arial, sans-serif;
+font-weight:500;
+font-size: 18px;
+border-radius: 5px;
+line-height: 22px;
+background-color: transparent;
+border:2px solid #CC6666;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 15px;
+width:100%;
+box-sizing: border-box;
+outline:0;
+}
+
+.form-input:focus { border:2px solid #CC4949; }
+
+textarea {
+height: 150px;
+line-height: 150%;
+resize:vertical;
+}
+
+[type=&#34;submit&#34;] {
+font-family: &#39;Montserrat&#39;, Arial, Helvetica, sans-serif;
+width: 100%;
+background:#CC6666;
+border-radius:5px;
+border:0;
+cursor:pointer;
+color:white;
+font-size:24px;
+padding-top:10px;
+padding-bottom:10px;
+transition: all 0.3s;
+margin-top:-4px;
+font-weight:700;
+}
+[type=&#34;submit&#34;]:hover { background:#CC4949; }
+&lt;/style&gt;
+&lt;form action=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse&#34; method=&#34;post&#34; target=&#34;hidden_iframe&#34; onsubmit=&#34;document.getElementById(&#39;submitBtn&#39;).disabled=true; submitted=true;&#34;&gt;
+  &lt;label&gt;Name*&lt;/label&gt;
+  &lt;input type=&#34;text&#34; placeholder=&#34;Name*&#34; class=&#34;form-input&#34; name=&#34;entry.2005620554&#34; required&gt;
+&lt;p&gt;&lt;label&gt;Email*&lt;/label&gt;
+&lt;input type=&#34;email&#34; placeholder=&#34;Email address*&#34; class=&#34;form-input&#34; name=&#34;entry.1045781291&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Organization*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Organization*&#34; class=&#34;form-input&#34; name=&#34;entry.1065046570&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Designation*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Designation*&#34; class=&#34;form-input&#34; name=&#34;entry.1937940652&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Mobile Number*&lt;/label&gt;
+&lt;input type=&#34;text&#34; pattern=&#34;[0-9]{10}&#34; placeholder=&#34;Mobile Number*&#34; class=&#34;form-input&#34; name=&#34;entry.1166974658&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Do you have Prior knowledge on Python?*&lt;/label&gt;
+&lt;select name=&#34;entry.1328943848&#34; class=&#34;form-input&#34; &gt;
+&lt;option value=&#34;&#34; disabled selected&gt;Select an option&lt;/option&gt;
+&lt;option value=&#34;Yes&#34;&gt;Yes&lt;/option&gt;
+&lt;option value=&#34;No&#34;&gt;No&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button type=&#34;submit&#34; id=&#34;submitBtn&#34;&gt;Submit&lt;/button&gt;&lt;/p&gt;
+&lt;/form&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;Please wait a moment after clicking the submit button.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;var submitted=false;&lt;/script&gt;
+&lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34; 
+onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Registration form: Data analysis with Python</title>
+      <link>https://pudasainimohan.com.np/courses/python_ml/registration-form/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/python_ml/registration-form/</guid>
       <description>&lt;!-- &lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data analysis with Python&lt;/h2&gt; --&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
 &lt;style&gt;
