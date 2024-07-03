@@ -5,7 +5,7 @@
     <link>https://pudasainimohan.com.np/</link>
       <atom:link href="https://pudasainimohan.com.np/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Pudasaini</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Wed, 20 Mar 2024 20:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Sat, 29 Jun 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Mohan Pudasaini</title>
@@ -301,6 +301,19 @@ font-weight:700;
 &lt;script type=&#34;text/javascript&#34;&gt;var submitted=false;&lt;/script&gt;
 &lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34; 
 onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Ultimate Workshop on Data Analysis Using R at Quest International College</title>
+      <link>https://pudasainimohan.com.np/talk/2024_quest/</link>
+      <pubDate>Sat, 29 Jun 2024 10:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_quest/</guid>
+      <description>&lt;p&gt;I had the privilege of being invited as a resource person for the &amp;ldquo;Ultimate Workshop on Data Analysis Using R&amp;rdquo; organized by Quest International College, Nepal on June 29, 2024. This workshop focused on equipping participants with the skills needed to perform advanced data analysis using R.&lt;/p&gt;
+&lt;p&gt;During the workshop, I conducted a session on regression analysis, covering both linear regression and logistic regression. I explained the theoretical interrelationship between these two types of regression, how to apply these concepts using R, and the steps involved in data preparation and exploratory data analysis (EDA). Additionally, I guided participants through model development, model comparison, and the list of assumptions associated with these models. Finally, I demonstrated how to analyze and interpret the results.&lt;/p&gt;
+&lt;p&gt;The workshop was attended by over 30 participants, including lecturers from various colleges. It was an enriching experience, and I was delighted to share my knowledge and expertise with such an enthusiastic group of learners.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;photo1.jpeg&#34; alt=&#34;Doing presentation&#34;&gt;
+&lt;img src=&#34;photo2.jpeg&#34; alt=&#34;Group Photo&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
