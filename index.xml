@@ -5,7 +5,7 @@
     <link>https://pudasainimohan.com.np/</link>
       <atom:link href="https://pudasainimohan.com.np/index.xml" rel="self" type="application/rss+xml" />
     <description>Mohan Pudasaini</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Sat, 29 Jun 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Sun, 04 Aug 2024 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Mohan Pudasaini</title>
@@ -112,6 +112,170 @@
 &lt;/ul&gt;
 &lt;p&gt;Details of the dates and times for the programs:
 &lt;a href=&#34;https://pudasainimohan.com.np/talk/2024_python&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://pudasainimohan.com.np/courses/r_analysis/syllabus/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/r_analysis/syllabus/</guid>
+      <description>&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+&lt;/style&gt;
+&lt;div class=&#34;callout note&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/r_analysis/registration-form/&#34;&gt;To participate in the workshop, please click here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;Basics R:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction of R&lt;/li&gt;
+&lt;li&gt;Interacting with R and R studio&lt;/li&gt;
+&lt;li&gt;R studio Handling&lt;/li&gt;
+&lt;li&gt;Data types&lt;/li&gt;
+&lt;li&gt;Data structure&lt;/li&gt;
+&lt;li&gt;Packages in R and its installation&lt;/li&gt;
+&lt;li&gt;Set working directory&lt;/li&gt;
+&lt;li&gt;Import various types of files in R (such as Excel, STATA, and SPSS)&lt;/li&gt;
+&lt;li&gt;Data cleaning functions -Select, rename, mutate using dplyr, filter, arrange, summaries, group_by, slice,s etc&lt;/li&gt;
+&lt;li&gt;Exporting the data to excel&lt;/li&gt;
+&lt;li&gt;Create a contingency table.&lt;/li&gt;
+&lt;li&gt;The basic concept to create the graph using ggolot2&lt;/li&gt;
+&lt;li&gt;Argument and properties of ggplot2&lt;/li&gt;
+&lt;li&gt;Scatter plot&lt;/li&gt;
+&lt;li&gt;Add some elements to the theme and apply the pre-built theme.&lt;/li&gt;
+&lt;li&gt;Boxplot&lt;/li&gt;
+&lt;li&gt;Bar chart&lt;/li&gt;
+&lt;li&gt;Histogram&lt;/li&gt;
+&lt;li&gt;Line chart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Basics Statistics Concept:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept of statistical tests and their terminology (Hypothesis, model fit, Population and Sample, Standard Error, Confidence interval, Effect Size, type of Error)
+Check Assumptions&lt;/li&gt;
+&lt;li&gt;Exploring the assumption of the parametric test&lt;/li&gt;
+&lt;li&gt;Normality test- Histogram,&lt;/li&gt;
+&lt;li&gt;Density Curve,&lt;/li&gt;
+&lt;li&gt;Q-Q Plot, Skewness, Kurtosis&lt;/li&gt;
+&lt;li&gt;Shapiro Wilk Test,&lt;/li&gt;
+&lt;li&gt;Kolmogorov Smirnov test&lt;/li&gt;
+&lt;li&gt;Homogeneity of variance test- Leven’s Test&lt;/li&gt;
+&lt;li&gt;Dealing with Outliers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Correlation:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Carl Pearson’s Correlation Coefficient and correlation test.&lt;/li&gt;
+&lt;li&gt;Concept of Coefficient of Determination&lt;/li&gt;
+&lt;li&gt;Spearman and Kendall tau Correlation Test&lt;/li&gt;
+&lt;li&gt;Partial Correlation test&lt;/li&gt;
+&lt;li&gt;Point Biserial and Biserial Correlation test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Linear Regression:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Basics Concept of Regression -Intercept, Coefficient, SST, SSM, SSR, etc&lt;/li&gt;
+&lt;li&gt;Simple regression model Fit and interpret the outcome.&lt;/li&gt;
+&lt;li&gt;Multiple Linear Regression&lt;/li&gt;
+&lt;li&gt;Test the accuracy of the Model&lt;/li&gt;
+&lt;li&gt;Detect the outliers of sample data: Residuals, and standardized residuals.&lt;/li&gt;
+&lt;li&gt;Detect the influential points in sample data&lt;/li&gt;
+&lt;li&gt;Run the multiple regression and interpret the result&lt;/li&gt;
+&lt;li&gt;Durbin Watson test- for Independence of error check&lt;/li&gt;
+&lt;li&gt;VIF- Variance influence factor- For multicollinearity&lt;/li&gt;
+&lt;li&gt;Breusch Pagan test- Homogeneity&lt;/li&gt;
+&lt;li&gt;Graphical Method for assumptions check.&lt;/li&gt;
+&lt;li&gt;Regression with dummy Coding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Logistic Regression:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Logistics regression: Concepts&lt;/li&gt;
+&lt;li&gt;Terminology: Log Likelihood, Wald Test, odds, odd ratio&lt;/li&gt;
+&lt;li&gt;Probable Error in Logistics regression: Incomplete Information, Complete separation, overdispersion&lt;/li&gt;
+&lt;li&gt;Binary logistics regression Model fitting&lt;/li&gt;
+&lt;li&gt;Test the accuracy: chi-square test, Pseudo R square&lt;/li&gt;
+&lt;li&gt;Interoperate the model coefficient and odd ratio&lt;/li&gt;
+&lt;li&gt;Case wise diagnostic&lt;/li&gt;
+&lt;li&gt;Testing for multicollinearity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Comparing Means(T-test):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;T-test and its assumptions&lt;/li&gt;
+&lt;li&gt;Independent and dependent t-test&lt;/li&gt;
+&lt;li&gt;Welch t-test&lt;/li&gt;
+&lt;li&gt;Checking the assumption of the t-test&lt;/li&gt;
+&lt;li&gt;Interpretation and application of t-test&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Analysis of Variance (ANOVA):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to ANOVA&lt;/li&gt;
+&lt;li&gt;Theory of ANOVA&lt;/li&gt;
+&lt;li&gt;Checking the Assumptions of ANOVA&lt;/li&gt;
+&lt;li&gt;Interpretation of ANOVA result&lt;/li&gt;
+&lt;li&gt;Dummy Coding and Contrast setting&lt;/li&gt;
+&lt;li&gt;Post hoc test&lt;/li&gt;
+&lt;li&gt;Effect Size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;Analysis of Covariance (ANCOVA):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to ANCOVA&lt;/li&gt;
+&lt;li&gt;Procedure of ANCOVA&lt;/li&gt;
+&lt;li&gt;Concept of Sum of squares&lt;/li&gt;
+&lt;li&gt;Interaction effects&lt;/li&gt;
+&lt;li&gt;Interpretation of ANCOVA&lt;/li&gt;
+&lt;li&gt;Contrast in ANCOVA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;Two-way analysis of Variance:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to two-way ANOVA&lt;/li&gt;
+&lt;li&gt;The procedure of two-way ANOVA&lt;/li&gt;
+&lt;li&gt;Interpretation of two-way ANOVA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Details of the dates and times for the programs:
+&lt;a href=&#34;https://pudasainimohan.com.np/talk/2024_rworkshop&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -224,10 +388,10 @@
     </item>
     
     <item>
-      <title>Registration form: Python Data science</title>
-      <link>https://pudasainimohan.com.np/courses/python_ml/registration-form/</link>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0100</pubDate>
-      <guid>https://pudasainimohan.com.np/courses/python_ml/registration-form/</guid>
+      <title>Registration form: R workshop</title>
+      <link>https://pudasainimohan.com.np/courses/r_analysis/registration-form/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/r_analysis/registration-form/</guid>
       <description>&lt;!-- &lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data analysis with Python&lt;/h2&gt; --&gt;
 &lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
 &lt;style&gt;
@@ -289,7 +453,7 @@ font-weight:700;
 &lt;input type=&#34;text&#34; placeholder=&#34;Designation*&#34; class=&#34;form-input&#34; name=&#34;entry.1937940652&#34; required&gt;&lt;/p&gt;
 &lt;p&gt;&lt;label&gt;Mobile Number*&lt;/label&gt;
 &lt;input type=&#34;text&#34; pattern=&#34;[0-9]{10}&#34; placeholder=&#34;Mobile Number*&#34; class=&#34;form-input&#34; name=&#34;entry.1166974658&#34; required&gt;&lt;/p&gt;
-&lt;p&gt;&lt;label&gt;Do you have Prior knowledge on Python?*&lt;/label&gt;
+&lt;p&gt;&lt;label&gt;Do you have Prior knowledge on R?*&lt;/label&gt;
 &lt;select name=&#34;entry.1328943848&#34; class=&#34;form-input&#34; &gt;
 &lt;option value=&#34;&#34; disabled selected&gt;Select an option&lt;/option&gt;
 &lt;option value=&#34;Yes&#34;&gt;Yes&lt;/option&gt;
@@ -301,6 +465,77 @@ font-weight:700;
 &lt;script type=&#34;text/javascript&#34;&gt;var submitted=false;&lt;/script&gt;
 &lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34; 
 onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mastering  Research  Data  Analysis with  R</title>
+      <link>https://pudasainimohan.com.np/talk/2024_rworkshop/</link>
+      <pubDate>Sun, 04 Aug 2024 20:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_rworkshop/</guid>
+      <description>&lt;p&gt;          &lt;strong&gt;Fee&lt;/strong&gt;            Rs 3000 only&lt;/p&gt;
+&lt;p&gt;          &lt;strong&gt;Syllabus&lt;/strong&gt;          
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/r_analysis/syllabus&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+&lt;/style&gt;
+&lt;!--
+&lt;div class=&#34;callout note&#34;&gt;
+
+   [For the video of the Opening session, click here.](https://youtu.be/VEtlBfkiUsA).
+
+&lt;/div&gt; --&gt;
+&lt;p&gt;R has become an essential tool for data scientists and analysts, providing a comprehensive suite of capabilities for analyzing and visualizing data. Whether you are new to data analysis or looking to expand your skills with R, this course is tailored for you. Designed for individuals from diverse backgrounds, this course focuses on the basics of R programming, data analysis, and visualization, without requiring prior coding experience.&lt;/p&gt;
+&lt;p&gt;Target Audience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Analysts/Data Scientists:&lt;/strong&gt; Currently working with different software and looking to expand their skills by learning R for data analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Students:&lt;/strong&gt; Interested in starting a career in data analysis or data science and want to learn the basics using R.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Researchers and Scholars:&lt;/strong&gt; Who need to analyze data for their thesis, research projects, or academic papers.
+Educators and Teachers: Who want to incorporate data analysis and visualization into their curriculum or learn R as a tool for teaching data analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Professionals:&lt;/strong&gt; Who need to analyze data for their work and want to learn a powerful and versatile programming language for data analysis.
+By the end of the course, participants will have a strong foundation in R programming and the ability to perform data analysis, visualization, and statistical modeling tasks. With hands-on experience using RStudio and various R libraries covered in the course, you&amp;rsquo;ll be equipped to tackle real-world data analysis projects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For registration, please 
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/r_analysis/registration-form/&#34;&gt;Click here&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t miss this opportunity to learn essential skills in the data analysis field. This comprehensive course offers great value for anyone looking to become proficient in R. Enroll now to elevate your data analysis capabilities to the next level!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talking AI Innovations at the Auditor General&#39;s Office</title>
+      <link>https://pudasainimohan.com.np/talk/2024_oag/</link>
+      <pubDate>Sun, 07 Jul 2024 10:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_oag/</guid>
+      <description>&lt;p&gt;On July 7, 2024, I had the honor of speaking at an event organized by the Supreme Audit Institution of Nepal,  The Office of  Auditor General&amp;rsquo;s. This event was attended by government officials from the OAG office who were keen on exploring the potential of AI in auditing processes.&lt;/p&gt;
+&lt;p&gt;During my session, I provided an overview of artificial intelligence, tracing its timeline and highlighting the latest developments in the field. I also discussed the possible applications of AI in auditing, emphasizing the opportunities it presents for improving efficiency and accuracy in auditing processes. Additionally, I addressed the challenges and considerations that come with integrating AI technologies in such sensitive and crucial areas.&lt;/p&gt;
+&lt;p&gt;The session was well-received, with participants engaging in discussions about the practical implications and future possibilities of leveraging AI in their work. It was a rewarding experience to contribute to the understanding and exploration of AI innovations within such a pivotal institution.&lt;/p&gt;
 </description>
     </item>
     

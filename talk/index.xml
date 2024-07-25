@@ -5,12 +5,83 @@
     <link>https://pudasainimohan.com.np/talk/</link>
       <atom:link href="https://pudasainimohan.com.np/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Sat, 29 Jun 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Sun, 04 Aug 2024 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://pudasainimohan.com.np/talk/</link>
     </image>
+    
+    <item>
+      <title>Mastering  Research  Data  Analysis with  R</title>
+      <link>https://pudasainimohan.com.np/talk/2024_rworkshop/</link>
+      <pubDate>Sun, 04 Aug 2024 20:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_rworkshop/</guid>
+      <description>&lt;p&gt;          &lt;strong&gt;Fee&lt;/strong&gt;            Rs 3000 only&lt;/p&gt;
+&lt;p&gt;          &lt;strong&gt;Syllabus&lt;/strong&gt;          
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/r_analysis/syllabus&#34;&gt;Click here&lt;/a&gt;&lt;/p&gt;
+&lt;style&gt;
+  .callout {
+    background-color: #f8f8f8;
+    border: 6px solid #ffa500;
+    margin: 1em auto;
+    padding: 0.3em 10px;
+    text-align: center;
+    border-width: 2px;
+    font-size: 1.2em;
+    display: block;
+    font-weight: 1000;
+    animation: blink 01.5s infinite;
+  }
+  
+  .callout.note {
+    border-color: #00bfff;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+&lt;/style&gt;
+&lt;!--
+&lt;div class=&#34;callout note&#34;&gt;
+
+   [For the video of the Opening session, click here.](https://youtu.be/VEtlBfkiUsA).
+
+&lt;/div&gt; --&gt;
+&lt;p&gt;R has become an essential tool for data scientists and analysts, providing a comprehensive suite of capabilities for analyzing and visualizing data. Whether you are new to data analysis or looking to expand your skills with R, this course is tailored for you. Designed for individuals from diverse backgrounds, this course focuses on the basics of R programming, data analysis, and visualization, without requiring prior coding experience.&lt;/p&gt;
+&lt;p&gt;Target Audience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Data Analysts/Data Scientists:&lt;/strong&gt; Currently working with different software and looking to expand their skills by learning R for data analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Students:&lt;/strong&gt; Interested in starting a career in data analysis or data science and want to learn the basics using R.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Researchers and Scholars:&lt;/strong&gt; Who need to analyze data for their thesis, research projects, or academic papers.
+Educators and Teachers: Who want to incorporate data analysis and visualization into their curriculum or learn R as a tool for teaching data analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Professionals:&lt;/strong&gt; Who need to analyze data for their work and want to learn a powerful and versatile programming language for data analysis.
+By the end of the course, participants will have a strong foundation in R programming and the ability to perform data analysis, visualization, and statistical modeling tasks. With hands-on experience using RStudio and various R libraries covered in the course, you&amp;rsquo;ll be equipped to tackle real-world data analysis projects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For registration, please 
+&lt;a href=&#34;https://pudasainimohan.com.np/courses/r_analysis/registration-form/&#34;&gt;Click here&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t miss this opportunity to learn essential skills in the data analysis field. This comprehensive course offers great value for anyone looking to become proficient in R. Enroll now to elevate your data analysis capabilities to the next level!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Talking AI Innovations at the Auditor General&#39;s Office</title>
+      <link>https://pudasainimohan.com.np/talk/2024_oag/</link>
+      <pubDate>Sun, 07 Jul 2024 10:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_oag/</guid>
+      <description>&lt;p&gt;On July 7, 2024, I had the honor of speaking at an event organized by the Supreme Audit Institution of Nepal,  The Office of  Auditor General&amp;rsquo;s. This event was attended by government officials from the OAG office who were keen on exploring the potential of AI in auditing processes.&lt;/p&gt;
+&lt;p&gt;During my session, I provided an overview of artificial intelligence, tracing its timeline and highlighting the latest developments in the field. I also discussed the possible applications of AI in auditing, emphasizing the opportunities it presents for improving efficiency and accuracy in auditing processes. Additionally, I addressed the challenges and considerations that come with integrating AI technologies in such sensitive and crucial areas.&lt;/p&gt;
+&lt;p&gt;The session was well-received, with participants engaging in discussions about the practical implications and future possibilities of leveraging AI in their work. It was a rewarding experience to contribute to the understanding and exploration of AI innovations within such a pivotal institution.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Ultimate Workshop on Data Analysis Using R at Quest International College</title>
