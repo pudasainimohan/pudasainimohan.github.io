@@ -5,12 +5,23 @@
     <link>https://pudasainimohan.com.np/talk/</link>
       <atom:link href="https://pudasainimohan.com.np/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Sun, 04 Aug 2024 20:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Fri, 09 Aug 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://pudasainimohan.com.np/talk/</link>
     </image>
+    
+    <item>
+      <title>Exploring Data Analytics and AI in Customs at Public Finance Management Training Center</title>
+      <link>https://pudasainimohan.com.np/talk/2024_pfmtc/</link>
+      <pubDate>Fri, 09 Aug 2024 10:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_pfmtc/</guid>
+      <description>&lt;p&gt;On August 9, 2024, I had the opportunity to lead a session on &amp;ldquo;Data Analytics and AI in Customs&amp;rdquo; at the Public Finance Management Training Center in Nepal. This session was part of an in-service training program designed for gazetted third-class officers of the Ministry of Finance and their departments. It focused on providing insights into global trends, WCO initiatives, and practical applications of data analytics and artificial intelligence within the customs sector.&lt;/p&gt;
+&lt;p&gt;During the session, we explored how data analytics and AI are revolutionizing customs operations worldwide, driving efficiency, and supporting trade facilitation. I shared information on key initiatives by the World Customs Organization (WCO) that aim to integrate these advanced technologies into customs practices. We also discussed various applications, such as risk management and fraud detection, and how these concepts are being implemented within Nepal Customs to enhance operations.&lt;/p&gt;
+&lt;p&gt;Engaging with officers from various departments made the session especially rewarding, as it facilitated a meaningful exchange of ideas about the future of customs in a data-driven era. I appreciated the active participation and insightful discussions throughout the training.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Mastering  Research  Data  Analysis with  R</title>
