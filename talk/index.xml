@@ -5,12 +5,23 @@
     <link>https://pudasainimohan.com.np/talk/</link>
       <atom:link href="https://pudasainimohan.com.np/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Fri, 09 Aug 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Mohan Pudasaini </copyright><lastBuildDate>Mon, 07 Oct 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://pudasainimohan.com.np/talk/</link>
     </image>
+    
+    <item>
+      <title>Presented at the  WCO Working Group on Data and Statistics: Harnessing AI for Customs Efficiency - A BACUDA Experience</title>
+      <link>https://pudasainimohan.com.np/talk/2024_wgds/</link>
+      <pubDate>Mon, 07 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2024_wgds/</guid>
+      <description>&lt;p&gt;I was honored to present at the 5th meeting of the WCO Working Group on Data and Statistics. My presentation, titled &amp;ldquo;Harnessing AI for Customs Efficiency: A BACUDA Experience,&amp;rdquo; focused on showcasing various AI models developed as part of the BACUDA program and their applications within the customs sector.&lt;/p&gt;
+&lt;p&gt;During the presentation, I highlighted the journey of developing AI tools, including chatbot assistance, HS classification from images, fraud detection, and automatic document processing. I shared insights into how these models are designed to streamline customs operations, enhance risk management, and improve compliance. Additionally, I discussed the deployment of AI-based systems within Nepal Customs, such as the AI-HS classification tool integrated into the Nepal National Single Window Portal, and how these initiatives reflect global trends promoted by the World Customs Organization (WCO).&lt;/p&gt;
+&lt;p&gt;The opportunity to present on this international platform allowed me to share our achievements, learn from fellow experts, and contribute to the broader conversation on leveraging data analytics and AI for customs efficiency. I am grateful to the WCO and the BACUDA program for facilitating this enriching experience.&lt;/p&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpudasainimohan%2Fvideos%2F860372962935775%2F&amp;show_text=false&amp;width=560&amp;t=0&#34; width=&#34;560&#34; height=&#34;314&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>Exploring Data Analytics and AI in Customs at Public Finance Management Training Center</title>
