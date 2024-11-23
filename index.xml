@@ -486,7 +486,7 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
 &lt;li&gt;&lt;strong&gt;Import and Export Declarations:&lt;/strong&gt; Containing detailed information about goods, parties involved, and declared values.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cargo Manifests:&lt;/strong&gt; Providing logistics and carrier details critical for tracking shipments.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Advanced Passenger Information (API) &amp;amp; Passenger Name Records (PNR):&lt;/strong&gt; Enabling effective risk assessment of travelers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LPCO:&lt;/strong&gt; icense, Permit, Certificate, and Other Approvals,Supporting trade facilitation and regulatory compliance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LPCO:&lt;/strong&gt; License, Permit, Certificate, and Other Approvals,Supporting trade facilitation and regulatory compliance.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Historical Compliance Records and Enforcement Data:&lt;/strong&gt; Enhancing risk profiling and fraud detection.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Commercial Invoices &amp;amp; Payment Information:&lt;/strong&gt; Offering transparency in financial transactions.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Supply Chain Documentation &amp;amp; Tracking Data:&lt;/strong&gt; Helping customs track goods across borders.&lt;/li&gt;
