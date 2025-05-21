@@ -5,12 +5,51 @@
     <link>https://pudasainimohan.com.np/talk/</link>
       <atom:link href="https://pudasainimohan.com.np/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2025 Mohan Pudasaini </copyright><lastBuildDate>Tue, 04 Mar 2025 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2025 Mohan Pudasaini </copyright><lastBuildDate>Thu, 10 Apr 2025 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://pudasainimohan.com.np/talk/</link>
     </image>
+    
+    <item>
+      <title>Paper on Suicidal Ideation Prediction Presented at NHRC Summit 2025</title>
+      <link>https://pudasainimohan.com.np/talk/2025_nhrc_summit/</link>
+      <pubDate>Thu, 10 Apr 2025 10:00:00 +0000</pubDate>
+      <guid>https://pudasainimohan.com.np/talk/2025_nhrc_summit/</guid>
+      <description>&lt;p&gt;At the 11th National Summit of Health and Population Scientists in Nepal, held from 10–12 April 2025 at Soaltee Hotel, Kathmandu, I presented a co-authored research paper on 10 April.The event was organized  by Nepal Health Research Council(NHRC). Our study focused on using mobile-based Ecological Momentary Assessment (EMA) and machine learning to predict suicidal ideation among gay, bisexual, and other men who have sex with men (GBMSM).&lt;/p&gt;
+&lt;p&gt;We collected real-time data through smartphones to monitor mood, context, and behavior. These data were then analyzed using machine learning models to identify patterns linked to suicidal thoughts. The goal is to enable early detection and personalized mental health support for a group that faces significant stigma and mental health challenges.&lt;/p&gt;
+&lt;p&gt;This presentation was delivered in Nepali and contributes to ongoing efforts to apply technology for inclusive, data-driven public health solutions in Nepal.&lt;/p&gt;
+&lt;p&gt;Presentation video (57:50 to 1:08:11)&lt;/p&gt;
+&lt;style&gt;
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+&lt;/style&gt;
+&lt;div class=&#34;video-container&#34;&gt;
+  &lt;iframe 
+    src=&#34;https://www.youtube.com/embed/6JVTfzE8_aY?start=3470&#34; 
+    title=&#34;11th NATIONAL SUMMIT OF HEALTH AND POPULATION SCIENTISTS NEPAL&#34;
+    frameborder=&#34;0&#34;
+    allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34;
+    allowfullscreen
+    referrerpolicy=&#34;strict-origin-when-cross-origin&#34;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Exploring Trade and Financial Data in Journalism at CMR Nepal - Journalism Academy</title>
