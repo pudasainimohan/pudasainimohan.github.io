@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Environmental Goods Customs Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slide {
+            width: 95vw;
+            height: 95vh;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .slide.active {
+            display: flex;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .slide img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .slide img:hover {
+            transform: scale(1.02);
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px 25px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+        }
+
+        .control-btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .control-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(45deg, #764ba2, #667eea);
+        }
+
+        .control-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .slide-counter {
+            position: fixed;
+            top: 25px;
+            right: 25px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+        }
+
+        .slide-title {
+            position: fixed;
+            top: 25px;
+            left: 25px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 1000;
+            max-width: 400px;
+        }
+
+        .fullscreen-btn {
+            position: fixed;
+            top: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .fullscreen-btn:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .loading-message {
+            text-align: center;
+            font-size: 1.2em;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .error-message {
+            text-align: center;
+            color: #ff6b6b;
+            font-size: 1.1em;
+            background: rgba(255, 107, 107, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <div class="slide-counter">
+            <span id="current-slide">1</span> / <span id="total-slides">7</span>
+        </div>
+
+        <div class="slide-title" id="slide-title">
+            Title Slide
+        </div>
+
+        <button class="fullscreen-btn" onclick="toggleFullscreen()">
+            Toggle Fullscreen
+        </button>
+
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <img src="page1.png" alt="Title Slide - Using AI to Identify and Expedite Environmental Goods at Customs" 
+                 onerror="showError(this, 'page1.png')">
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <img src="page2.png" alt="Global Drivers and Operational Gaps" 
+                 onerror="showError(this, 'page2.png')">
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+            <img src="page3.png" alt="Objective and Scope of the Study" 
+                 onerror="showError(this, 'page3.png')">
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide">
+            <img src="page4.png" alt="Methodology" 
+                 onerror="showError(this, 'page4.png')">
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide">
+            <img src="page5.png" alt="Key Findings - Environmental Goods Classification" 
+                 onerror="showError(this, 'page5.png')">
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="slide">
+            <img src="page6.png" alt="Key Findings - Fraud Detection" 
+                 onerror="showError(this, 'page6.png')">
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="slide">
+            <img src="page7.png" alt="Thank You" 
+                 onerror="showError(this, 'page7.png')">
+        </div>
+
+        <div class="controls">
+            <button class="control-btn" id="prevBtn" onclick="previousSlide()">← Previous</button>
+            <button class="control-btn" onclick="resetPresentation()">Reset</button>
+            <button class="control-btn" id="nextBtn" onclick="nextSlide()">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        
+        const slideTitles = [
+            "Using AI to Identify Environmental Goods at Customs",
+            "Global Drivers and Operational Gaps", 
+            "Objective and Scope of the Study",
+            "Methodology",
+            "Key Findings - Environmental Goods Classification",
+            "Key Findings - Fraud Detection", 
+            "Thank You"
+        ];
+
+        document.getElementById('total-slides').textContent = totalSlides;
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[index].classList.add('active');
+            
+            document.getElementById('current-slide').textContent = index + 1;
+            document.getElementById('slide-title').textContent = slideTitles[index];
+            
+            // Update button states
+            document.getElementById('prevBtn').disabled = index === 0;
+            document.getElementById('nextBtn').disabled = index === totalSlides - 1;
+        }
+
+        function nextSlide() {
+            if (currentSlideIndex < totalSlides - 1) {
+                currentSlideIndex++;
+                showSlide(currentSlideIndex);
+            }
+        }
+
+        function previousSlide() {
+            if (currentSlideIndex > 0) {
+                currentSlideIndex--;
+                showSlide(currentSlideIndex);
+            }
+        }
+
+        function resetPresentation() {
+            currentSlideIndex = 0;
+            showSlide(currentSlideIndex);
+        }
+
+        function showError(img, filename) {
+            img.style.display = 'none';
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error-message';
+            errorDiv.innerHTML = `
+                <h3>Image not found: ${filename}</h3>
+                <p>Please convert your PDF to images and save them as:</p>
+                <ul style="list-style: none; padding: 10px 0;">
+                    <li>• page1.png (Title slide)</li>
+                    <li>• page2.png (Global Drivers)</li>
+                    <li>• page3.png (Objective & Scope)</li>
+                    <li>• page4.png (Methodology)</li>
+                    <li>• page5.png (Key Findings 1)</li>
+                    <li>• page6.png (Key Findings 2)</li>
+                    <li>• page7.png (Thank You)</li>
+                </ul>
+                <p>Place these files in the same folder as this HTML file.</p>
+            `;
+            img.parentNode.appendChild(errorDiv);
+        }
+
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            switch(event.key) {
+                case 'ArrowRight':
+                case ' ':
+                    event.preventDefault();
+                    nextSlide();
+                    break;
+                case 'ArrowLeft':
+                    event.preventDefault();
+                    previousSlide();
+                    break;
+                case 'Home':
+                    event.preventDefault();
+                    resetPresentation();
+                    break;
+                case 'End':
+                    event.preventDefault();
+                    currentSlideIndex = totalSlides - 1;
+                    showSlide(currentSlideIndex);
+                    break;
+                case 'f':
+                case 'F11':
+                    event.preventDefault();
+                    toggleFullscreen();
+                    break;
+            }
+        });
+
+        // Initialize
+        showSlide(0);
+
+        // Touch/swipe support for mobile
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', function(event) {
+            touchStartX = event.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', function(event) {
+            touchEndX = event.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            if (touchEndX < touchStartX - 50) {
+                nextSlide(); // Swipe left - next slide
+            }
+            if (touchEndX > touchStartX + 50) {
+                previousSlide(); // Swipe right - previous slide
+            }
+        }
+    </script>
+</body>
+</html>
