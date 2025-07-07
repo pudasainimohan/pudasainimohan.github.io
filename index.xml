@@ -485,12 +485,16 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
 &lt;p&gt;Evet details: 
 &lt;a href=&#34;https://www.unescap.org/events/2025/webinar-ai-agents-and-bots-facilitating-paperless-trade-transactions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unescap.org/events/2025/webinar-ai-agents-and-bots-facilitating-paperless-trade-transactions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This event was a clear testament to the growing momentum behind AI-powered transformation in trade facilitation. I look forward to continued collaboration and knowledge sharing.&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;&#34;&gt;
+  &lt;iframe 
     src=&#34;https://www.youtube.com/embed/fpprpGNovd4?start=2550&#34; 
-    title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; 
+    style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; 
+    frameborder=&#34;0&#34; 
     allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; 
-    allowfullscreen&gt;
-&lt;/iframe&gt;
+    allowfullscreen
+    title=&#34;YouTube Video&#34;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -510,6 +514,9 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
 &lt;li&gt;Assistance in drafting a Risk Management Enhancement Plan for Uzbekistan Customs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The mission was generously supported by the State Secretariat for Economic Affairs of Switzerland (SECO).&lt;/p&gt;
+&lt;p&gt;News releted to this worksop on WCO website:
+
+&lt;a href=&#34;https://www.wcoomd.org/en/media/newsroom/2025/july/seco-wco-gtfp-phase-ii-holds-workshop-on-risk-management-and-data-analytics-in-uzbekistan.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wcoomd.org/en/media/newsroom/2025/july/seco-wco-gtfp-phase-ii-holds-workshop-on-risk-management-and-data-analytics-in-uzbekistan.aspx&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;News related to this event is available on the Kazakhstan Customs website: 
 &lt;a href=&#34;https://customs.uz/uz/news/zhahon-bozhhona-tashkiloti-ekspertlari-ishtirokida-havflarni-boshqarish-va-bozhhonada-malumotlarni-tahlil-qilish-mavzusida-seminar-bolib-otdi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://customs.uz/uz/news/zhahon-bozhhona-tashkiloti-ekspertlari-ishtirokida-havflarni-boshqarish-va-bozhhonada-malumotlarni-tahlil-qilish-mavzusida-seminar-bolib-otdi&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;1.jpeg&#34; alt=&#34;Hands on session conducting by WCO accredited expert Mohan Pudasiani&#34;&gt;&lt;/p&gt;
