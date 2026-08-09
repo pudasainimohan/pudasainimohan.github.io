@@ -1441,258 +1441,340 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
   
   
 
-  <section id="projects" class="home-section wg-portfolio   "  >
+  <section id="international-experience" class="home-section wg-blank   "  >
     <div class="container">
       
 
 
-
-
-
-
-
-
-
-
 <div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-
-    <h1>Projects</h1>
-    
-
-  </div>
-  <div class="col-12 col-lg-8">
-
-
-
-    
-
-    
-
-      
-
-      
-      
-      
-      
-        
-      
-
-      <span class="d-none default-project-filter">*</span>
-
-      
-      
-      <div class="project-toolbar">
-        <div class="project-filters">
-          <div class="btn-toolbar">
-            <div class="btn-group flex-wrap">
-              
-                
-                
-                
-                  
-                
-                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-NLP" class="btn btn-primary btn-lg">NLP</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Computer-Vision" class="btn btn-primary btn-lg">Computer Vision</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Others" class="btn btn-primary btn-lg">Others</a>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    
-
-    <div class="isotope projects-container js-layout-masonry ">
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-
-
-
-
   
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Deep-Learning js-id-NLP">
-  <div class="card">
-    
-    
-    <a href="/project/hs_classification_image/"  class="card-image hover-overlay">
-      <img src="/project/hs_classification_image/featured_hua224129bea3b7f559a30feeadc5c8bed_430328_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/hs_classification_image/" >HS recommendation from image</a></h4>
+    <div class="col-lg-12">
       
-      <div class="article-style">
-        <p>HS Code recommendation from image or description of goods</p>
-      </div>
       
+      <div class="intl-exp-section">
+  <h1>International Experience</h1>
+  <p class="intl-exp-sub">Countries I've worked in through WCO missions, workshops, and international programs. Click a highlighted country to see programs there.</p>
+  <div id="map-wrapper">
+    <div id="world-map" style="width:100%; height:480px;"></div>
+    <div id="country-popup" class="intl-exp-popup" style="display:none;">
+      <button type="button" class="intl-exp-popup-close" aria-label="Close">&times;</button>
+      <div class="intl-exp-popup-content"></div>
     </div>
+  </div>
+  <div class="intl-exp-legend">
+    <span><i class="intl-exp-swatch" style="background:#3f51b5;"></i> International program</span>
+    <span><i class="intl-exp-swatch" style="background:#f2a950;"></i> Home base — Nepal</span>
   </div>
 </div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/js/jsvectormap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/maps/world.js"></script>
+<style>
+  .intl-exp-section h1 {
+    white-space: normal;   /* remove if you want it forced onto one line at all costs */
+  }
+  .intl-exp-sub {
+    opacity: 0.75;
+    font-size: 0.95rem;
+    margin: 0.5rem 0 1.5rem 0;
+  }
 
-        
+  #map-wrapper {
+    position: relative;
+  }
 
-      
+  /* Floating popup, anchored to the clicked spot on the map */
+  .intl-exp-popup {
+    position: absolute;
+    z-index: 20;
+    width: 75%;
+    max-width: 75%;
+    background: #fff;
+    border-radius: 8px;
+    border-top: 3px solid #3f51b5;   /* site theme color */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+    padding: 0.9rem 1rem 0.6rem 1rem;
+    font-size: 0.88rem;
+  }
+  .intl-exp-popup-close {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: pointer;
+    color: #888;
+    padding: 4px;
+  }
+  .intl-exp-popup-close:hover { color: #3f51b5; }
 
-        
-        
-        
+  .intl-exp-popup-content h4 {
+    margin: 0 0 0.5rem 0;
+    padding-right: 1rem;
+    color: #3f51b5;
+  }
 
-        
-          
+  .intl-exp-legend {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+    font-size: 0.82rem;
+    opacity: 0.8;
+  }
+  .intl-exp-swatch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 0.35rem;
+  }
 
+  .intl-exp-more-link {
+    display: inline-block;
+    margin-top: 0.4rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #3f51b5;
+    text-decoration: none;
+  }
+  .intl-exp-more-link:hover { text-decoration: underline; }
 
+  /* Scrollable list once there are more than ~4 events */
+  .intl-exp-events-list {
+    max-height: 230px;
+    overflow-y: auto;
+    padding-right: 6px;
+  }
 
+  .intl-exp-event {
+    margin-bottom: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .intl-exp-event:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .intl-exp-event a {
+    font-weight: 600;
+    color: #3f51b5;
+    text-decoration: none;
+  }
+  .intl-exp-event a:hover { text-decoration: underline; }
+  .intl-exp-event .meta {
+    font-size: 0.78rem;
+    opacity: 0.65;
+    margin: 0 0 0.2rem 0;
+  }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
+  // =========================================================
+  // EDIT THIS OBJECT to update your international experience.
+  // Key = ISO 3166-1 alpha-2 country code. Each country can list
+  // multiple events. "url" points to the real page on your site.
+  // =========================================================
+  var experienceData = {
+    "PE": {
+      name: "Peru",
+      events: [
+        { title: "Participated in International Seminar on Trade Facilitation in Peru", url: "https://pudasainimohan.com.np/talk/2026-peru-virtual/", date: "Jul 8, 2026" }
+      ]
+    },
+    "UZ": {
+      name: "Uzbekistan",
+      events: [
+        { title: "Facilitated WCO Workshop on Risk Management and Data Analytics in Uzbekistan", url: "https://pudasainimohan.com.np/talk/2026-uzbekistan/", date: "Jun 15–19, 2026" },
+        { title: "Delivered WCO Virtual Risk Management Workshop for Uzbekistan Customs", url: "https://pudasainimohan.com.np/talk/2026-uzbekistan-virtual/", date: "Mar 16–20, 2026" },
+        { title: "Delivered WCO Risk Management and Data Analytics Workshop in Uzbekistan", url: "https://pudasainimohan.com.np/talk/2025_uzbekistan_mission/", date: "Jun 16–19, 2025" }
+      ]
+    },
+    "LK": {
+      name: "Sri Lanka",
+      events: [
+        { title: "Co-facilitated WCO Data Analytics Workshop in Sri Lanka", url: "https://pudasainimohan.com.np/talk/2026-sri-lanka-mission/", date: "Mar 23–27, 2026" }
+      ]
+    },
+    "ID": {
+      name: "Indonesia",
+      events: [
+        { title: "Shared Insights on Port Security at the Customs Policy Forum in Indonesia", url: "https://pudasainimohan.com.np/talk/2025-indonesia-seminar/", date: "Dec 12, 2025" }
+      ]
+    },
+    "US": {
+      name: "United States",
+      events: [
+        { title: "Spoke at the 13th IMF Statistical Forum", url: "https://pudasainimohan.com.np/talk/2025-usa-statsforum/", date: "Nov 19–20, 2025" }
+      ]
+    },
+    "KR": {
+      name: "South Korea",
+      events: [
+        { title: "Delivered 8th Masterclass in Korea", url: "https://pudasainimohan.com.np/talk/2025-korea-masterclass/", date: "Nov 10–19, 2025" },
+        { title: "Advancing Expertise: WCO Pre-Accreditation in Data Analytics", url: "https://pudasainimohan.com.np/talk/2025_da_accreditation/", date: "Jan 13–17, 2025" },
+        { title: "Co-Facilitated WCO-UNESCAP 6th UNNExT Masterclass", url: "https://pudasainimohan.com.np/talk/2024_masterclass/", date: "Feb 8 – Mar 8, 2024" }
+      ]
+    },
+    "TR": {
+      name: "Türkiye",
+      events: [
+        { title: "Delivered WCO Data Analytics Workshop in Türkiye", url: "https://pudasainimohan.com.np/talk/2025-turkey-mission/", date: "Oct 20–24, 2025" }
+      ]
+    },
+    "TH": {
+      name: "Thailand",
+      events: [
+        { title: "Participated as Panelist at Paperless Trade Week 2025", url: "https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/", date: "Jun 9–13, 2025" },
+        { title: "Participated WCO Pre-Accreditation Workshop on Risk Management", url: "https://pudasainimohan.com.np/talk/2022_rm_accreditation/", date: "Nov 21–25, 2022" }
+      ]
+    },
+    "KZ": {
+      name: "Kazakhstan",
+      events: [
+        { title: "Delivered WCO Risk Management Workshop in Kazakhstan", url: "https://pudasainimohan.com.np/talk/2025_kazakhstan_mission/", date: "May 12–14, 2025" }
+      ]
+    },
+    "BE": {
+      name: "Belgium",
+      events: [
+        { title: "Presented at the WCO Working Group on Data and Statistics", url: "https://pudasainimohan.com.np/talk/2024_wgds/", date: "Oct 7, 2024" }
+      ]
+    },
+    "NP": {
+      name: "Nepal — Home Base",
+      events: [
+        { title: "Facilitating the Ministry of Finance Workshop: AI for Public Sector Efficiency", url: "https://pudasainimohan.com.np/talk/2026-mof-workshop/", date: "Jan 24, 2026" },
+        { title: "Leading Training on Data-Driven Journalism and AI Tools at CMR Nepal", url: "https://pudasainimohan.com.np/talk/2026-datajournalism/", date: "Jan 7, 2026" },
+        { title: "Delivered AI Strategic Workshop for Nepal's Senior Leadership", url: "https://pudasainimohan.com.np/talk/2025-ai-workshop-opmcm-nepal/", date: "Dec 23–25, 2025" },
+        { title: "Knowledge Sharing Session with SAWTEE", url: "https://pudasainimohan.com.np/talk/2025-sawtee-customs-discussion/", date: "Aug 14, 2025" },
+        { title: "Delivered Customs Risk Management Training at PFMTC", url: "https://pudasainimohan.com.np/talk/2025-pfmtc-customs-risk-management-workshop/", date: "Aug 7, 2025" }
+      ],
+      moreUrl: "https://pudasainimohan.com.np/talk/",
+      moreLabel: "See all talks →"
+    }
+    // Add more countries here, same shape as above.
+    // "moreUrl"/"moreLabel" are optional — add them to any country to show a
+    // trailing link in its popup (useful for a home base with many entries).
+  };
 
+  var HOME_BASE_CODES = ["NP"];  // countries styled as "home base" instead of the mission gradient
 
+  var values = {};        // international missions -> shaded by frequency
+  var homeValues = {};    // home base countries -> flat distinct color
+  Object.keys(experienceData).forEach(function (code) {
+    if (HOME_BASE_CODES.indexOf(code) !== -1) {
+      homeValues[code] = 1;
+    } else {
+      values[code] = experienceData[code].events.length;
+    }
+  });
 
+  var wrapper = document.getElementById("map-wrapper");
+  var popup = document.getElementById("country-popup");
+  var popupContent = popup.querySelector(".intl-exp-popup-content");
+  var closeBtn = popup.querySelector(".intl-exp-popup-close");
 
+  function buildPopupHTML(code) {
+    var d = experienceData[code];
+    var html = "<h4>" + d.name + "</h4>";
+    html += '<div class="intl-exp-events-list">';
+    d.events.forEach(function (ev) {
+      html += '<div class="intl-exp-event">';
+      html += '<p class="meta">' + ev.date + "</p>";
+      html += '<a href="' + ev.url + '" target="_blank" rel="noopener">' + ev.title + "</a>";
+      html += "</div>";
+    });
+    html += "</div>";
+    if (d.moreUrl) {
+      html += '<a class="intl-exp-more-link" href="' + d.moreUrl + '" target="_blank" rel="noopener">' + (d.moreLabel || "See more →") + "</a>";
+    }
+    return html;
+  }
+
+  function showPopupAt(code, clientX, clientY) {
+    var d = experienceData[code];
+    if (!d) return;
+
+    popupContent.innerHTML = buildPopupHTML(code);
+    popup.style.display = "block";
+
+    var wrapperRect = wrapper.getBoundingClientRect();
+    var popupWidth = popup.offsetWidth || (wrapperRect.width * 0.75);
+
+    var left = clientX - wrapperRect.left + 12;
+    var top = clientY - wrapperRect.top + 12;
+
+    if (left + popupWidth > wrapperRect.width) {
+      left = clientX - wrapperRect.left - popupWidth - 12;
+    }
+    if (left < 0) left = 8;
+
+    popup.style.left = left + "px";
+    popup.style.top = top + "px";
+  }
+
+  function hidePopup() {
+    popup.style.display = "none";
+  }
+
+  closeBtn.addEventListener("click", hidePopup);
+
+  document.addEventListener("click", function (e) {
+    if (!wrapper.contains(e.target)) hidePopup();
+  });
+
+  var map = new jsVectorMap({
+    selector: "#world-map",
+    map: "world",
+    zoomButtons: true,
+    zoomOnScroll: false,
+    regionStyle: {
+      initial: { fill: "#e4e6f5" },
+      hover: { fill: "#7986cb", cursor: "pointer" }
+    },
+    series: {
+      regions: [
+        {
+          values: values,
+          scale: ["#c5cae9", "#3f51b5"],   // light -> site's brand indigo, by mission count
+          normalizeFunction: "polynomial"
+        },
+        {
+          values: homeValues,
+          scale: ["#f2a950", "#f2a950"],   // flat amber — home base, not part of the intensity scale
+          normalizeFunction: "polynomial"
+        }
+      ]
+    },
+    onRegionTooltipShow: function (event, tooltip, code) {
+      var d = experienceData[code];
+      if (!d) return;
+      var label = HOME_BASE_CODES.indexOf(code) !== -1
+        ? d.name + " — click for recent programs."
+        : d.name + " — " + d.events.length + " program(s). Click for details.";
+      tooltip.text(label, true);
+    },
+    onRegionClick: function (event, code) {
+      if (!experienceData[code]) return;
+      showPopupAt(code, event.clientX, event.clientY);
+    }
+  });
+
+  window.addEventListener("resize", function () {
+    if (map && map.updateSize) map.updateSize();
+    hidePopup();
+  });
+});
+</script><blockquote>
+</blockquote>
+
+    </div>
   
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Deep-Learning js-id-Computer-Vision">
-  <div class="card">
-    
-    
-    <a href="/project/covid_classification/"  class="card-image hover-overlay">
-      <img src="/project/covid_classification/featured_huceb604396410fce2a075b018cc56a744_78439_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/covid_classification/" >COVID CT Scan Classification: ResNet50 vs. EfficientNet-B0</a></h4>
-      
-      <div class="article-style">
-        <p>Image Classification, ResNet50 vs EfficientNet-B0.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Deep-Learning js-id-NLP">
-  <div class="card">
-    
-    
-    <a href="/project/chat_bot/"  class="card-image hover-overlay">
-      <img src="/project/chat_bot/featured_hu1f942f4dde1f82079466b0655ac81e08_1239170_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/chat_bot/" >Chatbot using GPT-2</a></h4>
-      
-      <div class="article-style">
-        <p>An AI chatbot built on the GPT architecture.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Deep-Learning js-id-NLP">
-  <div class="card">
-    
-    
-    <a href="/project/hs_classification/"  class="card-image hover-overlay">
-      <img src="/project/hs_classification/featured_hu2564a4f6a398cf25d70f7d18d8ddd635_1314181_550x0_resize_q90_lanczos_3.png" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/hs_classification/" >HS Code Classification Model</a></h4>
-      
-      <div class="article-style">
-        <p>AI-Powered HS Code Classification Model</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-    </div>
-
-  </div>
 </div>
 
     </div>
