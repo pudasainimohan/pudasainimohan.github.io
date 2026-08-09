@@ -445,7 +445,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#international-experience" data-target="#international-experience"><span>Global Experience</span></a>
         </li>
 
         
@@ -1455,15 +1455,11 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
   <h1>International Experience</h1>
   <p class="intl-exp-sub">Countries I've worked in through WCO missions, workshops, and international programs. Click a highlighted country to see programs there.</p>
   <div id="map-wrapper">
-    <div id="world-map" style="width:100%; height:480px;"></div>
+    <div id="world-map" style="width:100%;"></div>
     <div id="country-popup" class="intl-exp-popup" style="display:none;">
       <button type="button" class="intl-exp-popup-close" aria-label="Close">&times;</button>
       <div class="intl-exp-popup-content"></div>
     </div>
-  </div>
-  <div class="intl-exp-legend">
-    <span><i class="intl-exp-swatch" style="background:#3f51b5;"></i> International program</span>
-    <span><i class="intl-exp-swatch" style="background:#f2a950;"></i> Home base — Nepal</span>
   </div>
 </div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css">
@@ -1481,6 +1477,16 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
 
   #map-wrapper {
     position: relative;
+  }
+
+  /* Map container height is derived from width via aspect-ratio, not a fixed px value —
+     this avoids the leftover blank space below the map that a fixed height caused,
+     since jsVectorMap's rendered SVG doesn't fill a taller box. Adjust the ratio
+     (currently 2:1) if you still see a small gap or the map looks cropped. */
+  #world-map {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    height: auto;
   }
 
   /* Floating popup, anchored to the clicked spot on the map */
@@ -1675,6 +1681,12 @@ document.addEventListener("DOMContentLoaded", function () {
           left = clientX - wrapperRect.left - popupWidth - 12;
         }
         if (left < 0) left = 8;
+
+        var popupHeight = popup.offsetHeight || 200;
+        if (top + popupHeight > wrapperRect.height) {
+          top = clientY - wrapperRect.top - popupHeight - 12;
+        }
+        if (top < 0) top = 8;
 
         popup.style.left = left + "px";
         popup.style.top = top + "px";
