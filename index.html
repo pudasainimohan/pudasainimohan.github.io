@@ -1489,6 +1489,19 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
     height: auto;
   }
 
+  /* The theme's "blank" widget template emits an empty <blockquote></blockquote>
+     further down the page (from the widget's subtitle field, even though
+     subtitle = "" in the frontmatter above) — it's a later sibling, not the
+     immediate next one, since <link>/<script> tags sit in between. This is a
+     CSS fallback (JS above does the real removal) in case JS is disabled. */
+  .intl-exp-section ~ blockquote:empty {
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
   /* Floating popup, anchored to the clicked spot on the map */
   .intl-exp-popup {
     position: absolute;
@@ -1579,6 +1592,15 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
 </style>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+
+  // Forcefully remove the empty <blockquote> the theme's "blank" widget
+  // injects further down (from an empty subtitle field). It's not the
+  // immediate next sibling — <link>/<script> tags sit in between — so we
+  // use the general sibling selector to find it wherever it lands, and
+  // strip out anything with no real text content.
+  document.querySelectorAll(".intl-exp-section ~ blockquote").forEach(function (bq) {
+    if (!bq.textContent.trim()) bq.remove();
+  });
 
   var TALKS_JSON_URL = "/talk/index.json";  // generated automatically by Hugo — see setup notes
   var MAX_EVENTS_SHOWN = 5;                 // cap per-country list length before adding a "see all" link
