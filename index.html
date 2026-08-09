@@ -1574,113 +1574,48 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  // =========================================================
-  // EDIT THIS OBJECT to update your international experience.
-  // Key = ISO 3166-1 alpha-2 country code. Each country can list
-  // multiple events. "url" points to the real page on your site.
-  // =========================================================
-  var experienceData = {
-    "PE": {
-      name: "Peru",
-      events: [
-        { title: "Participated in International Seminar on Trade Facilitation in Peru", url: "https://pudasainimohan.com.np/talk/2026-peru-virtual/", date: "Jul 8, 2026" }
-      ]
-    },
-    "UZ": {
-      name: "Uzbekistan",
-      events: [
-        { title: "Facilitated WCO Workshop on Risk Management and Data Analytics in Uzbekistan", url: "https://pudasainimohan.com.np/talk/2026-uzbekistan/", date: "Jun 15–19, 2026" },
-        { title: "Delivered WCO Virtual Risk Management Workshop for Uzbekistan Customs", url: "https://pudasainimohan.com.np/talk/2026-uzbekistan-virtual/", date: "Mar 16–20, 2026" },
-        { title: "Delivered WCO Risk Management and Data Analytics Workshop in Uzbekistan", url: "https://pudasainimohan.com.np/talk/2025_uzbekistan_mission/", date: "Jun 16–19, 2025" }
-      ]
-    },
-    "LK": {
-      name: "Sri Lanka",
-      events: [
-        { title: "Co-facilitated WCO Data Analytics Workshop in Sri Lanka", url: "https://pudasainimohan.com.np/talk/2026-sri-lanka-mission/", date: "Mar 23–27, 2026" }
-      ]
-    },
-    "ID": {
-      name: "Indonesia",
-      events: [
-        { title: "Shared Insights on Port Security at the Customs Policy Forum in Indonesia", url: "https://pudasainimohan.com.np/talk/2025-indonesia-seminar/", date: "Dec 12, 2025" }
-      ]
-    },
-    "US": {
-      name: "United States",
-      events: [
-        { title: "Spoke at the 13th IMF Statistical Forum", url: "https://pudasainimohan.com.np/talk/2025-usa-statsforum/", date: "Nov 19–20, 2025" }
-      ]
-    },
-    "KR": {
-      name: "South Korea",
-      events: [
-        { title: "Delivered 8th Masterclass in Korea", url: "https://pudasainimohan.com.np/talk/2025-korea-masterclass/", date: "Nov 10–19, 2025" },
-        { title: "Advancing Expertise: WCO Pre-Accreditation in Data Analytics", url: "https://pudasainimohan.com.np/talk/2025_da_accreditation/", date: "Jan 13–17, 2025" },
-        { title: "Co-Facilitated WCO-UNESCAP 6th UNNExT Masterclass", url: "https://pudasainimohan.com.np/talk/2024_masterclass/", date: "Feb 8 – Mar 8, 2024" }
-      ]
-    },
-    "TR": {
-      name: "Türkiye",
-      events: [
-        { title: "Delivered WCO Data Analytics Workshop in Türkiye", url: "https://pudasainimohan.com.np/talk/2025-turkey-mission/", date: "Oct 20–24, 2025" }
-      ]
-    },
-    "TH": {
-      name: "Thailand",
-      events: [
-        { title: "Participated as Panelist at Paperless Trade Week 2025", url: "https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/", date: "Jun 9–13, 2025" },
-        { title: "Participated WCO Pre-Accreditation Workshop on Risk Management", url: "https://pudasainimohan.com.np/talk/2022_rm_accreditation/", date: "Nov 21–25, 2022" }
-      ]
-    },
-    "KZ": {
-      name: "Kazakhstan",
-      events: [
-        { title: "Delivered WCO Risk Management Workshop in Kazakhstan", url: "https://pudasainimohan.com.np/talk/2025_kazakhstan_mission/", date: "May 12–14, 2025" }
-      ]
-    },
-    "BE": {
-      name: "Belgium",
-      events: [
-        { title: "Presented at the WCO Working Group on Data and Statistics", url: "https://pudasainimohan.com.np/talk/2024_wgds/", date: "Oct 7, 2024" }
-      ]
-    },
-    "NP": {
-      name: "Nepal — Home Base",
-      events: [
-        { title: "Facilitating the Ministry of Finance Workshop: AI for Public Sector Efficiency", url: "https://pudasainimohan.com.np/talk/2026-mof-workshop/", date: "Jan 24, 2026" },
-        { title: "Leading Training on Data-Driven Journalism and AI Tools at CMR Nepal", url: "https://pudasainimohan.com.np/talk/2026-datajournalism/", date: "Jan 7, 2026" },
-        { title: "Delivered AI Strategic Workshop for Nepal's Senior Leadership", url: "https://pudasainimohan.com.np/talk/2025-ai-workshop-opmcm-nepal/", date: "Dec 23–25, 2025" },
-        { title: "Knowledge Sharing Session with SAWTEE", url: "https://pudasainimohan.com.np/talk/2025-sawtee-customs-discussion/", date: "Aug 14, 2025" },
-        { title: "Delivered Customs Risk Management Training at PFMTC", url: "https://pudasainimohan.com.np/talk/2025-pfmtc-customs-risk-management-workshop/", date: "Aug 7, 2025" }
-      ],
-      moreUrl: "https://pudasainimohan.com.np/talk/",
-      moreLabel: "See all talks →"
-    }
-    // Add more countries here, same shape as above.
-    // "moreUrl"/"moreLabel" are optional — add them to any country to show a
-    // trailing link in its popup (useful for a home base with many entries).
-  };
-
-  var HOME_BASE_CODES = ["NP"];  // countries styled as "home base" instead of the mission gradient
-
-  var values = {};        // international missions -> shaded by frequency
-  var homeValues = {};    // home base countries -> flat distinct color
-  Object.keys(experienceData).forEach(function (code) {
-    if (HOME_BASE_CODES.indexOf(code) !== -1) {
-      homeValues[code] = 1;
-    } else {
-      values[code] = experienceData[code].events.length;
-    }
-  });
+  var TALKS_JSON_URL = "/talk/index.json";  // generated automatically by Hugo — see setup notes
+  var MAX_EVENTS_SHOWN = 5;                 // cap per-country list length before adding a "see all" link
+  var MORE_LABEL = "See all talks \u2192";
+  var MORE_URL = "/talk/";                  // fallback link when a country's list is truncated
 
   var wrapper = document.getElementById("map-wrapper");
   var popup = document.getElementById("country-popup");
   var popupContent = popup.querySelector(".intl-exp-popup-content");
   var closeBtn = popup.querySelector(".intl-exp-popup-close");
 
-  function buildPopupHTML(code) {
-    var d = experienceData[code];
+  function buildExperienceData(talks) {
+    var data = {};
+    talks.forEach(function (t) {
+      if (!t.country_code) return;
+      if (!data[t.country_code]) {
+        data[t.country_code] = {
+          name: t.country_name || t.country_code,
+          homeBase: !!t.home_base,
+          events: []
+        };
+      }
+      data[t.country_code].events.push({
+        title: t.title,
+        url: t.url,
+        date: t.date_label
+      });
+    });
+
+    // Talks arrive pre-sorted most-recent-first from Hugo; truncate long lists.
+    Object.keys(data).forEach(function (code) {
+      var d = data[code];
+      if (d.events.length > MAX_EVENTS_SHOWN) {
+        d.events = d.events.slice(0, MAX_EVENTS_SHOWN);
+        d.moreUrl = MORE_URL;
+        d.moreLabel = MORE_LABEL;
+      }
+    });
+
+    return data;
+  }
+
+  function buildPopupHTML(d) {
     var html = "<h4>" + d.name + "</h4>";
     html += '<div class="intl-exp-events-list">';
     d.events.forEach(function (ev) {
@@ -1691,31 +1626,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     html += "</div>";
     if (d.moreUrl) {
-      html += '<a class="intl-exp-more-link" href="' + d.moreUrl + '" target="_blank" rel="noopener">' + (d.moreLabel || "See more →") + "</a>";
+      html += '<a class="intl-exp-more-link" href="' + d.moreUrl + '" target="_blank" rel="noopener">' + (d.moreLabel || "See more \u2192") + "</a>";
     }
     return html;
-  }
-
-  function showPopupAt(code, clientX, clientY) {
-    var d = experienceData[code];
-    if (!d) return;
-
-    popupContent.innerHTML = buildPopupHTML(code);
-    popup.style.display = "block";
-
-    var wrapperRect = wrapper.getBoundingClientRect();
-    var popupWidth = popup.offsetWidth || (wrapperRect.width * 0.75);
-
-    var left = clientX - wrapperRect.left + 12;
-    var top = clientY - wrapperRect.top + 12;
-
-    if (left + popupWidth > wrapperRect.width) {
-      left = clientX - wrapperRect.left - popupWidth - 12;
-    }
-    if (left < 0) left = 8;
-
-    popup.style.left = left + "px";
-    popup.style.top = top + "px";
   }
 
   function hidePopup() {
@@ -1723,52 +1636,97 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   closeBtn.addEventListener("click", hidePopup);
-
   document.addEventListener("click", function (e) {
     if (!wrapper.contains(e.target)) hidePopup();
   });
 
-  var map = new jsVectorMap({
-    selector: "#world-map",
-    map: "world",
-    zoomButtons: true,
-    zoomOnScroll: false,
-    regionStyle: {
-      initial: { fill: "#e4e6f5" },
-      hover: { fill: "#7986cb", cursor: "pointer" }
-    },
-    series: {
-      regions: [
-        {
-          values: values,
-          scale: ["#c5cae9", "#3f51b5"],   // light -> site's brand indigo, by mission count
-          normalizeFunction: "polynomial"
-        },
-        {
-          values: homeValues,
-          scale: ["#f2a950", "#f2a950"],   // flat amber — home base, not part of the intensity scale
-          normalizeFunction: "polynomial"
-        }
-      ]
-    },
-    onRegionTooltipShow: function (event, tooltip, code) {
-      var d = experienceData[code];
-      if (!d) return;
-      var label = HOME_BASE_CODES.indexOf(code) !== -1
-        ? d.name + " — click for recent programs."
-        : d.name + " — " + d.events.length + " program(s). Click for details.";
-      tooltip.text(label, true);
-    },
-    onRegionClick: function (event, code) {
-      if (!experienceData[code]) return;
-      showPopupAt(code, event.clientX, event.clientY);
-    }
-  });
+  fetch(TALKS_JSON_URL)
+    .then(function (res) {
+      if (!res.ok) throw new Error("Could not load " + TALKS_JSON_URL);
+      return res.json();
+    })
+    .then(function (talks) {
+      var experienceData = buildExperienceData(talks);
 
-  window.addEventListener("resize", function () {
-    if (map && map.updateSize) map.updateSize();
-    hidePopup();
-  });
+      var values = {};       // international missions -> shaded by frequency
+      var homeValues = {};   // home base countries -> flat distinct color
+      Object.keys(experienceData).forEach(function (code) {
+        if (experienceData[code].homeBase) {
+          homeValues[code] = 1;
+        } else {
+          values[code] = experienceData[code].events.length;
+        }
+      });
+
+      function showPopupAt(code, clientX, clientY) {
+        var d = experienceData[code];
+        if (!d) return;
+
+        popupContent.innerHTML = buildPopupHTML(d);
+        popup.style.display = "block";
+
+        var wrapperRect = wrapper.getBoundingClientRect();
+        var popupWidth = popup.offsetWidth || (wrapperRect.width * 0.75);
+
+        var left = clientX - wrapperRect.left + 12;
+        var top = clientY - wrapperRect.top + 12;
+
+        if (left + popupWidth > wrapperRect.width) {
+          left = clientX - wrapperRect.left - popupWidth - 12;
+        }
+        if (left < 0) left = 8;
+
+        popup.style.left = left + "px";
+        popup.style.top = top + "px";
+      }
+
+      var map = new jsVectorMap({
+        selector: "#world-map",
+        map: "world",
+        zoomButtons: true,
+        zoomOnScroll: false,
+        regionStyle: {
+          initial: { fill: "#e4e6f5" },
+          hover: { fill: "#7986cb", cursor: "pointer" }
+        },
+        series: {
+          regions: [
+            {
+              values: values,
+              scale: ["#c5cae9", "#3f51b5"],   // light -> site's brand indigo, by mission count
+              normalizeFunction: "polynomial"
+            },
+            {
+              values: homeValues,
+              scale: ["#f2a950", "#f2a950"],   // flat amber — home base, not part of the intensity scale
+              normalizeFunction: "polynomial"
+            }
+          ]
+        },
+        onRegionTooltipShow: function (event, tooltip, code) {
+          var d = experienceData[code];
+          if (!d) return;
+          var label = d.homeBase
+            ? d.name + " \u2014 click for recent programs."
+            : d.name + " \u2014 " + d.events.length + " program(s). Click for details.";
+          tooltip.text(label, true);
+        },
+        onRegionClick: function (event, code) {
+          if (!experienceData[code]) return;
+          showPopupAt(code, event.clientX, event.clientY);
+        }
+      });
+
+      window.addEventListener("resize", function () {
+        if (map && map.updateSize) map.updateSize();
+        hidePopup();
+      });
+    })
+    .catch(function (err) {
+      console.error("International Experience map: failed to load talks data.", err);
+      document.getElementById("world-map").innerHTML =
+        '<p style="opacity:0.6; font-size:0.9rem;">Could not load map data right now.</p>';
+    });
 });
 </script><blockquote>
 </blockquote>
@@ -3064,7 +3022,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a href="/talk/2026-mof-workshop/" class="summary-link">
       <div class="article-style">
-        I am pleased to have contributed to strengthenHonored to engage with senior government officials of Nepal on the potential of Artificial Intelligence in the public sector, including ways to enhance efficiency and manage associated risks. The discussion, hosted by the Ministry of Finance, included participation from officials of various ministries focused on aligning AI with national development goals. This session underscored the importance of ethical AI governance and the strategic use of data to modernize public administration.
+        I am pleased to engage with senior government officials of Nepal on the potential of Artificial Intelligence in the public sector, including ways to enhance efficiency and manage associated risks. The discussion, hosted by the Ministry of Finance, included participation from officials of various ministries focused on aligning AI with national development goals. This session underscored the importance of ethical AI governance and the strategic use of data to modernize public administration.
       </div>
     </a>
     
