@@ -285,7 +285,7 @@
   <meta property="og:description" content="Project Officer"><meta property="og:image" content="https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2026-07-08T10:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2026-10-05T10:00:00&#43;00:00">
   
 
   
@@ -1479,8 +1479,8 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
     position: relative;
   }
 
-  /* Map container height is derived from width via aspect-ratio, not a fixed px value —
-     this avoids the leftover blank space below the map that a fixed height caused,
+  /* Map container height is derived from width via aspect-ratio, not a fixed px value.
+     This avoids the leftover blank space below the map that a fixed height caused,
      since jsVectorMap's rendered SVG doesn't fill a taller box. Adjust the ratio
      (currently 2:1) if you still see a small gap or the map looks cropped. */
   #world-map {
@@ -1491,9 +1491,9 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
 
   /* The theme's "blank" widget template emits an empty <blockquote></blockquote>
      further down the page (from the widget's subtitle field, even though
-     subtitle = "" in the frontmatter above) — it's a later sibling, not the
+     subtitle = "" in the frontmatter above). It's a later sibling, not the
      immediate next one, since <link>/<script> tags sit in between. This is a
-     CSS fallback (JS above does the real removal) in case JS is disabled. */
+     CSS fallback (JS below does the real removal) in case JS is disabled. */
   .intl-exp-section ~ blockquote:empty {
     display: none;
     margin: 0;
@@ -1594,15 +1594,12 @@ He currently serves as a Project Officer at the WCO. Prior to joining the WCO, h
 document.addEventListener("DOMContentLoaded", function () {
 
   // Forcefully remove the empty <blockquote> the theme's "blank" widget
-  // injects further down (from an empty subtitle field). It's not the
-  // immediate next sibling — <link>/<script> tags sit in between — so we
-  // use the general sibling selector to find it wherever it lands, and
-  // strip out anything with no real text content.
+  // injects further down (from an empty subtitle field).
   document.querySelectorAll(".intl-exp-section ~ blockquote").forEach(function (bq) {
     if (!bq.textContent.trim()) bq.remove();
   });
 
-  var TALKS_JSON_URL = "/talk/index.json";  // generated automatically by Hugo — see setup notes
+  var TALKS_JSON_URL = "/talk/index.json";  // generated automatically by Hugo
   var MAX_EVENTS_SHOWN = 5;                 // cap per-country list length before adding a "see all" link
   var MORE_LABEL = "See all talks \u2192";
   var MORE_URL = "/talk/";                  // fallback link when a country's list is truncated
@@ -1612,21 +1609,37 @@ document.addEventListener("DOMContentLoaded", function () {
   var popupContent = popup.querySelector(".intl-exp-popup-content");
   var closeBtn = popup.querySelector(".intl-exp-popup-close");
 
+  // Turns "TG, NE", "TG;NE" or ["TG","NE"] into ["TG","NE"].
+  // Works the same for country names: "Togo; Niger" -> ["Togo","Niger"].
+  function splitList(v) {
+    if (!v) return [];
+    if (Array.isArray(v)) {
+      return v.map(function (s) { return String(s).trim(); }).filter(Boolean);
+    }
+    return String(v).split(/[,;]/)
+      .map(function (s) { return s.trim(); })
+      .filter(Boolean);
+  }
+
   function buildExperienceData(talks) {
     var data = {};
     talks.forEach(function (t) {
-      if (!t.country_code) return;
-      if (!data[t.country_code]) {
-        data[t.country_code] = {
-          name: t.country_name || t.country_code,
-          homeBase: !!t.home_base,
-          events: []
-        };
-      }
-      data[t.country_code].events.push({
-        title: t.title,
-        url: t.url,
-        date: t.date_label
+      var codes = splitList(t.country_code).map(function (c) { return c.toUpperCase(); });
+      var names = splitList(t.country_name);
+
+      codes.forEach(function (code, i) {
+        if (!data[code]) {
+          data[code] = {
+            name: names[i] || code,   // names are matched to codes by position
+            homeBase: !!t.home_base,
+            events: []
+          };
+        }
+        data[code].events.push({
+          title: t.title,
+          url: t.url,
+          date: t.date_label
+        });
       });
     });
 
@@ -1732,7 +1745,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
               values: homeValues,
-              scale: ["#f2a950", "#f2a950"],   // flat amber — home base, not part of the intensity scale
+              scale: ["#f2a950", "#f2a950"],   // flat amber: home base, not part of the intensity scale
               normalizeFunction: "polynomial"
             }
           ]
@@ -1741,8 +1754,8 @@ document.addEventListener("DOMContentLoaded", function () {
           var d = experienceData[code];
           if (!d) return;
           var label = d.homeBase
-            ? d.name + " \u2014 click for recent programs."
-            : d.name + " \u2014 " + d.events.length + " program(s). Click for details.";
+            ? d.name + ": click for recent programs."
+            : d.name + ": " + d.events.length + " program(s). Click for details.";
           tooltip.text(label, true);
         },
         onRegionClick: function (event, code) {
@@ -2171,6 +2184,30 @@ document.addEventListener("DOMContentLoaded", function () {
             <span class="hover-text">Click for details</span>
           </div>
           <img src="/home/gallery/gallery/21.jpg" alt="Mohan Pudasaini AI and International trade Expert received honor from finance ministry">
+        </a>
+      
+        
+        
+        
+
+        
+        
+          
+            
+            
+              
+            
+          
+        
+
+        
+        
+
+        <a href="/home/gallery/gallery/22.jpg" class="gallery-item glightbox hidden" data-gallery="gallery" data-title="Interactive session with Niger and Togo Customs officials during the WCO workshop, Togo(2026)" data-alt="Niger and Togo Customs officials at a WCO workshop on data analytics and AI for risk management and trade facilitation in Lomé, Togo">
+          <div class="image-overlay">
+            <span class="hover-text">Click for details</span>
+          </div>
+          <img src="/home/gallery/gallery/22.jpg" alt="Niger and Togo Customs officials at a WCO workshop on data analytics and AI for risk management and trade facilitation in Lomé, Togo">
         </a>
       
         
@@ -2650,6 +2687,106 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/2026-togo/" >Co-facilitated WCO-WTO Data Analytics Workshop for Niger and Togo in Lomé</a>
+    </h3>
+
+    
+    <a href="/talk/2026-togo/" class="summary-link">
+      <div class="article-style">
+        I co-facilitated a joint WCO-WTO Data Analytics Workshop for the Customs administrations of Niger and Togo in Lomé, Togo, from 5 to 7 October 2026
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Oct 5, 2026 10:00 AM &mdash; Oct 7, 2026 5:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Lomé, Togo</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/2026-togo/" >
+      <img src="/talk/2026-togo/featured_huec97c2cd58863d105d31e0e5bcd7cc10_2862732_150x0_resize_lanczos_3.png" alt="Co-facilitated WCO-WTO Data Analytics Workshop for Niger and Togo in Lomé">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/talk/2026-peru-virtual/" >Participated in International Seminar on Trade Facilitation in Peru</a>
     </h3>
 
@@ -3019,106 +3156,6 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <a href="/talk/2026-uzbekistan-virtual/" >
       <img src="/talk/2026-uzbekistan-virtual/featured_hu6510a6988a7a01854afb43a39e428d2a_284265_150x0_resize_q90_lanczos.jpeg" alt="Delivered WCO Virtual Risk Management Workshop for Uzbekistan Customs">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/talk/2026-mof-workshop/" >Facilitating the Ministry of Finance Workshop: AI for Public Sector Efficiency</a>
-    </h3>
-
-    
-    <a href="/talk/2026-mof-workshop/" class="summary-link">
-      <div class="article-style">
-        I am pleased to engage with senior government officials of Nepal on the potential of Artificial Intelligence in the public sector, including ways to enhance efficiency and manage associated risks. The discussion, hosted by the Ministry of Finance, included participation from officials of various ministries focused on aligning AI with national development goals. This session underscored the importance of ethical AI governance and the strategic use of data to modernize public administration.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Jan 24, 2026 10:00 AM &mdash; 12:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Kathmandu, Nepal</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/2026-mof-workshop/" >
-      <img src="/talk/2026-mof-workshop/featured_hu47d0e2324679f7a2c6430d71981d40ed_51526_150x0_resize_q90_lanczos.jpeg" alt="Facilitating the Ministry of Finance Workshop: AI for Public Sector Efficiency">
     </a>
     
   </div>
