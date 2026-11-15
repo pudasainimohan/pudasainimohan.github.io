@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.23805b2566beb0157518054ac333e7d1.css">
+  <link rel="stylesheet" href="/css/academic.min.9e28bfe6356fe935f290070f7d8c90e1.css">
 
   
 
@@ -276,8 +276,8 @@
 
   
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu025626cf75a825d12427dfcd43bc4028_22239_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu025626cf75a825d12427dfcd43bc4028_22239_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://pudasainimohan.com.np/">
 
@@ -498,7 +498,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks" data-target="#talks"><span>Programs</span></a>
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Programmes</span></a>
         </li>
 
         
@@ -771,6 +771,7 @@
           </a>
         </h3>
         
+        <p class="profile-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Brussels, Belgium</p>
       </div>
 
       
@@ -838,38 +839,28 @@
   
 
     </div>
+    
+    <div class="bio-fr" lang="fr">
+      <span class="bio-fr-label"><i class="fas fa-language" aria-hidden="true"></i> En français</span>
+      Mohan Pudasaini est chargé de projet à l’Organisation mondiale des douanes (OMD) et expert accrédité de l’OMD, conseiller technique et opérationnel en gestion des risques douaniers et en analyse des données. Fort de plus de dix ans d’expérience dans les douanes et le secteur public, dont neuf ans comme analyste des risques et des données aux Douanes du Népal, il travaille sur l’application de l’analyse des données et de l’intelligence artificielle à la gestion des risques, à la facilitation des échanges et à la modernisation douanière, et contribue aux programmes de renforcement des capacités de l’OMD dans le monde entier.
+    </div>
+    
   </div>
 
   <div class="col-12">
-    <div class="about-facts">
-      
-      <div class="about-block interests-div">
-        <h3><i class="fas fa-lightbulb" aria-hidden="true"></i> Interests</h3>
-        <ul class="interest-chips">
-          <li>Customs and International Trade</li><li>Machine Learning and AI</li><li>Data Analytics</li><li>Risk Management</li><li>Trade Facilitation</li>
-        </ul>
-      </div>
-      
-
-      
-      <div class="about-block education-div">
-        <h3><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h3>
-        <ul class="edu-list">
-          
-          <li>
-            <p class="course">Master&#39;s Degree in Mathematics</p>
-            <p class="institution">Tribhuvan University, Nepal &middot; 2015</p>
-          </li>
-          
-          <li>
-            <p class="course">Artificial Intelligence and Machine Learning</p>
-            <p class="institution">Sungkyunkwan University, South Korea &middot; 2024</p>
-          </li>
-          
-        </ul>
-      </div>
-      
-    </div>
+    
+    
+    
+    
+    
+    
+    
+    <ul class="stat-strip">
+      <li><a href="/#talks"><b>42</b><span>Programmes &amp; missions</span></a></li>
+      <li><a href="/#international-experience"><b>15</b><span>Countries</span></a></li>
+      <li><a href="/#accomplishments"><b>2</b><span>WCO accreditations</span></a></li>
+      <li><a href="/experience/"><b>12+</b><span>Years in public service</span></a></li>
+    </ul>
   </div>
 </div>
 
@@ -923,7 +914,7 @@
   <div class="section-heading">
     <h1>International Experience</h1>
   </div>
-  <p class="intl-exp-sub">Countries I've worked in through WCO missions, workshops, and international programs. Click a highlighted country to see programs there.</p>
+  <p class="intl-exp-sub">Countries I've worked in through WCO missions, workshops, and international programmes. Click a highlighted country to see programmes there.</p>
   <div id="map-wrapper">
     <div id="world-map" style="width:100%;"></div>
     <div id="country-popup" class="intl-exp-popup" style="display:none;">
@@ -1088,7 +1079,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var TALKS_JSON_URL = "/talk/index.json";  // generated automatically by Hugo
   var MAX_EVENTS_SHOWN = 5;                 // cap per-country list length before adding a "see all" link
-  var MORE_LABEL = "See all programs \u2192";
+  var MORE_LABEL = "See all programmes \u2192";
   var MORE_URL = "/talk/";                  // fallback link when a country's list is truncated
 
   var wrapper = document.getElementById("map-wrapper");
@@ -1176,7 +1167,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function (talks) {
       var experienceData = buildExperienceData(talks);
 
-      // One colour per bucket: amber = home base, darker indigo = more programs.
+      // One colour per bucket: amber = home base, darker indigo = more programmes.
       // Counts use the full, untruncated list of talks.
       var fullCounts = {};
       var homeCodes = {};
@@ -1233,7 +1224,7 @@ document.addEventListener("DOMContentLoaded", function () {
         zoomButtons: true,
         zoomOnScroll: false,
         regionStyle: {
-          initial: { fill: "#e4e6f5" },
+          initial: { fill: "#d8dbe6", stroke: "#ffffff", strokeWidth: 0.6 },
           hover: { fillOpacity: 0.75, cursor: "pointer" }
         },
         series: {
@@ -1241,7 +1232,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
               attribute: "fill",
               values: values,
-              scale: { home: "#f2a950", c1: "#9fa8da", c2: "#7986cb", c3: "#3f51b5" }
+              scale: { home: "#f2a950", c1: "#7986cb", c2: "#5c6bc0", c3: "#303f9f" }
             }
           ]
         },
@@ -1341,7 +1332,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="row">
   <div class="col-12 section-heading">
-    <h1>Recent Programs</h1>
+    <h1>Recent Programmes</h1>
     
   </div>
   <div class="col-12">
@@ -1569,7 +1560,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     <div class="section-cta">
-      <a class="btn btn-primary" href="/talk/">See all programs &rarr;</a>
+      <a class="btn btn-primary" href="/talk/">See all programmes &rarr;</a>
     </div>
     
   </div>
@@ -1697,7 +1688,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   <div class="cred-links">
     
-    <a href="/post/202601-icd-honored/">Read more &rarr;</a>
+    <a href="/post/202601-icd-honoured/">Read more &rarr;</a>
   </div>
   
 </article>
@@ -1957,10 +1948,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <summary>Responsibilities</summary>
         <div class="xp-desc"><p>Responsibilities include:</p>
 <ul>
-<li>Collecting and analyzing large sets of data to identify patterns and trends related to Customs operations.</li>
+<li>Collecting and analysing large sets of data to identify patterns and trends related to Customs operations.</li>
 <li>Creating reports and visualizations to communicate findings and recommendations to relevant stakeholders.</li>
-<li>Monitoring and analyzing key performance indicators.</li>
-<li>Identifying, assessing, and analyzing potential risks to Customs operations.</li>
+<li>Monitoring and analysing key performance indicators.</li>
+<li>Identifying, assessing, and analysing potential risks to Customs operations.</li>
 <li>Developing and implementing risk management strategies to mitigate identified risks.</li>
 <li>Advising on compliance with relevant laws, regulations, and standards related to risk management and security.</li>
 <li>Using statistical and machine learning techniques to build predictive models that can be used to forecast future trends and identify areas of risk.</li>
@@ -2079,9 +2070,9 @@ document.addEventListener("DOMContentLoaded", function () {
       
       
       <a href="/gallery/certificate-of-honour-international-customs-day-nepal-2026/certificate-of-honour-international-customs-day-nepal-2026.jpg" class="hg-item glightbox" data-gallery="home-gallery"
-         data-title="Receiving a Certificate of Honor from the Honorable Finance Minister on International Customs Day, Nepal (2026)" data-description="<a href='/gallery/certificate-of-honour-international-customs-day-nepal-2026/'>More about this photo &rarr;</a>">
-        <img src="/gallery/certificate-of-honour-international-customs-day-nepal-2026/_hu9feacd969e7869f155ad355cb23c47be_260204_979ad8463b95f15bcf1f541358628a4d.jpg" width="800" height="600" alt="Mohan Pudasaini receiving a Certificate of Honor from the Finance Minister of Nepal on International Customs Day 2026" loading="lazy" decoding="async">
-        <span class="hg-caption">Receiving a Certificate of Honor from the Honorable Finance Minister on International Customs Day, Nepal (2026)</span>
+         data-title="Receiving a Certificate of Honour from the Honourable Finance Minister on International Customs Day, Nepal (2026)" data-description="<a href='/gallery/certificate-of-honour-international-customs-day-nepal-2026/'>More about this photo &rarr;</a>">
+        <img src="/gallery/certificate-of-honour-international-customs-day-nepal-2026/_hu9feacd969e7869f155ad355cb23c47be_260204_979ad8463b95f15bcf1f541358628a4d.jpg" width="800" height="600" alt="Mohan Pudasaini receiving a Certificate of Honour from the Finance Minister of Nepal on International Customs Day 2026" loading="lazy" decoding="async">
+        <span class="hg-caption">Receiving a Certificate of Honour from the Honourable Finance Minister on International Customs Day, Nepal (2026)</span>
       </a>
     
       
@@ -2295,9 +2286,9 @@ document.addEventListener("DOMContentLoaded", function () {
       
       
       <a href="/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/wco-bacuda-scholarship-valedictorian-speech-2024_hu77e27e41311d7391d7f91d920122ce00_420618_1800x1800_fit_q85_lanczos.jpg" class="hg-item glightbox" data-gallery="home-gallery"
-         data-title="Delivering the valedictorian speech at the closing ceremony of the WCO BACUDA Data Analytics Scholarship Program, South Korea (2024)" data-description="<a href='/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/'>More about this photo &rarr;</a>" hidden>
-        <img src="/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/wco-bacuda-scholarship-valedictorian-speech-2024_hu77e27e41311d7391d7f91d920122ce00_420618_800x600_fill_q80_lanczos_smart1.jpg" width="800" height="600" alt="Mohan Pudasaini delivering the valedictorian speech at the closing of the WCO BACUDA data analytics scholarship program in South Korea" loading="lazy" decoding="async">
-        <span class="hg-caption">Delivering the valedictorian speech at the closing ceremony of the WCO BACUDA Data Analytics Scholarship Program, South Korea (2024)</span>
+         data-title="Delivering the valedictorian speech at the closing ceremony of the WCO BACUDA Data Analytics Scholarship Programme, South Korea (2024)" data-description="<a href='/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/'>More about this photo &rarr;</a>" hidden>
+        <img src="/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/wco-bacuda-scholarship-valedictorian-speech-2024_hu77e27e41311d7391d7f91d920122ce00_420618_800x600_fill_q80_lanczos_smart1.jpg" width="800" height="600" alt="Mohan Pudasaini delivering the valedictorian speech at the closing of the WCO BACUDA data analytics scholarship programme in South Korea" loading="lazy" decoding="async">
+        <span class="hg-caption">Delivering the valedictorian speech at the closing ceremony of the WCO BACUDA Data Analytics Scholarship Programme, South Korea (2024)</span>
       </a>
     
       
@@ -2438,7 +2429,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="prog-media">
     
       
-      <img src="/post/202601-icd-honored/featured_hu9feacd969e7869f155ad355cb23c47be_260204_640x360_fill_q80_lanczos_smart1.jpg" width="640" height="360" alt="Honored by the Honourable Finance Minister of Nepal" loading="lazy" decoding="async">
+      <img src="/post/202601-icd-honored/featured_hu9feacd969e7869f155ad355cb23c47be_260204_640x360_fill_q80_lanczos_smart1.jpg" width="640" height="360" alt="Honoured by the Honourable Finance Minister of Nepal" loading="lazy" decoding="async">
     
     <span class="prog-date">
       <span class="prog-date-month">Jan</span>
@@ -2452,8 +2443,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="prog-location"><i class="far fa-clock" aria-hidden="true"></i> 1 min read</span>
       
     </div>
-    <h3 class="prog-title">Honored by the Honourable Finance Minister of Nepal</h3>
-    <p class="prog-summary">I was honored to be recognized on the occasion of International Customs Day 2026 by the Honourable Finance Minister of Nepal, in the presence of the Finance Secretary, secretaries from various ministries, senior Customs officials, representatives from the private sector, and members of the media.</p>
+    <h3 class="prog-title">Honoured by the Honourable Finance Minister of Nepal</h3>
+    <p class="prog-summary">I was honoured to be recognized on the occasion of International Customs Day 2026 by the Honourable Finance Minister of Nepal, in the presence of the Finance Secretary, secretaries from various ministries, senior Customs officials, representatives from the private sector, and members of the media.</p>
   </div>
 </a>
 
@@ -2521,7 +2512,7 @@ document.addEventListener("DOMContentLoaded", function () {
       
     </div>
     <h3 class="prog-title">Second WCO Accreditation Achieved: Technical and Operational Advisor in Data Analytics</h3>
-    <p class="prog-summary">I am honored to share that I have recently been accredited by the World Customs Organization (WCO) as a Technical and Operational Advisor in the area of Data Analytics. This marks my second accreditation from the WCO, following my earlier recognition as an expert in Risk Management.</p>
+    <p class="prog-summary">I am honoured to share that I have recently been accredited by the World Customs Organization (WCO) as a Technical and Operational Advisor in the area of Data Analytics. This marks my second accreditation from the WCO, following my earlier recognition as an expert in Risk Management.</p>
   </div>
 </a>
 
@@ -2779,6 +2770,16 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="container">
     
 <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms of Use</a>
+    
+  </p>
   
 
   
