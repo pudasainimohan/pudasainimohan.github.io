@@ -1,6 +1,15 @@
 [
 {
-  "title": "Presented at the 6th WCO RTC Indonesia International Conference",
+  "title": "WCO National Workshop on Data Analytics for Cuba Customs",
+  "url": "https://pudasainimohan.com.np/talk/2026-cuba/",
+  "date_label": "Nov 2, 2026",
+  "date_iso": "2026-11-02",
+  "country_code": ["CU"],
+  "country_name": ["Cuba"],
+  "home_base": false
+},
+{
+  "title": "WCO Presentation at the 6th WCO RTC Indonesia International Conference",
   "url": "https://pudasainimohan.com.np/talk/2026-indinesia-virtual/",
   "date_label": "Oct 21, 2026",
   "date_iso": "2026-10-21",
@@ -9,7 +18,7 @@
   "home_base": false
 },
 {
-  "title": "Co-facilitated WCO-WTO Data Analytics Workshop for Niger and Togo in Lomé",
+  "title": "WCO-WTO Data Analytics Workshop for Niger and Togo Customs",
   "url": "https://pudasainimohan.com.np/talk/2026-togo/",
   "date_label": "Oct 5, 2026",
   "date_iso": "2026-10-05",
@@ -18,7 +27,7 @@
   "home_base": false
 },
 {
-  "title": "Participated in International Seminar on Trade Facilitation in Peru",
+  "title": "WCO Presentation at the International Seminar on Trade Facilitation in Peru",
   "url": "https://pudasainimohan.com.np/talk/2026-peru-virtual/",
   "date_label": "Jul 8, 2026",
   "date_iso": "2026-07-08",
@@ -27,7 +36,7 @@
   "home_base": false
 },
 {
-  "title": "Facilitated WCO Workshop on Risk Management and Data Analytics in Uzbekistan",
+  "title": "WCO Workshop on Risk Management and Data Analytics for Uzbekistan Customs",
   "url": "https://pudasainimohan.com.np/talk/2026-uzbekistan/",
   "date_label": "Jun 15, 2026",
   "date_iso": "2026-06-15",
@@ -153,7 +162,7 @@
   "home_base": false
 },
 {
-  "title": "Participated as Panelist at Paperless Trade Week 2025",
+  "title": "Participated as a Panelist at Paperless Trade Week 2025",
   "url": "https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/",
   "date_label": "Jun 9, 2025",
   "date_iso": "2025-06-09",
@@ -207,7 +216,7 @@
   "home_base": true
 },
 {
-  "title": "Presented at the  WCO Working Group on Data and Statistics: Harnessing AI for Customs Efficiency - A BACUDA Experience",
+  "title": "Presented at the WCO Working Group on Data and Statistics: Harnessing AI for Customs Efficiency - A BACUDA Experience",
   "url": "https://pudasainimohan.com.np/talk/2024_wgds/",
   "date_label": "Oct 7, 2024",
   "date_iso": "2024-10-07",
@@ -225,7 +234,7 @@
   "home_base": true
 },
 {
-  "title": "Mastering  Research  Data  Analysis with  R",
+  "title": "Mastering Research Data Analysis with R",
   "url": "https://pudasainimohan.com.np/talk/2024_rworkshop/",
   "date_label": "Aug 4, 2024",
   "date_iso": "2024-08-04",
@@ -270,7 +279,7 @@
   "home_base": false
 },
 {
-  "title": " Navigating the \"Artificial Intelligence in Border Management\" Course",
+  "title": "Navigating the \"Artificial Intelligence in Border Management\" Course",
   "url": "https://pudasainimohan.com.np/talk/2023_uvic/",
   "date_label": "Jul 24, 2023",
   "date_iso": "2023-07-24",
@@ -279,7 +288,7 @@
   "home_base": false
 },
 {
-  "title": "US Department of Energy Conducted:Nepal Border Security Workshop",
+  "title": "Nepal Border Security Workshop Conducted by the US Department of Energy",
   "url": "https://pudasainimohan.com.np/talk/2023_radioactive/",
   "date_label": "Mar 23, 2023",
   "date_iso": "2023-03-23",
@@ -297,7 +306,7 @@
   "home_base": true
 },
 {
-  "title": "Participated WCO Pre-Accreditation workshop on Risk Managemet",
+  "title": "Participated in the WCO Pre-Accreditation Workshop on Risk Management",
   "url": "https://pudasainimohan.com.np/talk/2022_rm_accreditation/",
   "date_label": "Nov 21, 2022",
   "date_iso": "2022-11-21",
@@ -315,7 +324,7 @@
   "home_base": true
 },
 {
-  "title": "Department of Customs organized Workshop on Risk Management at Pokhara",
+  "title": "Department of Customs Workshop on Risk Management in Pokhara",
   "url": "https://pudasainimohan.com.np/talk/2022_pokhara/",
   "date_label": "Aug 8, 2022",
   "date_iso": "2022-08-08",
@@ -351,7 +360,7 @@
   "home_base": true
 },
 {
-  "title": "Trade Data Analysis Workshop in Mininstry of Industries Commerce and Supplies, Nepal",
+  "title": "Trade Data Analysis Workshop at the Ministry of Industry, Commerce and Supplies, Nepal",
   "url": "https://pudasainimohan.com.np/talk/2021_moics/",
   "date_label": "Jul 8, 2021",
   "date_iso": "2021-07-08",

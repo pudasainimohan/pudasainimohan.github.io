@@ -7,7 +7,7 @@
     <description>List</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2026 Mohan Pudasaini </copyright><lastBuildDate>Mon, 13 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_512x512_fill_lanczos_center_3.png</url>
+      <url>https://pudasainimohan.com.np/img/og-card.jpg</url>
       <title>List</title>
       <link>https://pudasainimohan.com.np/tag/list/</link>
     </image>
@@ -44,13 +44,13 @@ my_list[0]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 100.232, True]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;here, The expression &lt;code&gt;my_list[1:] &lt;/code&gt; is a slice of the list that starts from the index 1 and goes until the end of the list. In other words, it returns all the elements of the list except for the first one&lt;/p&gt;
+&lt;p&gt;Here, the expression &lt;code&gt;my_list[1:] &lt;/code&gt; is a slice of the list that starts from the index 1 and goes until the end of the list. In other words, it returns all the elements of the list except for the first one&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list[::2]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 100.232, True]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The expression &lt;code&gt;my_list[::2] &lt;/code&gt; is a slice of the list that starts from the first element (index 0) and goes until the end of the list, taking steps of 2. In other words, it returns every other element of the list, starting from the first one&lt;/p&gt;
-&lt;h3 id=&#34;concatinating-list&#34;&gt;Concatinating list&lt;/h3&gt;
+&lt;h3 id=&#34;concatenating-lists&#34;&gt;Concatenating Lists&lt;/h3&gt;
 &lt;p&gt;You can concatenate two or more lists using the + operator. The + operator creates a new list that is the combination of the elements from the original lists.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;my_list + [&#39;new item&#39;]
 &lt;/code&gt;&lt;/pre&gt;
@@ -69,7 +69,7 @@ my_list = my_list + [&#39;new1&#39;]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;[&#39;Ram&#39;, 23, 100.232, &#39;Book&#39;, True, &#39;new1&#39;]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The&lt;code&gt; * &lt;/code&gt; operator can  be utilized for duplication, similar to strings,for example&lt;/p&gt;
+&lt;p&gt;The&lt;code&gt; * &lt;/code&gt; operator can be used for duplication, similar to strings, for example:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 my_list * 2
 &lt;/code&gt;&lt;/pre&gt;
@@ -138,7 +138,7 @@ print(my_list)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;[2, 3, 4, [&#39;Book&#39;, &#39;Copy&#39;],  &#39;Book&#39;, &#39;Copy&#39;]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The difference between extend() and append() is that the extend method modifies the original list my_list, adding the elements of my_list1 to the end of it. On the other hand, the append() methods creates a new list that contains the elements of both my_list and my_list1.&lt;/p&gt;
+&lt;p&gt;The difference between extend() and append() is that extend() adds each element of my_list1 to the end of my_list, while append() adds my_list1 as a single element, creating a nested list.&lt;/p&gt;
 &lt;h3 id=&#34;nesting-lists&#34;&gt;Nesting Lists&lt;/h3&gt;
 &lt;p&gt;The term &amp;ldquo;nesting lists&amp;rdquo; refers to creating a list that contains other lists as its elements. This can be useful when you want to group related items together&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s see how this works!&lt;/p&gt;

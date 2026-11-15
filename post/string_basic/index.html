@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en-us" >
 
+
 <head>
 
   <meta charset="utf-8">
@@ -27,7 +28,17 @@
   
     
   
-  <meta name="description" content=" Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings">
+  
+  
+  
+  <meta name="description" content="Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings">
+  
+  
+  
+    
+  
+  <meta name="keywords" content="Mohan Pudasaini, Mohan Kumar Pudasaini, Customs expert, WCO expert, WCO accredited expert, World Customs Organization, Customs risk management, trade facilitation, Customs modernization, AI expert, artificial intelligence in Customs, data analytics, Customs data analytics, machine learning, Nepal Customs, Python Basics, String, Data Science">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   
   <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/string_basic/">
@@ -277,7 +288,11 @@
   <meta property="og:site_name" content="Mohan Pudasaini">
   <meta property="og:url" content="https://pudasainimohan.com.np/post/string_basic/">
   <meta property="og:title" content="An Introduction to Strings in Python | Mohan Pudasaini">
-  <meta property="og:description" content=" Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings"><meta property="og:image" content="https://pudasainimohan.com.np/post/string_basic/featured.png">
+  <meta property="twitter:title" content="An Introduction to Strings in Python | Mohan Pudasaini">
+  <meta property="twitter:description" content="Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings">
+  <meta property="og:type" content="article">
+  
+  <meta property="og:description" content="Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings"><meta property="og:image" content="https://pudasainimohan.com.np/post/string_basic/featured.png">
   <meta property="twitter:image" content="https://pudasainimohan.com.np/post/string_basic/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -331,7 +346,7 @@
       "url": "https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": " Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings"
+  "description": "Basics of strings in Python, including how to create strings, use indexing and slicing to access individual characters, and understand the immutability property of strings"
 }
 </script>
 
@@ -449,7 +464,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#skills"><span>Areas of Practice</span></a>
         </li>
 
         
@@ -527,9 +542,16 @@
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -695,7 +717,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    6 min read
+    5 min read
   </span>
   
 
@@ -771,14 +793,14 @@ SyntaxError: invalid syntax
 <pre><code>'I'm passionate about data science'
 </code></pre>
 <h3 id="printing-a-string">Printing a String</h3>
-<p>The example above only displays one output despite having two lines of input. Is your assumption that it&rsquo;s due to the identical sentences ? It&rsquo;s important to note that simply entering a string in a Jupyter notebook cell will result in automatic output, but to display multiple strings properly, the <strong>print</strong> function should be utilized. to show both line we can do as follow</p>
+<p>The example above only displays one output despite having two lines of input. Is it because the sentences are identical? It&rsquo;s important to note that simply entering a string in a Jupyter notebook cell will result in automatic output, but to display multiple strings properly, the <strong>print</strong> function should be utilized. To show both lines, we can do the following:</p>
 <pre><code class="language-python">print(&quot;I'm passionate about data science&quot;)
 print('I\'m passionate about data science')
 </code></pre>
 <pre><code>I'm passionate about data science
 I'm passionate about data science
 </code></pre>
-<p>We can use a print statement to print a string. here are some examples and their outputs:</p>
+<p>We can use a print statement to print a string. Here are some examples and their outputs:</p>
 <pre><code class="language-python">print('Hello World 1')
 print('Hello World 2')
 print('Use \n to print a new line')
@@ -800,7 +822,7 @@ See what I mean?
 <pre><code>11
 </code></pre>
 <h3 id="string-indexing">String Indexing</h3>
-<p>string indexing is a process of accessing individual characters in a string using an index. The index of a character in a string starts from 0, and the last character in a string has an index of len(string) - 1. You can access a character at a specific index in a string using square brackets <code>[]</code>. Let&rsquo;s learn how this works.</p>
+<p>String indexing is the process of accessing individual characters in a string using an index. The index of a character in a string starts from 0, and the last character in a string has an index of len(string) - 1. You can access a character at a specific index in a string using square brackets <code>[]</code>. Let&rsquo;s learn how this works.</p>
 <pre><code class="language-python">Assign s as string and print it
 s = 'Hello World'
 Print(s)
@@ -821,7 +843,7 @@ s[0]
 </code></pre>
 <pre><code>'ello World'
 </code></pre>
-<p>here, [1:] is a slice of the string that starts from the second character (index 1) and goes to the end of the string.</p>
+<p>Here, [1:] is a slice of the string that starts from the second character (index 1) and goes to the end of the string.</p>
 <pre><code class="language-python">s[:3]
 </code></pre>
 <pre><code>'Hel'
@@ -832,18 +854,18 @@ We can also use negative indexing to go backwards.</p>
 </code></pre>
 <pre><code>'d'
 </code></pre>
-<p>We can extract elements from a sequence by using index and slice notation, where the step size  can be specified. To do so, we can use two colons followed by a number that represents the frequency of extraction. For example, to retrieve all elements with a step size of 2, we can use the following syntax.</p>
+<p>We can extract elements from a sequence by using index and slice notation, where the step size can be specified. To do so, we can use two colons followed by a number that represents the frequency of extraction. For example, to retrieve all elements with a step size of 2, we can use the following syntax.</p>
 <pre><code class="language-python">s[::2]
 </code></pre>
 <pre><code>'HloWrd'
 </code></pre>
-<p>Similary, We can use this to print a string backwards too</p>
+<p>Similarly, we can use this to print a string backwards too</p>
 <pre><code class="language-python">s[::-1]
 </code></pre>
 <pre><code>'dlroW olleH'
 </code></pre>
 <h3 id="string-properties">String Properties</h3>
-<p>It&rsquo;s important to note that strings have an important property known as <em>immutability</em>. This means that once a string is created, the elements within it can not be changed or replaced. For example:</p>
+<p>It&rsquo;s important to note that strings have an important property known as <em>immutability</em>. This means that once a string is created, the elements within it cannot be changed or replaced. For example:</p>
 <pre><code class="language-python">s
 </code></pre>
 <pre><code>'Hello World'
@@ -870,7 +892,7 @@ print(s)
 </code></pre>
 <pre><code>'Hello World concatenate me!'
 </code></pre>
-<p>we can use the multiplication operator to achieve repetition of elements.</p>
+<p>We can use the multiplication operator to achieve repetition of elements.</p>
 <pre><code class="language-python">letter = 'z'
 </code></pre>
 <pre><code class="language-python">letter*10
@@ -909,7 +931,7 @@ s.split('W')
 </code></pre>
 <pre><code>['Hello ', 'orld concatenate me!']
 </code></pre>
-<p>There are many more methods than the ones covered here. we will cover it on future posts</p>
+<p>There are many more methods than the ones covered here. We will cover them in future posts.</p>
 <h3 id="print-formatting">Print Formatting</h3>
 <p>We can use the .format() method to add formatted objects to printed string statements.</p>
 <p>The easiest way to show this is through an example:</p>
@@ -937,7 +959,9 @@ s.split('W')
 
 
 
-<div class="share-box" aria-hidden="true">
+
+<div class="share-box">
+  <p class="share-label">Share</p>
   <ul class="share">
     
       
@@ -948,9 +972,7 @@ s.split('W')
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/string_basic/&amp;text=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_basic%2F" target="_blank" rel="noopener" class="share-btn share-btn-facebook" aria-label="Share on Facebook" title="Share on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
       </li>
     
       
@@ -961,9 +983,16 @@ s.split('W')
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/string_basic/&amp;t=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_basic%2F" target="_blank" rel="noopener" class="share-btn share-btn-linkedin" aria-label="Share on LinkedIn" title="Share on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+      </li>
+    
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_basic%2F&amp;text=An&#43;Introduction&#43;to&#43;Strings&#43;in&#43;Python" target="_blank" rel="noopener" class="share-btn share-btn-x" aria-label="Share on X" title="Share on X"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
       </li>
     
       
@@ -974,48 +1003,7 @@ s.split('W')
       
       
       <li>
-        <a href="mailto:?subject=An%20Introduction%20to%20Strings%20in%20Python&amp;body=https://pudasainimohan.com.np/post/string_basic/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/string_basic/&amp;title=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=An%20Introduction%20to%20Strings%20in%20Python%20https://pudasainimohan.com.np/post/string_basic/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/string_basic/&amp;title=An%20Introduction%20to%20Strings%20in%20Python" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
+        <a href="https://api.whatsapp.com/send?text=An&#43;Introduction&#43;to&#43;Strings&#43;in&#43;Python%20https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_basic%2F" target="_blank" rel="noopener" class="share-btn share-btn-whatsapp" aria-label="Share on WhatsApp" title="Share on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
       </li>
     
   </ul>
@@ -1128,7 +1116,7 @@ s.split('W')
       
       <li><a href="/post/string_formating/">String Formatting in Python</a></li>
       
-      <li><a href="/post/arithmetic_python/">Numbers and airthmetic Operators in Python</a></li>
+      <li><a href="/post/arithmetic_python/">Numbers and Arithmetic Operators in Python</a></li>
       
     </ul>
   </div>
@@ -1245,9 +1233,40 @@ s.split('W')
     <script src="/js/academic.min.401ba81ed535f2e599b326a63fb33682.js"></script>
 
     
+<a href="#top" class="to-top" aria-label="Back to top" hidden><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+<script>
+(function () {
+  
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && !reduce) {
+    document.documentElement.classList.add("js-reveal");
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { rootMargin: "0px 0px -40px 0px", threshold: 0.05 });
+    document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+  }
 
-
-
+  
+  var btn = document.querySelector(".to-top");
+  if (btn) {
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        btn.hidden = window.scrollY < 700;
+        ticking = false;
+      });
+    }, { passive: true });
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+  }
+})();
+</script>
 
 
 

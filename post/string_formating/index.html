@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en-us" >
 
+
 <head>
 
   <meta charset="utf-8">
@@ -27,7 +28,17 @@
   
     
   
-  <meta name="description" content="Comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as well as techniques for controlling the display of floating-point numbers in string formatting">
+  
+  
+  
+  <meta name="description" content="Comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as …">
+  
+  
+  
+    
+  
+  <meta name="keywords" content="Mohan Pudasaini, Mohan Kumar Pudasaini, Customs expert, WCO expert, WCO accredited expert, World Customs Organization, Customs risk management, trade facilitation, Customs modernization, AI expert, artificial intelligence in Customs, data analytics, Customs data analytics, machine learning, Nepal Customs, Python Basics, String, Data Science">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   
   <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/string_formating/">
@@ -277,7 +288,11 @@
   <meta property="og:site_name" content="Mohan Pudasaini">
   <meta property="og:url" content="https://pudasainimohan.com.np/post/string_formating/">
   <meta property="og:title" content="String Formatting in Python | Mohan Pudasaini">
-  <meta property="og:description" content="Comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as well as techniques for controlling the display of floating-point numbers in string formatting"><meta property="og:image" content="https://pudasainimohan.com.np/post/string_formating/featured.png">
+  <meta property="twitter:title" content="String Formatting in Python | Mohan Pudasaini">
+  <meta property="twitter:description" content="Comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as …">
+  <meta property="og:type" content="article">
+  
+  <meta property="og:description" content="Comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as …"><meta property="og:image" content="https://pudasainimohan.com.np/post/string_formating/featured.png">
   <meta property="twitter:image" content="https://pudasainimohan.com.np/post/string_formating/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -331,7 +346,7 @@
       "url": "https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as well as techniques for controlling the display of floating-point numbers in string formatting"
+  "description": "Comprehensive overview of the three methods for string formatting in Python - Placeholder Method using % character, .format() Method, and f-strings. The article explores each of these methods with examples, and provides a detailed explanation of the differences between the %s and %r placeholders, as …"
 }
 </script>
 
@@ -449,7 +464,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#skills"><span>Areas of Practice</span></a>
         </li>
 
         
@@ -527,9 +542,16 @@
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -751,12 +773,12 @@
 </ul>
 <h3 id="formatting-with-placeholders">Formatting with placeholders</h3>
 <p>In Python, there are several placeholders that can be utilized for string formatting purposes. These placeholders include <code> %s, %r, and %d</code>.
-lets&rsquo; look some example of each placeholder:</p>
+Let&rsquo;s look at some examples of each placeholder:</p>
 <pre><code class="language-python">print(&quot;I'm going to insert %s into the code.&quot; %'new text')
 </code></pre>
 <pre><code>I'm going to insert new text into the code.
 </code></pre>
-<p>In this example,  The string &ldquo;I&rsquo;m going to insert <code>%s</code> into the code.&rdquo; serves as a template and includes a placeholder, represented by the <code>%s</code>. This placeholder indicates where a value should be inserted into the string.</p>
+<p>In this example, the string &ldquo;I&rsquo;m going to insert <code>%s</code> into the code.&rdquo; serves as a template and includes a placeholder, represented by the <code>%s</code>. This placeholder indicates where a value should be inserted into the string.</p>
 <p>The value that is inserted into the string is &rsquo;new text&rsquo;, which is specified after the <code>%</code> operator. When the code is executed, the output is the string &ldquo;I&rsquo;m going to insert new text into the code.&rdquo;, which shows how the value of &rsquo;new text&rsquo; has been incorporated into the template string.</p>
 <pre><code class="language-python">print(&quot;I'm going to insert %s information here, and %s data here.&quot; %('critical','additional'))
 </code></pre>
@@ -768,8 +790,8 @@ print(&quot;I'm going to insert %s information here, and %s data here.&quot; %(a
 </code></pre>
 <pre><code>I'm going to insert important information here, and updated data here.
 </code></pre>
-<p>here, the variables a and b are assigned the values &lsquo;important&rsquo; and &lsquo;updated&rsquo; respectively. These variables are then used in the string formatting expression to insert the values into the corresponding placeholders in the string. This demonstrates that the values assigned to the variables can be changed easily, making the output dynamic and flexible.</p>
-<p>It should be noted that two methods <code>%s</code> and <code>%r</code> convert any python object to a string using two separate methods: <code>str()</code> and <code>repr()</code>. We will learn more about these functions on upcomming posts, but you should note that <code>%r</code> and <code>repr()</code> deliver the <em>string representation</em> of the object, including quotation marks and any escape characters. for example:</p>
+<p>Here, the variables a and b are assigned the values &lsquo;important&rsquo; and &lsquo;updated&rsquo; respectively. These variables are then used in the string formatting expression to insert the values into the corresponding placeholders in the string. This demonstrates that the values assigned to the variables can be changed easily, making the output dynamic and flexible.</p>
+<p>It should be noted that two methods <code>%s</code> and <code>%r</code> convert any Python object to a string using two separate methods: <code>str()</code> and <code>repr()</code>. We will learn more about these functions in upcoming posts, but you should note that <code>%r</code> and <code>repr()</code> deliver the <em>string representation</em> of the object, including quotation marks and any escape characters. For example:</p>
 <pre><code class="language-python">print('My name is  %s.' %'Mohan')
 print('My name is  %r.' %'Mohan')
 </code></pre>
@@ -777,7 +799,7 @@ print('My name is  %r.' %'Mohan')
 My name is  'Mohan'.
 </code></pre>
 <p>In this example, the string &lsquo;Mohan&rsquo; is being inserted into the sentence &lsquo;My name is %s.&rsquo; and &lsquo;My name is %r.&rsquo; using string formatting.</p>
-<p>The %s placeholder is a placeholder for a string, and the % symbol followed by &lsquo;Mohan&rsquo; in parentheses is used to replace the %s placeholder with the string &lsquo;Mohan&rsquo;. similarly, The %r placeholder is a placeholder for a string representation of an object, which can be useful for debugging purposes. In this case, the string representation of the string &lsquo;Mohan&rsquo; is &lsquo;Mohan&rsquo;, so the %r placeholder is replaced with &lsquo;Mohan&rsquo;. let&rsquo;s look another example of %r and %s</p>
+<p>The %s placeholder is a placeholder for a string, and the % symbol followed by &lsquo;Mohan&rsquo; in parentheses is used to replace the %s placeholder with the string &lsquo;Mohan&rsquo;. Similarly, the %r placeholder is a placeholder for a string representation of an object, which can be useful for debugging purposes. In this case, the string representation of the string &lsquo;Mohan&rsquo; is &lsquo;Mohan&rsquo;, so the %r placeholder is replaced with &lsquo;Mohan&rsquo;. Let&rsquo;s look at another example of %r and %s</p>
 <pre><code class="language-python">words = 'catch\nand\nrelease'
 
 print('Remember to %s.' % ('catch\nand\nrelease'))
@@ -788,7 +810,7 @@ and
 release.
 Remember to 'catch\nand\nrelease'.
 </code></pre>
-<p>here, first line&rsquo;s result comes in three lines and the second line&rsquo;s result comes in one line is due to the difference between <code>%s and %r</code>.</p>
+<p>Here, the first result is printed on three lines and the second on one line because of the difference between <code>%s and %r</code>.</p>
 <p>%s is used to insert a string representation of an object into a string, which means that any newline characters (\n) in the string representation will be displayed as separate lines in the output.</p>
 <p>On the other hand,<code> %r </code> is used to insert a raw, string representation of an object into a string, which includes any escape sequences such as newline characters.</p>
 <p>The <code>%s</code> operator converts whatever it sees into a string, including integers and floats. The <code>%d</code> operator converts numbers to integers first, without rounding. Note the difference below:</p>
@@ -858,7 +880,7 @@ print('{0:&lt;8} | {1:^8} | {2:&gt;8}'.format(11,22,33))
 <pre><code>Left     |  Center  |    Right
 11       |    22    |       33
 </code></pre>
-<p>You can precede the aligment operator with a padding character</p>
+<p>You can precede the alignment operator with a padding character</p>
 <pre><code class="language-python">print('{0:=&lt;8} | {1:-^8} | {2:.&gt;8}'.format('Left','Center','Right'))
 print('{0:=&lt;8} | {1:-^8} | {2:.&gt;8}'.format(11,22,33))
 </code></pre>
@@ -874,7 +896,7 @@ This is my ten-character, two-decimal number:     13.58
 </code></pre>
 <p>Note that there are 5 spaces following the colon, and 5 characters taken up by 13.58, for a total of ten characters.</p>
 <h3 id="formatted-string-literals-f-strings">Formatted String Literals (f-strings)</h3>
-<p>Introduced in Python 3.6, f-strings offer several benefits over the older <code>.format()</code> string method described above. For one, you can bring outside variables immediately into to the string rather than pass them as arguments through <code>.format(var)</code>.</p>
+<p>Introduced in Python 3.6, f-strings offer several benefits over the older <code>.format()</code> string method described above. For one, you can bring outside variables immediately into the string rather than pass them as arguments through <code>.format(var)</code>.</p>
 <pre><code class="language-python">name = 'Fred'
 
 print(f&quot;He said his name is {name}.&quot;)
@@ -930,7 +952,9 @@ My 10 character, four decimal number is:   23.4500
 
 
 
-<div class="share-box" aria-hidden="true">
+
+<div class="share-box">
+  <p class="share-label">Share</p>
   <ul class="share">
     
       
@@ -941,9 +965,7 @@ My 10 character, four decimal number is:   23.4500
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/string_formating/&amp;text=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_formating%2F" target="_blank" rel="noopener" class="share-btn share-btn-facebook" aria-label="Share on Facebook" title="Share on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
       </li>
     
       
@@ -954,9 +976,16 @@ My 10 character, four decimal number is:   23.4500
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/string_formating/&amp;t=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_formating%2F" target="_blank" rel="noopener" class="share-btn share-btn-linkedin" aria-label="Share on LinkedIn" title="Share on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+      </li>
+    
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_formating%2F&amp;text=String&#43;Formatting&#43;in&#43;Python" target="_blank" rel="noopener" class="share-btn share-btn-x" aria-label="Share on X" title="Share on X"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
       </li>
     
       
@@ -967,48 +996,7 @@ My 10 character, four decimal number is:   23.4500
       
       
       <li>
-        <a href="mailto:?subject=String%20Formatting%20in%20Python&amp;body=https://pudasainimohan.com.np/post/string_formating/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/string_formating/&amp;title=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=String%20Formatting%20in%20Python%20https://pudasainimohan.com.np/post/string_formating/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/string_formating/&amp;title=String%20Formatting%20in%20Python" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
+        <a href="https://api.whatsapp.com/send?text=String&#43;Formatting&#43;in&#43;Python%20https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fstring_formating%2F" target="_blank" rel="noopener" class="share-btn share-btn-whatsapp" aria-label="Share on WhatsApp" title="Share on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
       </li>
     
   </ul>
@@ -1121,7 +1109,7 @@ My 10 character, four decimal number is:   23.4500
       
       <li><a href="/post/string_basic/">An Introduction to Strings in Python</a></li>
       
-      <li><a href="/post/arithmetic_python/">Numbers and airthmetic Operators in Python</a></li>
+      <li><a href="/post/arithmetic_python/">Numbers and Arithmetic Operators in Python</a></li>
       
     </ul>
   </div>
@@ -1238,9 +1226,40 @@ My 10 character, four decimal number is:   23.4500
     <script src="/js/academic.min.401ba81ed535f2e599b326a63fb33682.js"></script>
 
     
+<a href="#top" class="to-top" aria-label="Back to top" hidden><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+<script>
+(function () {
+  
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && !reduce) {
+    document.documentElement.classList.add("js-reveal");
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { rootMargin: "0px 0px -40px 0px", threshold: 0.05 });
+    document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+  }
 
-
-
+  
+  var btn = document.querySelector(".to-top");
+  if (btn) {
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        btn.hidden = window.scrollY < 700;
+        ticking = false;
+      });
+    }, { passive: true });
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+  }
+})();
+</script>
 
 
 

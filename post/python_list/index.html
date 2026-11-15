@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en-us" >
 
+
 <head>
 
   <meta charset="utf-8">
@@ -27,7 +28,17 @@
   
     
   
-  <meta name="description" content="comprehensive overview of working with lists in Python, including concepts like defining lists, accessing elements through indexing and slicing, concatenating lists, using basic list methods like append, insert, remove, pop, sort, and more.">
+  
+  
+  
+  <meta name="description" content="A comprehensive overview of working with lists in Python, including concepts like defining lists, accessing elements through indexing and slicing, concatenating lists, using basic list methods like append, insert, remove, pop, sort, and more.">
+  
+  
+  
+    
+  
+  <meta name="keywords" content="Mohan Pudasaini, Mohan Kumar Pudasaini, Customs expert, WCO expert, WCO accredited expert, World Customs Organization, Customs risk management, trade facilitation, Customs modernization, AI expert, artificial intelligence in Customs, data analytics, Customs data analytics, machine learning, Nepal Customs, Python Basics, List, Data Science">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   
   <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/python_list/">
@@ -277,7 +288,11 @@
   <meta property="og:site_name" content="Mohan Pudasaini">
   <meta property="og:url" content="https://pudasainimohan.com.np/post/python_list/">
   <meta property="og:title" content="Working with Lists in Python | Mohan Pudasaini">
-  <meta property="og:description" content="comprehensive overview of working with lists in Python, including concepts like defining lists, accessing elements through indexing and slicing, concatenating lists, using basic list methods like append, insert, remove, pop, sort, and more."><meta property="og:image" content="https://pudasainimohan.com.np/post/python_list/featured.png">
+  <meta property="twitter:title" content="Working with Lists in Python | Mohan Pudasaini">
+  <meta property="twitter:description" content="A comprehensive overview of working with lists in Python, including concepts like defining lists, accessing elements through indexing and slicing, concatenating lists, using basic list methods like append, insert, remove, pop, sort, and more.">
+  <meta property="og:type" content="article">
+  
+  <meta property="og:description" content="A comprehensive overview of working with lists in Python, including concepts like defining lists, accessing elements through indexing and slicing, concatenating lists, using basic list methods like append, insert, remove, pop, sort, and more."><meta property="og:image" content="https://pudasainimohan.com.np/post/python_list/featured.png">
   <meta property="twitter:image" content="https://pudasainimohan.com.np/post/python_list/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -331,7 +346,7 @@
       "url": "https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "comprehensive overview of working with lists in Python, including concepts like defining lists, accessing elements through indexing and slicing, concatenating lists, using basic list methods like append, insert, remove, pop, sort, and more."
+  "description": "A comprehensive overview of working with lists in Python, including concepts like defining lists, accessing elements through indexing and slicing, concatenating lists, using basic list methods like append, insert, remove, pop, sort, and more."
 }
 </script>
 
@@ -449,7 +464,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#skills"><span>Areas of Practice</span></a>
         </li>
 
         
@@ -527,9 +542,16 @@
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -769,13 +791,13 @@ my_list[0]
 </code></pre>
 <pre><code>['Ram', 100.232, True]
 </code></pre>
-<p>here, The expression <code>my_list[1:] </code> is a slice of the list that starts from the index 1 and goes until the end of the list. In other words, it returns all the elements of the list except for the first one</p>
+<p>Here, the expression <code>my_list[1:] </code> is a slice of the list that starts from the index 1 and goes until the end of the list. In other words, it returns all the elements of the list except for the first one</p>
 <pre><code class="language-python">my_list[::2]
 </code></pre>
 <pre><code>['Ram', 100.232, True]
 </code></pre>
 <p>The expression <code>my_list[::2] </code> is a slice of the list that starts from the first element (index 0) and goes until the end of the list, taking steps of 2. In other words, it returns every other element of the list, starting from the first one</p>
-<h3 id="concatinating-list">Concatinating list</h3>
+<h3 id="concatenating-lists">Concatenating Lists</h3>
 <p>You can concatenate two or more lists using the + operator. The + operator creates a new list that is the combination of the elements from the original lists.</p>
 <pre><code class="language-python">my_list + ['new item']
 </code></pre>
@@ -794,7 +816,7 @@ my_list = my_list + ['new1']
 </code></pre>
 <pre><code>['Ram', 23, 100.232, 'Book', True, 'new1']
 </code></pre>
-<p>The<code> * </code> operator can  be utilized for duplication, similar to strings,for example</p>
+<p>The<code> * </code> operator can be used for duplication, similar to strings, for example:</p>
 <pre><code class="language-python">
 my_list * 2
 </code></pre>
@@ -863,7 +885,7 @@ print(my_list)
 </code></pre>
 <pre><code>[2, 3, 4, ['Book', 'Copy'],  'Book', 'Copy']
 </code></pre>
-<p>The difference between extend() and append() is that the extend method modifies the original list my_list, adding the elements of my_list1 to the end of it. On the other hand, the append() methods creates a new list that contains the elements of both my_list and my_list1.</p>
+<p>The difference between extend() and append() is that extend() adds each element of my_list1 to the end of my_list, while append() adds my_list1 as a single element, creating a nested list.</p>
 <h3 id="nesting-lists">Nesting Lists</h3>
 <p>The term &ldquo;nesting lists&rdquo; refers to creating a list that contains other lists as its elements. This can be useful when you want to group related items together</p>
 <p>Let&rsquo;s see how this works!</p>
@@ -909,7 +931,9 @@ matrix[0][0]
 
 
 
-<div class="share-box" aria-hidden="true">
+
+<div class="share-box">
+  <p class="share-label">Share</p>
   <ul class="share">
     
       
@@ -920,9 +944,7 @@ matrix[0][0]
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/python_list/&amp;text=Working%20with%20Lists%20in%20Python" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_list%2F" target="_blank" rel="noopener" class="share-btn share-btn-facebook" aria-label="Share on Facebook" title="Share on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
       </li>
     
       
@@ -933,9 +955,16 @@ matrix[0][0]
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/python_list/&amp;t=Working%20with%20Lists%20in%20Python" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_list%2F" target="_blank" rel="noopener" class="share-btn share-btn-linkedin" aria-label="Share on LinkedIn" title="Share on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+      </li>
+    
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_list%2F&amp;text=Working&#43;with&#43;Lists&#43;in&#43;Python" target="_blank" rel="noopener" class="share-btn share-btn-x" aria-label="Share on X" title="Share on X"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
       </li>
     
       
@@ -946,48 +975,7 @@ matrix[0][0]
       
       
       <li>
-        <a href="mailto:?subject=Working%20with%20Lists%20in%20Python&amp;body=https://pudasainimohan.com.np/post/python_list/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/python_list/&amp;title=Working%20with%20Lists%20in%20Python" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Working%20with%20Lists%20in%20Python%20https://pudasainimohan.com.np/post/python_list/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/python_list/&amp;title=Working%20with%20Lists%20in%20Python" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
+        <a href="https://api.whatsapp.com/send?text=Working&#43;with&#43;Lists&#43;in&#43;Python%20https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_list%2F" target="_blank" rel="noopener" class="share-btn share-btn-whatsapp" aria-label="Share on WhatsApp" title="Share on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
       </li>
     
   </ul>
@@ -1100,7 +1088,7 @@ matrix[0][0]
       
       <li><a href="/post/string_basic/">An Introduction to Strings in Python</a></li>
       
-      <li><a href="/post/arithmetic_python/">Numbers and airthmetic Operators in Python</a></li>
+      <li><a href="/post/arithmetic_python/">Numbers and Arithmetic Operators in Python</a></li>
       
     </ul>
   </div>
@@ -1217,9 +1205,40 @@ matrix[0][0]
     <script src="/js/academic.min.401ba81ed535f2e599b326a63fb33682.js"></script>
 
     
+<a href="#top" class="to-top" aria-label="Back to top" hidden><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+<script>
+(function () {
+  
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && !reduce) {
+    document.documentElement.classList.add("js-reveal");
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { rootMargin: "0px 0px -40px 0px", threshold: 0.05 });
+    document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+  }
 
-
-
+  
+  var btn = document.querySelector(".to-top");
+  if (btn) {
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        btn.hidden = window.scrollY < 700;
+        ticking = false;
+      });
+    }, { passive: true });
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+  }
+})();
+</script>
 
 
 

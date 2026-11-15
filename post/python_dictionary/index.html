@@ -1,5 +1,6 @@
 <!DOCTYPE html><html lang="en-us" >
 
+
 <head>
 
   <meta charset="utf-8">
@@ -27,7 +28,17 @@
   
     
   
-  <meta name="description" content="Python dictionaries are powerful and flexible data structures that store data in key-value pairs. Dictionaries are unordered, mutable, and keys are unique. This article explains how to construct, access, and modify dictionaries, as well as how to create nested dictionaries and use some of the basic dictionary methods.">
+  
+  
+  
+  <meta name="description" content="Python dictionaries are powerful and flexible data structures that store data in key-value pairs. Dictionaries are mutable, preserve insertion order (Python 3.7&#43;), and have unique keys. This article explains how to construct, access, and modify dictionaries, as well as how to create nested …">
+  
+  
+  
+    
+  
+  <meta name="keywords" content="Mohan Pudasaini, Mohan Kumar Pudasaini, Customs expert, WCO expert, WCO accredited expert, World Customs Organization, Customs risk management, trade facilitation, Customs modernization, AI expert, artificial intelligence in Customs, data analytics, Customs data analytics, machine learning, Nepal Customs, Python Basics, Dictionary, Data Science">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   
   <link rel="alternate" hreflang="en-us" href="https://pudasainimohan.com.np/post/python_dictionary/">
@@ -277,7 +288,11 @@
   <meta property="og:site_name" content="Mohan Pudasaini">
   <meta property="og:url" content="https://pudasainimohan.com.np/post/python_dictionary/">
   <meta property="og:title" content="Python Dictionaries: Key-Value Pair Mapping | Mohan Pudasaini">
-  <meta property="og:description" content="Python dictionaries are powerful and flexible data structures that store data in key-value pairs. Dictionaries are unordered, mutable, and keys are unique. This article explains how to construct, access, and modify dictionaries, as well as how to create nested dictionaries and use some of the basic dictionary methods."><meta property="og:image" content="https://pudasainimohan.com.np/post/python_dictionary/featured.png">
+  <meta property="twitter:title" content="Python Dictionaries: Key-Value Pair Mapping | Mohan Pudasaini">
+  <meta property="twitter:description" content="Python dictionaries are powerful and flexible data structures that store data in key-value pairs. Dictionaries are mutable, preserve insertion order (Python 3.7&#43;), and have unique keys. This article explains how to construct, access, and modify dictionaries, as well as how to create nested …">
+  <meta property="og:type" content="article">
+  
+  <meta property="og:description" content="Python dictionaries are powerful and flexible data structures that store data in key-value pairs. Dictionaries are mutable, preserve insertion order (Python 3.7&#43;), and have unique keys. This article explains how to construct, access, and modify dictionaries, as well as how to create nested …"><meta property="og:image" content="https://pudasainimohan.com.np/post/python_dictionary/featured.png">
   <meta property="twitter:image" content="https://pudasainimohan.com.np/post/python_dictionary/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -331,7 +346,7 @@
       "url": "https://pudasainimohan.com.np/images/icon_hufd524095cdf588a6150542fb56b950be_222925_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Python dictionaries are powerful and flexible data structures that store data in key-value pairs. Dictionaries are unordered, mutable, and keys are unique. This article explains how to construct, access, and modify dictionaries, as well as how to create nested dictionaries and use some of the basic dictionary methods."
+  "description": "Python dictionaries are powerful and flexible data structures that store data in key-value pairs. Dictionaries are mutable, preserve insertion order (Python 3.7+), and have unique keys. This article explains how to construct, access, and modify dictionaries, as well as how to create nested …"
 }
 </script>
 
@@ -449,7 +464,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#skills"><span>Areas of Practice</span></a>
         </li>
 
         
@@ -527,9 +542,16 @@
         
         
         
+          
+          
+          
+            
+          
+          
+        
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
         </li>
 
         
@@ -742,7 +764,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Python dictionaries provide a powerful way to store and organize data as key-value pairs, which is known as mapping. Unlike sequences that store objects by their relative position, mappings use a unique key to store objects. This key-based approach makes Python dictionaries incredibly versatile and suitable for representing a wide range of real-world scenarios. It&rsquo;s important to note that since mappings are not defined by order, Python dictionaries won&rsquo;t retain the order of objects. In this article, we&rsquo;ll delve into the basics of Python dictionaries, including how to construct a dictionary, access objects within it, create nested dictionaries, and use some of the basic dictionary methods.</p>
+      <p>Python dictionaries provide a powerful way to store and organize data as key-value pairs, which is known as mapping. Unlike sequences that store objects by their relative position, mappings use a unique key to store objects. This key-based approach makes Python dictionaries incredibly versatile and suitable for representing a wide range of real-world scenarios. Because values are looked up by key rather than by position, you don&rsquo;t need to know where an item is stored; since Python 3.7, dictionaries also keep items in insertion order. In this article, we&rsquo;ll delve into the basics of Python dictionaries, including how to construct a dictionary, access objects within it, create nested dictionaries, and use some of the basic dictionary methods.</p>
 <h3 id="constructing-a-dictionary">Constructing a Dictionary</h3>
 <p>In Python, you can construct a dictionary using a set of key-value pairs enclosed in curly braces {}. Each key-value pair is separated by a colon, and the pairs are separated by commas. Here&rsquo;s an example of a simple dictionary</p>
 <pre><code class="language-python">fruit = {'apple': 2, 'banana': 3, 'orange': 5}
@@ -752,27 +774,27 @@
 </code></pre>
 <pre><code>2
 </code></pre>
-<p>Its important to note that dictionaries are very flexible in the data types they can hold. For example:</p>
+<p>It&rsquo;s important to note that dictionaries are very flexible in the data types they can hold. For example:</p>
 <pre><code class="language-python">fruit = {'name': 'apple','color': 'red','vitamins': ['A', 'C']}
 </code></pre>
-<p>here Vitamin contains the list and to access the value associated with a particular key in a dictionary, you can use square bracket notation with the key inside the brackets. For example, to access the value associated with the &lsquo;vitamins&rsquo; key in the &lsquo;fruit&rsquo; dictionary, you can use the following code: fruit[&lsquo;vitamins&rsquo;]</p>
+<p>Here, &lsquo;vitamins&rsquo; contains a list. To access the value associated with a particular key in a dictionary, you can use square bracket notation with the key inside the brackets. For example, to access the value associated with the &lsquo;vitamins&rsquo; key in the &lsquo;fruit&rsquo; dictionary, you can use the following code: fruit[&lsquo;vitamins&rsquo;]</p>
 <pre><code class="language-python">fruit['vitamins']
 </code></pre>
 <pre><code>['A', 'C']
 </code></pre>
-<p>This will return the value associated with the &lsquo;vitamins&rsquo; key, which in this case is the list [&lsquo;A&rsquo;, &lsquo;C&rsquo;].Once you have the list, you can perform various operations on it. For example, you can access individual elements in the list using their index, like this: fruit[&lsquo;vitamins&rsquo;][0]. This would return the string &lsquo;A&rsquo;, which is the first item in the list.</p>
+<p>This will return the value associated with the &lsquo;vitamins&rsquo; key, which in this case is the list [&lsquo;A&rsquo;, &lsquo;C&rsquo;]. Once you have the list, you can perform various operations on it. For example, you can access individual elements in the list using their index, like this: fruit[&lsquo;vitamins&rsquo;][0]. This would return the string &lsquo;A&rsquo;, which is the first item in the list.</p>
 <pre><code class="language-python">fruit['vitamins'][0]
 </code></pre>
 <pre><code>'A'
 </code></pre>
-<p>you can also call methods on that value, for example</p>
+<p>You can also call methods on that value, for example:</p>
 <pre><code class="language-python">
 fruit['vitamins'][0].lower()
 </code></pre>
 <pre><code>'a'
 </code></pre>
 <p>This would return the string &lsquo;a&rsquo;, since the lower() method converts the string &lsquo;A&rsquo; to lowercase.</p>
-<p>you can modifiy the element of the dictionary. for example</p>
+<p>You can modify elements of the dictionary, for example:</p>
 <pre><code class="language-python">
 fruit['vitamins'].append('B')
 </code></pre>
@@ -781,7 +803,7 @@ fruit
 </code></pre>
 <pre><code>{'name': 'apple', 'color': 'red', 'vitamins': ['A', 'C', 'B']}
 </code></pre>
-<p>here, new element &lsquo;B&rsquo; to the vitamins has been added.</p>
+<p>Here, a new element &lsquo;B&rsquo; has been added to the vitamins list.</p>
 <p>We can also create keys by assignment. For instance if we started off with an empty dictionary, we could continually add to it:</p>
 <pre><code class="language-python">Create a new dictionary
 d = {}
@@ -801,7 +823,7 @@ d['answer'] = 42
 <pre><code class="language-python"> Dictionary nested inside a dictionary nested inside a dictionary
 d = {'key1':{'nestkey':{'subnestkey':'value'}}}
 </code></pre>
-<p>Wow! That&rsquo;s a quite the inception of dictionaries! Let&rsquo;s see how we can grab that value:</p>
+<p>Wow! That&rsquo;s quite the inception of dictionaries! Let&rsquo;s see how we can grab that value:</p>
 <pre><code class="language-python">Keep calling the keys
 d['key1']['nestkey']['subnestkey']
 </code></pre>
@@ -827,7 +849,7 @@ d.values()
 </code></pre>
 <pre><code>dict_items([('key1', 1), ('key2', 2), ('key3', 3)])
 </code></pre>
-<p>In summary, dictionaries in Python are a powerful and flexible data structure that allow you to store and organize data in key-value pairs. Dictionaries are unordered collections of objects, where each object is identified by a unique key. They are mutable, which means you can modify their contents by adding, removing, or updating key-value pairs. Additionally, the keys in a dictionary are unique, which means you cannot have multiple entries with the same key.</p>
+<p>In summary, dictionaries in Python are a powerful and flexible data structure that allow you to store and organize data in key-value pairs. Dictionaries are collections of objects, where each object is identified by a unique key. They are mutable, which means you can modify their contents by adding, removing, or updating key-value pairs. Additionally, the keys in a dictionary are unique, which means you cannot have multiple entries with the same key.</p>
 
     </div>
 
@@ -847,7 +869,9 @@ d.values()
 
 
 
-<div class="share-box" aria-hidden="true">
+
+<div class="share-box">
+  <p class="share-label">Share</p>
   <ul class="share">
     
       
@@ -858,9 +882,7 @@ d.values()
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://pudasainimohan.com.np/post/python_dictionary/&amp;text=Python%20Dictionaries:%20Key-Value%20Pair%20Mapping" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_dictionary%2F" target="_blank" rel="noopener" class="share-btn share-btn-facebook" aria-label="Share on Facebook" title="Share on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
       </li>
     
       
@@ -871,9 +893,16 @@ d.values()
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://pudasainimohan.com.np/post/python_dictionary/&amp;t=Python%20Dictionaries:%20Key-Value%20Pair%20Mapping" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_dictionary%2F" target="_blank" rel="noopener" class="share-btn share-btn-linkedin" aria-label="Share on LinkedIn" title="Share on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+      </li>
+    
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://x.com/intent/post?url=https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_dictionary%2F&amp;text=Python&#43;Dictionaries%3A&#43;Key-Value&#43;Pair&#43;Mapping" target="_blank" rel="noopener" class="share-btn share-btn-x" aria-label="Share on X" title="Share on X"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
       </li>
     
       
@@ -884,48 +913,7 @@ d.values()
       
       
       <li>
-        <a href="mailto:?subject=Python%20Dictionaries:%20Key-Value%20Pair%20Mapping&amp;body=https://pudasainimohan.com.np/post/python_dictionary/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://pudasainimohan.com.np/post/python_dictionary/&amp;title=Python%20Dictionaries:%20Key-Value%20Pair%20Mapping" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Python%20Dictionaries:%20Key-Value%20Pair%20Mapping%20https://pudasainimohan.com.np/post/python_dictionary/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://pudasainimohan.com.np/post/python_dictionary/&amp;title=Python%20Dictionaries:%20Key-Value%20Pair%20Mapping" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
+        <a href="https://api.whatsapp.com/send?text=Python&#43;Dictionaries%3A&#43;Key-Value&#43;Pair&#43;Mapping%20https%3A%2F%2Fpudasainimohan.com.np%2Fpost%2Fpython_dictionary%2F" target="_blank" rel="noopener" class="share-btn share-btn-whatsapp" aria-label="Share on WhatsApp" title="Share on WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
       </li>
     
   </ul>
@@ -1038,7 +1026,7 @@ d.values()
       
       <li><a href="/post/string_basic/">An Introduction to Strings in Python</a></li>
       
-      <li><a href="/post/arithmetic_python/">Numbers and airthmetic Operators in Python</a></li>
+      <li><a href="/post/arithmetic_python/">Numbers and Arithmetic Operators in Python</a></li>
       
     </ul>
   </div>
@@ -1155,9 +1143,40 @@ d.values()
     <script src="/js/academic.min.401ba81ed535f2e599b326a63fb33682.js"></script>
 
     
+<a href="#top" class="to-top" aria-label="Back to top" hidden><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+<script>
+(function () {
+  
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && !reduce) {
+    document.documentElement.classList.add("js-reveal");
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { rootMargin: "0px 0px -40px 0px", threshold: 0.05 });
+    document.querySelectorAll(".reveal").forEach(function (el) { io.observe(el); });
+  }
 
-
-
+  
+  var btn = document.querySelector(".to-top");
+  if (btn) {
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        btn.hidden = window.scrollY < 700;
+        ticking = false;
+      });
+    }, { passive: true });
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+  }
+})();
+</script>
 
 
 
