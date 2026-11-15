@@ -1,414 +1,823 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://pudasainimohan.com.np/courses/python_ml/syllabus/</loc>
     <lastmod>2024-03-09T00:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/courses/r_analysis/syllabus/</loc>
     <lastmod>2024-03-09T00:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/courses/ds_basics/syllabus_python_dataanalysis/</loc>
     <lastmod>2023-02-14T00:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/courses/ds_basics/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/courses/r_analysis/registration-form/</loc>
     <lastmod>2024-07-25T00:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/courses/python_ml/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/courses/r_analysis/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/ai/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/bacuda/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/computer-vision/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/cuba/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/customs/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/data-analytics/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/generative-ai/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/img/og-card.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/risk-management/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tags/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/wco/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-cuba/</loc>
     <lastmod>2026-11-02T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-cuba/featured.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-cuba/presentation.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-data-analytics-workshop-havana-cuba-2026/wco-data-analytics-workshop-havana-cuba-2026.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-wto-data-analytics-workshop-lome-togo-2026/wco-wto-data-analytics-workshop-lome-togo-2026.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/certificate-of-honour-international-customs-day-nepal-2026/certificate-of-honour-international-customs-day-nepal-2026.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/ai-workshop-senior-government-officials-nepal-2025/ai-workshop-senior-government-officials-nepal-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/imf-statistical-forum-panel-washington-2025/imf-statistical-forum-panel-washington-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/imf-statistical-forum-session-poster-2025/imf-statistical-forum-session-poster-2025.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/unnext-masterclass-workshop-session-seoul-2025/unnext-masterclass-workshop-session-seoul-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-mission-turkiye-customs-ankara-2025/wco-mission-turkiye-customs-ankara-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/role-of-customs-global-supply-chain-sawtee-2025/role-of-customs-global-supply-chain-sawtee-2025.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-data-analytics-workshop-tashkent-2025/wco-risk-management-data-analytics-workshop-tashkent-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/paperless-trade-week-panel-bangkok-2025/paperless-trade-week-panel-bangkok-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-workshop-group-photo-astana-2025/wco-risk-management-workshop-group-photo-astana-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-workshop-astana-kazakhstan-2025/wco-risk-management-workshop-astana-kazakhstan-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/health-population-scientists-summit-nepal-2025/health-population-scientists-summit-nepal-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/data-journalism-training-cmr-nepal-2025/data-journalism-training-cmr-nepal-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-data-analytics-pre-accreditation-workshop-korea-2025/wco-data-analytics-pre-accreditation-workshop-korea-2025.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/data-analytics-ai-customs-pfmtc-kathmandu-2024/data-analytics-ai-customs-pfmtc-kathmandu-2024.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/ai-in-auditing-office-of-auditor-general-nepal-2024/ai-in-auditing-office-of-auditor-general-nepal-2024.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/data-analysis-using-r-quest-international-college-2024/data-analysis-using-r-quest-international-college-2024.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-unescap-unnext-masterclass-ai-session-korea-2024/wco-unescap-unnext-masterclass-ai-session-korea-2024.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/wco-bacuda-scholarship-valedictorian-speech-2024.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-pre-accreditation-workshop-bangkok-2022/wco-risk-management-pre-accreditation-workshop-bangkok-2022.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/ai-customs-fraud-detection-presentation-pokhara-2022/ai-customs-fraud-detection-presentation-pokhara-2022.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-data-analytics-workshop-havana-cuba-2026/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-data-analytics-workshop-havana-cuba-2026/wco-data-analytics-workshop-havana-cuba-2026.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/indonesia/</loc>
     <lastmod>2026-10-21T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/machine-learning/</loc>
     <lastmod>2026-10-21T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/prohibited-goods/</loc>
     <lastmod>2026-10-21T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-indinesia-virtual/</loc>
     <lastmod>2026-10-21T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-indinesia-virtual/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/niger/</loc>
     <lastmod>2026-10-05T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/togo/</loc>
     <lastmod>2026-10-05T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/trade-facilitation/</loc>
     <lastmod>2026-10-05T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-togo/</loc>
     <lastmod>2026-10-05T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-togo/featured.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-togo/group.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/west-africa/</loc>
     <lastmod>2026-10-05T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/wto/</loc>
     <lastmod>2026-10-05T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-wto-data-analytics-workshop-lome-togo-2026/</loc>
+    <lastmod>2026-10-05T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-wto-data-analytics-workshop-lome-togo-2026/wco-wto-data-analytics-workshop-lome-togo-2026.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/peru/</loc>
     <lastmod>2026-07-08T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-peru-virtual/</loc>
     <lastmod>2026-07-08T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-peru-virtual/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/central-asia/</loc>
     <lastmod>2026-06-15T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/uzbekistan/</loc>
     <lastmod>2026-06-15T10:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-uzbekistan/</loc>
     <lastmod>2026-06-15T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-uzbekistan/Group_photo.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-uzbekistan/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-sri-lanka-mission/</loc>
     <lastmod>2026-03-23T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-sri-lanka-mission/Group_photo.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-sri-lanka-mission/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-uzbekistan-virtual/</loc>
     <lastmod>2026-03-16T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-uzbekistan-virtual/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/categories/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/category/customs/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/202601-icd-honored/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/202601-icd-honored/featured.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/202601-icd-honored/photo1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/202601-icd-honored/phto2.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/icd/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/international-customs-day/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/nepal-customs/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/certificate-of-honour-international-customs-day-nepal-2026/</loc>
+    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/certificate-of-honour-international-customs-day-nepal-2026/certificate-of-honour-international-customs-day-nepal-2026.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/202601-icd/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/202601-icd/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/accreditation/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/202601-da-accreditation/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/202601-da-accreditation/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-mof-workshop/</loc>
     <lastmod>2026-01-24T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-mof-workshop/featured.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-mof-workshop/photo1.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2026-datajournalism/</loc>
     <lastmod>2026-01-07T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2026-datajournalism/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025-ai-workshop-opmcm-nepal/</loc>
     <lastmod>2025-12-23T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-ai-workshop-opmcm-nepal/Group.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-ai-workshop-opmcm-nepal/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/ai-workshop-senior-government-officials-nepal-2025/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/ai-workshop-senior-government-officials-nepal-2025/ai-workshop-senior-government-officials-nepal-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025-indonesia-seminar/</loc>
     <lastmod>2025-12-12T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-indonesia-seminar/Group.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-indonesia-seminar/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/2025-rocb-featuring/</loc>
     <lastmod>2025-11-24T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/2025-rocb-featuring/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025-usa-statsforum/</loc>
     <lastmod>2025-11-19T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-usa-statsforum/1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-usa-statsforum/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/imf-statistical-forum-panel-washington-2025/</loc>
+    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/imf-statistical-forum-panel-washington-2025/imf-statistical-forum-panel-washington-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/imf-statistical-forum-session-poster-2025/</loc>
+    <lastmod>2025-11-18T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/imf-statistical-forum-session-poster-2025/imf-statistical-forum-session-poster-2025.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025-korea-masterclass/</loc>
     <lastmod>2025-11-10T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-korea-masterclass/2.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-korea-masterclass/3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-korea-masterclass/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/unnext-masterclass-workshop-session-seoul-2025/</loc>
+    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/unnext-masterclass-workshop-session-seoul-2025/unnext-masterclass-workshop-session-seoul-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025-turkey-mission/</loc>
     <lastmod>2025-10-20T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-turkey-mission/featured.JPG</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-turkey-mission/mohan1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-turkey-mission/mohan2.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-mission-turkiye-customs-ankara-2025/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-mission-turkiye-customs-ankara-2025/wco-mission-turkiye-customs-ankara-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025-sawtee-customs-discussion/</loc>
     <lastmod>2025-08-14T15:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-sawtee-customs-discussion/featured.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-sawtee-customs-discussion/pic1.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/role-of-customs-global-supply-chain-sawtee-2025/</loc>
+    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/role-of-customs-global-supply-chain-sawtee-2025/role-of-customs-global-supply-chain-sawtee-2025.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025-pfmtc-customs-risk-management-workshop/</loc>
     <lastmod>2025-08-07T14:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025-pfmtc-customs-risk-management-workshop/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/2025_accreditation_journy/</loc>
     <lastmod>2025-07-19T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/2025_accreditation_journy/RM_Accreditation.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/2025_accreditation_journy/awards_photo.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/2025_accreditation_journy/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025_escap_webinar/</loc>
     <lastmod>2025-06-26T15:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_escap_webinar/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025_uzbekistan_mission/</loc>
     <lastmod>2025-06-16T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_uzbekistan_mission/1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_uzbekistan_mission/2.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_uzbekistan_mission/featured.JPG</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_uzbekistan_mission/thumb.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-risk-management-data-analytics-workshop-tashkent-2025/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-data-analytics-workshop-tashkent-2025/wco-risk-management-data-analytics-workshop-tashkent-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/</loc>
     <lastmod>2025-06-09T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/featured.JPG</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/page1.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/page2.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/page3.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/page4.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/page5.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/page6.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_paperless_tradeweek/page7.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/paperless-trade-week-panel-bangkok-2025/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/paperless-trade-week-panel-bangkok-2025/paperless-trade-week-panel-bangkok-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-risk-management-workshop-group-photo-astana-2025/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-workshop-group-photo-astana-2025/wco-risk-management-workshop-group-photo-astana-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025_kazakhstan_mission/</loc>
     <lastmod>2025-05-12T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_kazakhstan_mission/1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_kazakhstan_mission/2.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_kazakhstan_mission/3.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_kazakhstan_mission/featured.JPG</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-risk-management-workshop-astana-kazakhstan-2025/</loc>
+    <lastmod>2025-05-12T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-workshop-astana-kazakhstan-2025/wco-risk-management-workshop-astana-kazakhstan-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025_nhrc_summit/</loc>
     <lastmod>2025-04-10T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_nhrc_summit/certificate.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_nhrc_summit/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/health-population-scientists-summit-nepal-2025/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/health-population-scientists-summit-nepal-2025/health-population-scientists-summit-nepal-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025_datajournalism/</loc>
     <lastmod>2025-03-04T09:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_datajournalism/featured.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_datajournalism/photo1.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/data-journalism-training-cmr-nepal-2025/</loc>
+    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/data-journalism-training-cmr-nepal-2025/data-journalism-training-cmr-nepal-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/icd_2025/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/icd_2025/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/article/articles/icd_2025/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/article/articles/icd_2025/Picture1.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/article/articles/icd_2025/Picture2.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2025_da_accreditation/</loc>
     <lastmod>2025-01-13T09:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_da_accreditation/featured.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2025_da_accreditation/photo1.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-data-analytics-pre-accreditation-workshop-korea-2025/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-data-analytics-pre-accreditation-workshop-korea-2025/wco-data-analytics-pre-accreditation-workshop-korea-2025.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/category/data-analytics/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/dataanalytics/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/intelligence/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/summary_2024/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/summary_2024/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_pfmtc1/</loc>
     <lastmod>2024-12-26T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_pfmtc1/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/customs_20241123/</loc>
     <lastmod>2024-11-23T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/customs_20241123/Picture1.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/customs_20241123/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/opensource-intelligence/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/osint/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/category/osint/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/osint_20241023/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/osint_20241023/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_wgds/</loc>
     <lastmod>2024-10-07T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_wgds/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_pfmtc/</loc>
     <lastmod>2024-08-09T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_pfmtc/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/data-analytics-ai-customs-pfmtc-kathmandu-2024/</loc>
+    <lastmod>2024-08-09T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/data-analytics-ai-customs-pfmtc-kathmandu-2024/data-analytics-ai-customs-pfmtc-kathmandu-2024.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_rworkshop/</loc>
     <lastmod>2024-08-04T20:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_rworkshop/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/courses/</loc>
     <lastmod>2024-07-25T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_oag/</loc>
     <lastmod>2024-07-07T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_oag/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/ai-in-auditing-office-of-auditor-general-nepal-2024/</loc>
+    <lastmod>2024-07-07T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/ai-in-auditing-office-of-auditor-general-nepal-2024/ai-in-auditing-office-of-auditor-general-nepal-2024.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_quest/</loc>
     <lastmod>2024-06-29T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_quest/featured.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_quest/photo1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_quest/photo2.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/data-analysis-using-r-quest-international-college-2024/</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/data-analysis-using-r-quest-international-college-2024/data-analysis-using-r-quest-international-college-2024.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_python/</loc>
     <lastmod>2024-03-20T20:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_python/featured.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-unescap-unnext-masterclass-ai-session-korea-2024/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-unescap-unnext-masterclass-ai-session-korea-2024/wco-unescap-unnext-masterclass-ai-session-korea-2024.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2024_masterclass/</loc>
     <lastmod>2024-02-08T09:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2024_masterclass/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/category/bacuda/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/bacuda_closing/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/bacuda_closing/featured.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/article/articles/icd_2024/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-bacuda-scholarship-valedictorian-speech-2024/wco-bacuda-scholarship-valedictorian-speech-2024.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/article/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/deep-learning/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/project/hs_classification_image/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/project/hs_classification_image/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/nlp/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/project/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/project/covid_classification/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/project/covid_classification/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/project/chat_bot/</loc>
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/project/chat_bot/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/project/hs_classification/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/project/hs_classification/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/bacuda_opening/</loc>
     <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/bacuda_opening/1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/bacuda_opening/2.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/bacuda_opening/3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/bacuda_opening/4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/bacuda_opening/featured.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/bacuda_opening/pic1.jpeg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2023_uvic/</loc>
     <lastmod>2023-07-24T08:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2023_uvic/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2023_radioactive/</loc>
     <lastmod>2023-03-23T09:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2023_radioactive/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/basic_data_analysis/</loc>
     <lastmod>2023-02-26T20:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/basic_data_analysis/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/intro_tuple/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/intro_tuple/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/data-science/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/category/python/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/python-basics/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/tuple/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/dictionary/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/python_dictionary/</loc>
     <lastmod>2023-02-15T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_dictionary/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/list/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/python_list/</loc>
     <lastmod>2023-02-13T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_list/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/string/</loc>
     <lastmod>2023-02-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/string_formating/</loc>
     <lastmod>2023-02-12T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/string_formating/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/string_basic/</loc>
     <lastmod>2023-02-11T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/string_basic/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/airthmetic-operators/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/arithmetic_python/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/arithmetic_python/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/tag/jupyter-notebook/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/category/pyhton/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/jupyter_start/</loc>
     <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_start/featured.gif</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_start/mohan.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_start/mohan1.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/jupyter_install/</loc>
     <lastmod>2023-02-08T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_install/1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_install/2.png</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_install/3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_install/4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/jupyter_install/featured.gif</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/python_install/</loc>
     <lastmod>2023-02-07T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_install/0.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_install/1.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_install/2.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_install/3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_install/4.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_install/5.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/python_install/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/ml_python_intro/</loc>
     <lastmod>2023-02-06T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/ml_python_intro/featured.png</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/post/fist_post/</loc>
     <lastmod>2023-02-05T00:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/post/fist_post/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2022_rm_accreditation/</loc>
     <lastmod>2022-11-21T09:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_rm_accreditation/featured.JPG</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_rm_accreditation/group.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_rm_accreditation/p2.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/wco-risk-management-pre-accreditation-workshop-bangkok-2022/</loc>
+    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/wco-risk-management-pre-accreditation-workshop-bangkok-2022/wco-risk-management-pre-accreditation-workshop-bangkok-2022.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2022_rmarkdown/</loc>
     <lastmod>2022-08-25T20:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_rmarkdown/banner.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_rmarkdown/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2022_pokhara/</loc>
     <lastmod>2022-08-08T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_pokhara/featured.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_pokhara/presentation.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://pudasainimohan.com.np/gallery/ai-customs-fraud-detection-presentation-pokhara-2022/</loc>
+    <lastmod>2022-08-08T00:00:00+00:00</lastmod>
+    <image:image><image:loc>https://pudasainimohan.com.np/gallery/ai-customs-fraud-detection-presentation-pokhara-2022/ai-customs-fraud-detection-presentation-pokhara-2022.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2022_research_analysis/</loc>
     <lastmod>2022-06-25T20:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_research_analysis/additional.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_research_analysis/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2022_hetauda/</loc>
     <lastmod>2022-06-23T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_hetauda/additional.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_hetauda/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2022_dhangadhi/</loc>
     <lastmod>2022-01-03T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_dhangadhi/certificate.jpg</image:loc></image:image>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2022_dhangadhi/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2021_moics/</loc>
     <lastmod>2021-07-08T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2021_moics/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/talk/2019_gulmi/</loc>
     <lastmod>2019-03-22T10:00:00+00:00</lastmod>
-  </url><url>
+    <image:image><image:loc>https://pudasainimohan.com.np/talk/2019_gulmi/featured.jpg</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/thankyou/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/certificates/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/experience/</loc>
-  </url><url>
-    <loc>https://pudasainimohan.com.np/gallery/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://pudasainimohan.com.np/publication_types/</loc>
   </url>
 </urlset>
