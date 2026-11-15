@@ -19,9 +19,9 @@
       <guid>https://pudasainimohan.com.np/post/jupyter_start/</guid>
       <description>&lt;p&gt;Once you have installed Jupyter Notebook, you can start it by opening your terminal or command prompt and typing &lt;em&gt;&lt;strong&gt;&amp;ldquo;jupyter notebook&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;. This will launch Jupyter Notebook in your default web browser and open a new tab with the Jupyter Notebook dashboard.&lt;/p&gt;
 &lt;p&gt;If you haven&amp;rsquo;t installed Jupyter Notebook, follow this link to get started:  &lt;a href=&#34;../jupyter_install&#34; target=&#34;_blank&#34;&gt;Get Started with Jupyter notebook&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mohan.jpg&#34; alt=&#34;title&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mohan.jpg&#34; alt=&#34;title&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;To open a new Jupyter Notebook in Jupyter Notebook dashboard, you can click on the &amp;ldquo;New&amp;rdquo; button on the right side of the screen, which will open a new tab in your web browser with a new Jupyter Notebook. From there, you can start writing and running your code.
-&lt;img src=&#34;mohan1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;mohan1.jpg&#34; alt=&#34;Working in Jupyter Notebook: Shortcut Keys&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Now we are ready to write, note, and execute code. Let&amp;rsquo;s begin using Jupyter Notebook and its shortcut keys to perform high-level capabilities&lt;/p&gt;
 &lt;h3 id=&#34;command-vs-edit-modes&#34;&gt;Command vs. Edit Modes&lt;/h3&gt;
 &lt;p&gt;In Jupyter Notebook, there are two modes: command mode and edit mode.&lt;/p&gt;
@@ -178,7 +178,7 @@ Code:&lt;/p&gt;
 &lt;h3 id=&#34;1-download-and-install-anaconda&#34;&gt;1. Download and install Anaconda:&lt;/h3&gt;
 &lt;p&gt;Visit the Anaconda website (
 &lt;a href=&#34;https://www.anaconda.com/products/distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anaconda.com/products/distribution&lt;/a&gt;) and download the latest version of Anaconda for your operating system.
-&lt;img src=&#34;./1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;./1.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2-start-anaconda-navigator&#34;&gt;2. Start Anaconda Navigator:&lt;/h3&gt;
 &lt;p&gt;After installation, you can start Anaconda Navigator from your applications menu or by typing &amp;ldquo;anaconda-navigator&amp;rdquo; in your terminal (MacOS/Linux) or Command Prompt (Windows).&lt;/p&gt;
 &lt;table&gt;
@@ -190,14 +190,14 @@ Code:&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;2.png&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;3-launch-jupyter-notebook&#34;&gt;3. Launch Jupyter Notebook:&lt;/h3&gt;
 &lt;p&gt;In Anaconda Navigator, click on the Jupyter Notebook icon to launch the Jupyter Notebook application
-&lt;img src=&#34;4.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;4.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;installing-jupyter-notebook-using-pip&#34;&gt;Installing Jupyter Notebook using pip&lt;/h2&gt;
 &lt;p&gt;pip is a package manager for Python that allows you to install and manage packages from the Python Package Index (PyPI). To install Jupyter Notebook, first check whether pip is installed on your system by typing &amp;lsquo;pip &amp;ndash;version&amp;rsquo; in your command prompt. If pip is installed, you should see the version number of pip, for example, “pip 22.3.1”. To install Jupyter Notebook using pip, follow these steps:&lt;/p&gt;
 &lt;h3 id=&#34;1-install-jupyter-notebook&#34;&gt;1. Install Jupyter Notebook&lt;/h3&gt;

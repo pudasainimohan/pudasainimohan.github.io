@@ -857,9 +857,9 @@ total_tax = my_income*tax_rate
       <guid>https://pudasainimohan.com.np/post/jupyter_start/</guid>
       <description>&lt;p&gt;Once you have installed Jupyter Notebook, you can start it by opening your terminal or command prompt and typing &lt;em&gt;&lt;strong&gt;&amp;ldquo;jupyter notebook&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;. This will launch Jupyter Notebook in your default web browser and open a new tab with the Jupyter Notebook dashboard.&lt;/p&gt;
 &lt;p&gt;If you haven&amp;rsquo;t installed Jupyter Notebook, follow this link to get started:  &lt;a href=&#34;../jupyter_install&#34; target=&#34;_blank&#34;&gt;Get Started with Jupyter notebook&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mohan.jpg&#34; alt=&#34;title&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mohan.jpg&#34; alt=&#34;title&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;To open a new Jupyter Notebook in Jupyter Notebook dashboard, you can click on the &amp;ldquo;New&amp;rdquo; button on the right side of the screen, which will open a new tab in your web browser with a new Jupyter Notebook. From there, you can start writing and running your code.
-&lt;img src=&#34;mohan1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;mohan1.jpg&#34; alt=&#34;Working in Jupyter Notebook: Shortcut Keys&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Now we are ready to write, note, and execute code. Let&amp;rsquo;s begin using Jupyter Notebook and its shortcut keys to perform high-level capabilities&lt;/p&gt;
 &lt;h3 id=&#34;command-vs-edit-modes&#34;&gt;Command vs. Edit Modes&lt;/h3&gt;
 &lt;p&gt;In Jupyter Notebook, there are two modes: command mode and edit mode.&lt;/p&gt;
@@ -1016,7 +1016,7 @@ Code:&lt;/p&gt;
 &lt;h3 id=&#34;1-download-and-install-anaconda&#34;&gt;1. Download and install Anaconda:&lt;/h3&gt;
 &lt;p&gt;Visit the Anaconda website (
 &lt;a href=&#34;https://www.anaconda.com/products/distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anaconda.com/products/distribution&lt;/a&gt;) and download the latest version of Anaconda for your operating system.
-&lt;img src=&#34;./1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;./1.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2-start-anaconda-navigator&#34;&gt;2. Start Anaconda Navigator:&lt;/h3&gt;
 &lt;p&gt;After installation, you can start Anaconda Navigator from your applications menu or by typing &amp;ldquo;anaconda-navigator&amp;rdquo; in your terminal (MacOS/Linux) or Command Prompt (Windows).&lt;/p&gt;
 &lt;table&gt;
@@ -1028,14 +1028,14 @@ Code:&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;2.png&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;3-launch-jupyter-notebook&#34;&gt;3. Launch Jupyter Notebook:&lt;/h3&gt;
 &lt;p&gt;In Anaconda Navigator, click on the Jupyter Notebook icon to launch the Jupyter Notebook application
-&lt;img src=&#34;4.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;4.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;installing-jupyter-notebook-using-pip&#34;&gt;Installing Jupyter Notebook using pip&lt;/h2&gt;
 &lt;p&gt;pip is a package manager for Python that allows you to install and manage packages from the Python Package Index (PyPI). To install Jupyter Notebook, first check whether pip is installed on your system by typing &amp;lsquo;pip &amp;ndash;version&amp;rsquo; in your command prompt. If pip is installed, you should see the version number of pip, for example, “pip 22.3.1”. To install Jupyter Notebook using pip, follow these steps:&lt;/p&gt;
 &lt;h3 id=&#34;1-install-jupyter-notebook&#34;&gt;1. Install Jupyter Notebook&lt;/h3&gt;
@@ -1069,14 +1069,14 @@ Code:&lt;/p&gt;
 &lt;p&gt;There are two main ways to install Python: using a &lt;strong&gt;package manager or downloading the Python executable&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;using-a-package-manager&#34;&gt;Using a Package Manager:&lt;/h2&gt;
 &lt;p&gt;One option to install Python on your computer is to use a package manager or a platform-specific store. For example, on macOS, you can use the Homebrew package manager to install Python. Simply open Terminal and type &amp;ldquo;brew install python&amp;rdquo; to download and install the latest version of Python and its dependencies. On Windows, you can use the Microsoft Store to install Python. Simply search for &amp;ldquo;Python&amp;rdquo; in the Microsoft Store, select the latest version, and click the &amp;ldquo;Get&amp;rdquo; or &amp;ldquo;Install&amp;rdquo; button to download and install Python on your computer. These package managers and platform-specific stores provide a convenient and efficient way to install and manage software packages, including Python, without having to manually download and install them.
-&lt;img src=&#34;0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;0.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;downloading-the-python-executable&#34;&gt;Downloading the Python Executable:&lt;/h2&gt;
 &lt;p&gt;Another option to install Python on your computer is to download the Python executable from the official Python website. The following are the basic steps to install Python using this method:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 1: Go to the Official Website and download Version&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Visit the official Python website (
 &lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.python.org/&lt;/a&gt;) and navigate to the downloads section.
 Choose the appropriate version of Python that you want to install on your computer. For example, if you&amp;rsquo;re a beginner, you might want to start with Python 3.x.x.
-&lt;img src=&#34;1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;1.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Once you&amp;rsquo;ve selected the appropriate version of Python, click the download button to start the download process.
 Make sure to save the installation file to a location where you can easily find it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2: Click Install and Make Sure Add to Path is Checked&lt;/strong&gt;&lt;/p&gt;
@@ -1092,20 +1092,20 @@ Make sure to check the option &amp;ldquo;Add to Path&amp;rdquo; when prompted du
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Step 3: Check Whether Python is Installed Using CMD&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Open the Command Prompt or Terminal and type &amp;ldquo;python&amp;rdquo; or &amp;ldquo;python &amp;ndash;version&amp;rdquo; to check if Python has been installed successfully.
 If Python has been installed successfully, you should see a prompt that looks like this: &amp;ldquo;Python 3.11.1&amp;rdquo;. This means that you can start using Python in the Command Prompt or Terminal.
-&lt;img src=&#34;4.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;4.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4: Make Sure Pip Is Installed&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Pip is a package management system used to install and manage Python packages. It is included with Python 3.4 and later versions.
 To check if pip is installed, open the Command Prompt or Terminal and type &amp;ldquo;pip &amp;ndash;version&amp;rdquo;.
 If pip is installed, you should see the version number of pip, for example, &amp;ldquo;pip 22.3.1&amp;rdquo;.
-&lt;img src=&#34;5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;5.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s it! You&amp;rsquo;ve successfully installed Python on your computer. You&amp;rsquo;re now ready to start exploring the world of Python programming!&lt;/p&gt;
 </description>
     </item>

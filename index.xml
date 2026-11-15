@@ -469,6 +469,168 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
     </item>
     
     <item>
+      <title>Registration form: Python Data science</title>
+      <link>https://pudasainimohan.com.np/courses/python_ml/registration-form/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/python_ml/registration-form/</guid>
+      <description>&lt;!-- &lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data analysis with Python&lt;/h2&gt; --&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
+&lt;style&gt;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+.form-input {
+color:black;
+
+font-family: Helvetica, Arial, sans-serif;
+font-weight:500;
+font-size: 18px;
+border-radius: 5px;
+line-height: 22px;
+background-color: transparent;
+border:2px solid #CC6666;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 15px;
+width:100%;
+box-sizing: border-box;
+outline:0;
+}
+
+.form-input:focus { border:2px solid #CC4949; }
+
+textarea {
+height: 150px;
+line-height: 150%;
+resize:vertical;
+}
+
+[type=&#34;submit&#34;] {
+font-family: &#39;Montserrat&#39;, Arial, Helvetica, sans-serif;
+width: 100%;
+background:#CC6666;
+border-radius:5px;
+border:0;
+cursor:pointer;
+color:white;
+font-size:24px;
+padding-top:10px;
+padding-bottom:10px;
+transition: all 0.3s;
+margin-top:-4px;
+font-weight:700;
+}
+[type=&#34;submit&#34;]:hover { background:#CC4949; }
+&lt;/style&gt;
+&lt;form action=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse&#34; method=&#34;post&#34; target=&#34;hidden_iframe&#34; onsubmit=&#34;document.getElementById(&#39;submitBtn&#39;).disabled=true; submitted=true;&#34;&gt;
+  &lt;label&gt;Name*&lt;/label&gt;
+  &lt;input type=&#34;text&#34; placeholder=&#34;Name*&#34; class=&#34;form-input&#34; name=&#34;entry.2005620554&#34; required&gt;
+&lt;p&gt;&lt;label&gt;Email*&lt;/label&gt;
+&lt;input type=&#34;email&#34; placeholder=&#34;Email address*&#34; class=&#34;form-input&#34; name=&#34;entry.1045781291&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Organization*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Organization*&#34; class=&#34;form-input&#34; name=&#34;entry.1065046570&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Designation*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Designation*&#34; class=&#34;form-input&#34; name=&#34;entry.1937940652&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Mobile Number*&lt;/label&gt;
+&lt;input type=&#34;text&#34; pattern=&#34;[0-9]{10}&#34; placeholder=&#34;Mobile Number*&#34; class=&#34;form-input&#34; name=&#34;entry.1166974658&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Do you have Prior knowledge on Python?*&lt;/label&gt;
+&lt;select name=&#34;entry.1328943848&#34; class=&#34;form-input&#34; &gt;
+&lt;option value=&#34;&#34; disabled selected&gt;Select an option&lt;/option&gt;
+&lt;option value=&#34;Yes&#34;&gt;Yes&lt;/option&gt;
+&lt;option value=&#34;No&#34;&gt;No&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button type=&#34;submit&#34; id=&#34;submitBtn&#34;&gt;Submit&lt;/button&gt;&lt;/p&gt;
+&lt;/form&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;Please wait a moment after clicking the submit button.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;var submitted=false;&lt;/script&gt;
+&lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34; 
+onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Registration form: Data analysis with Python</title>
+      <link>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0100</pubDate>
+      <guid>https://pudasainimohan.com.np/courses/ds_basics/registration-form/</guid>
+      <description>&lt;!-- &lt;h2 style=&#34;text-align: center;&#34;&gt;Registration form: Data analysis with Python&lt;/h2&gt; --&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;Please fill out the following information to register for the course:&lt;/p&gt;
+&lt;style&gt;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+.form-input {
+color:black;
+
+font-family: Helvetica, Arial, sans-serif;
+font-weight:500;
+font-size: 18px;
+border-radius: 5px;
+line-height: 22px;
+background-color: transparent;
+border:2px solid #CC6666;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 15px;
+width:100%;
+box-sizing: border-box;
+outline:0;
+}
+
+.form-input:focus { border:2px solid #CC4949; }
+
+textarea {
+height: 150px;
+line-height: 150%;
+resize:vertical;
+}
+
+[type=&#34;submit&#34;] {
+font-family: &#39;Montserrat&#39;, Arial, Helvetica, sans-serif;
+width: 100%;
+background:#CC6666;
+border-radius:5px;
+border:0;
+cursor:pointer;
+color:white;
+font-size:24px;
+padding-top:10px;
+padding-bottom:10px;
+transition: all 0.3s;
+margin-top:-4px;
+font-weight:700;
+}
+[type=&#34;submit&#34;]:hover { background:#CC4949; }
+&lt;/style&gt;
+&lt;form action=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfGpTyHZVe725b_nlOWvxVE65KmHmrNuvR6RfK1UxjgX-zfnA/formResponse&#34; method=&#34;post&#34; target=&#34;hidden_iframe&#34; onsubmit=&#34;document.getElementById(&#39;submitBtn&#39;).disabled=true; submitted=true;&#34;&gt;
+  &lt;label&gt;Name*&lt;/label&gt;
+  &lt;input type=&#34;text&#34; placeholder=&#34;Name*&#34; class=&#34;form-input&#34; name=&#34;entry.2005620554&#34; required&gt;
+&lt;p&gt;&lt;label&gt;Email*&lt;/label&gt;
+&lt;input type=&#34;email&#34; placeholder=&#34;Email address*&#34; class=&#34;form-input&#34; name=&#34;entry.1045781291&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Organization*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Organization*&#34; class=&#34;form-input&#34; name=&#34;entry.1065046570&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Designation*&lt;/label&gt;
+&lt;input type=&#34;text&#34; placeholder=&#34;Designation*&#34; class=&#34;form-input&#34; name=&#34;entry.1937940652&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Mobile Number*&lt;/label&gt;
+&lt;input type=&#34;text&#34; pattern=&#34;[0-9]{10}&#34; placeholder=&#34;Mobile Number*&#34; class=&#34;form-input&#34; name=&#34;entry.1166974658&#34; required&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label&gt;Do you have Prior knowledge on Python?*&lt;/label&gt;
+&lt;select name=&#34;entry.1328943848&#34; class=&#34;form-input&#34; &gt;
+&lt;option value=&#34;&#34; disabled selected&gt;Select an option&lt;/option&gt;
+&lt;option value=&#34;Yes&#34;&gt;Yes&lt;/option&gt;
+&lt;option value=&#34;No&#34;&gt;No&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button type=&#34;submit&#34; id=&#34;submitBtn&#34;&gt;Submit&lt;/button&gt;&lt;/p&gt;
+&lt;/form&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;Please wait a moment after clicking the submit button.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;var submitted=false;&lt;/script&gt;
+&lt;iframe name=&#34;hidden_iframe&#34; id=&#34;hidden_iframe&#34; style=&#34;display:none;&#34; 
+onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>WCO National Workshop on Data Analytics for Cuba Customs</title>
       <link>https://pudasainimohan.com.np/talk/2026-cuba/</link>
       <pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate>
@@ -484,7 +646,7 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
 &lt;/ul&gt;
 &lt;p&gt;The programme strengthened the capacity of AGR officials in data analytics, AI and evidence-based decision-making. Working in groups, participants identified the AGR&amp;rsquo;s existing strengths and areas for improvement, laying the groundwork for a future AI/ML implementation roadmap.&lt;/p&gt;
 &lt;p&gt;Through the BACUDA Project, the WCO continues to support Customs administrations in building the knowledge and capabilities needed to harness data and emerging technologies for smarter, more effective Customs operations.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;presentation.jpeg&#34; alt=&#34;WCO National Workshop on Data Analytics for the General Customs of the Republic of Cuba in Havana&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;presentation.jpeg&#34; alt=&#34;WCO National Workshop on Data Analytics for the General Customs of the Republic of Cuba in Havana&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;More information on the WCO BACUDA Project website:
 
 &lt;a href=&#34;https://bacuda.wcoomd.org/2026/11/06/national-workshop-on-data-analytics-forcuba-customs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Workshop on Data Analytics for Cuba Customs&lt;/a&gt;&lt;/p&gt;
@@ -536,7 +698,7 @@ onload=&#34;if(submitted) {window.location=&#39;/thankyou&#39;;}&#34;&gt;&lt;/if
 &lt;p&gt;Working in national groups, Niger and Togo Customs applied the WCO AI/ML Readiness Self-Assessment Tool to assess their current readiness and identify areas for further development. Participants also shared their experiences and discussed how data analytics and AI can support more effective and modern Customs operations.&lt;/p&gt;
 &lt;p&gt;More information on WCO social media:&lt;/p&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FWCOOMD%2Fposts%2Fpfbid0PCtrh1GKYs3PTo9rHrMHvnrNgeFsXZMNTQgPc9oDwgPm4mzXWTM6fktvCsvBk6Szl&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;514&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;img src=&#34;group.jpg&#34; alt=&#34;Session at the WCO-WTO data analytics workshop for Niger and Togo Customs in Lomé, Togo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;group.jpg&#34; alt=&#34;Session at the WCO-WTO data analytics workshop for Niger and Togo Customs in Lomé, Togo&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -609,7 +771,7 @@ This mission was a particularly meaningful milestone as it was my first field mi
 &lt;p&gt;
 &lt;a href=&#34;https://bacuda.wcoomd.org/2026/03/27/national-workshop-on-enhancing-intelligence-analytical-skills-for-sri-lanka/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Workshop on enhancing Intelligence analytical skills for Sri Lanka&lt;/a&gt;&lt;/p&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDistanceLearninfCenter%2Fposts%2Fpfbid0Lh4U43V2mvWNGNdqJDaU9p8dghyyhM1e8NoGtJ9CiwQTPZUNPZ8McvXs65p6iXYTl&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;347&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;img src=&#34;Group_photo.jpg&#34; alt=&#34;Group photo of Sri Lanka Customs officials with WCO data analytics expert Mohan Pudasaini in Colombo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Group_photo.jpg&#34; alt=&#34;Group photo of Sri Lanka Customs officials with WCO data analytics expert Mohan Pudasaini in Colombo&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -657,11 +819,11 @@ Being a double landlocked country with no direct access to maritime transport, U
       <guid>https://pudasainimohan.com.np/post/202601-icd-honored/</guid>
       <description>&lt;p&gt;I was honored to be recognized on the occasion of International Customs Day 2026 by the Honourable Finance Minister of Nepal, in the presence of the Finance Secretary, secretaries from various ministries, senior Customs officials, representatives from the private sector, and members of the media.&lt;/p&gt;
 &lt;p&gt;This recognition for my contribution to the global Customs community as a WCO-accredited expert is a proud and humbling moment. I am sincerely grateful to the Ministry of Finance and Nepal Customs, and this honor further strengthens my commitment to serve the Customs community.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;photo1.jpg&#34; alt=&#34;Finance Secretary Mr. Ghanshyam Upadhyaya felicitating Customs expert Mohan Pudasaini with a marigold garland&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;photo1.jpg&#34; alt=&#34;Finance Secretary Mr. Ghanshyam Upadhyaya felicitating Customs expert Mohan Pudasaini with a marigold garland&#34; loading=&#34;lazy&#34;&gt;
 &lt;em&gt;Finance Secretary Mr. Ghanshyam Upadhyaya felicitating me with a marigold garland.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;phto2.jpg&#34; alt=&#34;Director General of Nepal Customs, Mr. Shyam Prasad Bhandari, congratulating Mohan Pudasaini on the recognition&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;phto2.jpg&#34; alt=&#34;Director General of Nepal Customs, Mr. Shyam Prasad Bhandari, congratulating Mohan Pudasaini on the recognition&#34; loading=&#34;lazy&#34;&gt;
 &lt;em&gt;Director General of Nepal Customs, Mr. Shyam Prasad Bhandari, congratulating me on the recognition.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;Mohan Pudasaini receiving the Certificate of Honour from the Finance Minister of Nepal, Mr. Rameshwor Prasad Khanal&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;featured.jpg&#34; alt=&#34;Mohan Pudasaini receiving the Certificate of Honour from the Finance Minister of Nepal, Mr. Rameshwor Prasad Khanal&#34; loading=&#34;lazy&#34;&gt;
 &lt;em&gt;Receiving the Certificate of Honour from the Honourable Finance Minister of Nepal, Mr. Rameshwor Prasad Khanal&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
@@ -696,7 +858,7 @@ Being a double landlocked country with no direct access to maritime transport, U
 &lt;p&gt;As Clive Humby famously said, “Data is the new oil.”&lt;/p&gt;
 &lt;p&gt;Customs administrations around the world handle vast volumes of data every day. In the context of increasingly complex trade patterns, data analytics plays a crucial role in enhancing Customs operations — from detecting hidden risks and identifying fraud, to facilitating legitimate trade and supporting economic analysis and policy planning.&lt;/p&gt;
 &lt;p&gt;As a WCO-accredited expert, I look forward to contributing to the global Customs and trade community through capacity-building initiatives, supporting Customs administrations in harnessing the power of data analytics to modernize operations, strengthen compliance, enhance trade facilitation, and ultimately contribute to sustainable economic development.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Official Certificate of WCO Accredited Technical and Operational Advisor in the area of Data Analytics&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Official Certificate of WCO Accredited Technical and Operational Advisor in the area of Data Analytics&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -708,7 +870,7 @@ Being a double landlocked country with no direct access to maritime transport, U
       <description>&lt;p&gt;I was honored to engage with senior government officials from the Ministry of Finance and various other ministries to discuss the transformative potential of Artificial Intelligence (AI) within Nepal’s public sector.&lt;/p&gt;
 &lt;p&gt;Our discussion focused on moving beyond the conceptual stage to the practical application of AI in government workflows. We explored how AI can serve as a catalyst for institutional efficiency—streamlining complex processes, enhancing public service delivery, and enabling more precise, data-backed policy decisions. Central to our conversation was the recently approved National Artificial Intelligence Policy, which provides the necessary framework for integrating these tools responsibly and ethically across all government sectors.&lt;/p&gt;
 &lt;p&gt;Engaging with such a group of leaders was truly rewarding. I am grateful to the Ministry of Finance for hosting this forward-thinking dialogue.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;photo1.jpeg&#34; alt=&#34;AI expert Mohan Pudasaini leading a session on AI for public sector efficiency at the Ministry of Finance, Nepal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;photo1.jpeg&#34; alt=&#34;AI expert Mohan Pudasaini leading a session on AI for public sector efficiency at the Ministry of Finance, Nepal&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -739,7 +901,7 @@ Being a double landlocked country with no direct access to maritime transport, U
 **Modernizing Administrative Workflows**: Focused on practical applications for productivity, such as automating the drafting of cabinet decision minutes and creating high-impact visual communications for complex data.
 --&gt;
 &lt;p&gt;I am grateful to the OPMCM and MOFAGA for the opportunity to contribute to the digital readiness of our leadership, and I look forward to seeing these insights translate into more efficient, tech-enabled governance for Nepal.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Group.jpg&#34; alt=&#34;Group photo of senior Government of Nepal officials with AI expert Mohan Pudasaini at the OPMCM AI workshop&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Group.jpg&#34; alt=&#34;Group photo of senior Government of Nepal officials with AI expert Mohan Pudasaini at the OPMCM AI workshop&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -764,7 +926,7 @@ Being a double landlocked country with no direct access to maritime transport, U
 &lt;strong&gt;Global Best Practices:&lt;/strong&gt; Sharing insights from international standards and WCO initiatives designed for effective targeting and enforcement.      &lt;br&gt;
 &lt;strong&gt;AI-Enabled Solutions:&lt;/strong&gt; Discussing how machine learning models can classify commercial descriptions and flag suspicious patterns in Customs operations.&lt;/p&gt;
 &lt;p&gt;Participating in this forum was an inspiring experience that underscored the importance of collaboration in tackling global trade challenges. My sincere thanks to &lt;strong&gt;PKN STAN&lt;/strong&gt; and the organizing team for the invitation, to the moderator for the excellent session management, and to my fellow speakers for the deeply insightful and engaging discussions.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Group.jpeg&#34; alt=&#34;Group photo with speakers at the Customs Policy Forum in Indonesia, including WCO expert Mohan Pudasaini&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Group.jpeg&#34; alt=&#34;Group photo with speakers at the Customs Policy Forum in Indonesia, including WCO expert Mohan Pudasaini&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -837,7 +999,7 @@ Event page:
 &lt;/ul&gt;
 &lt;p&gt;Participating in this high-level global forum was deeply inspiring. It provided the chance to engage with statisticians, policymakers, and researchers from around the world, explore shared challenges, and build connections for future collaboration.&lt;/p&gt;
 &lt;p&gt;My sincere thanks to the International Monetary Fund (IMF) for the invitation and for hosting such an insightful and forward-looking event. I look forward to carrying these learnings back to Nepal and contributing further from the Customs side.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;1.jpeg&#34; alt=&#34;WCO accredited Customs expert Mohan Pudasaini speaking at the 13th IMF Statistical Forum in Washington, D.C.&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1.jpeg&#34; alt=&#34;WCO accredited Customs expert Mohan Pudasaini speaking at the 13th IMF Statistical Forum in Washington, D.C.&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -880,8 +1042,8 @@ Event page:
 &lt;p&gt;News related to this workshop on UN ESCAP website:
 
 &lt;a href=&#34;https://www.unescap.org/events/2025/wco-escap-8th-unnext-masterclass-electronic-single-windows-and-data-analytics-trade&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.unescap.org/events/2025/wco-escap-8th-unnext-masterclass-electronic-single-windows-and-data-analytics-trade&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;WCO accredited Customs risk management and data analytics expert Mohan Pudasaini presenting at the 8th UNNExT Masterclass in Seoul&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;2.jpeg&#34; alt=&#34;Mohan Pudasaini leading a hands-on data analytics session for Customs officials at the 8th UNNExT Masterclass&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;WCO accredited Customs risk management and data analytics expert Mohan Pudasaini presenting at the 8th UNNExT Masterclass in Seoul&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2.jpeg&#34; alt=&#34;Mohan Pudasaini leading a hands-on data analytics session for Customs officials at the 8th UNNExT Masterclass&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -916,8 +1078,8 @@ Event page:
 &lt;p&gt;News related to this workshop on WCO website:
 
 &lt;a href=&#34;https://bacuda.wcoomd.org/2025/10/24/national-workshop-on-data-analytics-for-turkiye-customs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Workshop on Data Analytics for Türkiye Customs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mohan1.jpeg&#34; alt=&#34;Group photo of Türkiye Customs officials with WCO accredited data analytics expert Mohan Pudasaini in Ankara&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mohan2.jpeg&#34; alt=&#34;Mohan Pudasaini leading an AI session at the WCO Data Analytics National Workshop for Türkiye Customs&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mohan1.jpeg&#34; alt=&#34;Group photo of Türkiye Customs officials with WCO accredited data analytics expert Mohan Pudasaini in Ankara&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mohan2.jpeg&#34; alt=&#34;Mohan Pudasaini leading an AI session at the WCO Data Analytics National Workshop for Türkiye Customs&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -946,7 +1108,7 @@ Event page:
 &lt;p&gt;My sincere thanks to SAWTEE for organizing this engaging event and inviting me as the speaker.&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.sawtee.org/category/in-focus/a-knowledge-sharing-session-on-customs-operations&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;News on the SAWTEE website regarding this event&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;pic1.png&#34; alt=&#34;SAWTEE researchers and participants with WCO expert Mohan Pudasaini&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;pic1.png&#34; alt=&#34;SAWTEE researchers and participants with WCO expert Mohan Pudasaini&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -987,15 +1149,15 @@ Event page:
 &lt;h2 id=&#34;a-vision-with-action&#34;&gt;A Vision with Action&lt;/h2&gt;
 &lt;p&gt;I got information that one of the main eligibility criteria was a minimum of five years of experience in Customs. I set my sights on that goal and took action. To stay aligned with global practices, I regularly consulted the WCO website and familiarized myself with its tools, instruments, and latest developments. Alongside my regular duties, I continued facilitating internal training and workshops and was actively involved in various Customs modernization activities.&lt;/p&gt;
 &lt;p&gt;During this period, I was also honored with several awards, including Best Teacher and Best Employee, which reinforced my motivation to keep pushing forward.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;awards_photo.png&#34; alt=&#34;Collage showing Best Teacher, Best Employee, and Customs Recognition Awards – WCO accredited expert and trainer from Nepal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;awards_photo.png&#34; alt=&#34;Collage showing Best Teacher, Best Employee, and Customs Recognition Awards – WCO accredited expert and trainer from Nepal&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-road-to-accreditation&#34;&gt;The Road to Accreditation&lt;/h2&gt;
 &lt;p&gt;In September 2022, I noticed that the WCO had circulated a letter for a Pre-Accreditation Workshop on Risk Management. I applied through my administration and was nominated by Nepal Customs. I was fortunate to be shortlisted among 12 candidates from the Asia-Pacific region. It was one of the happiest and proudest moments of my career.&lt;/p&gt;
 &lt;p&gt;In November 2022, I participated in the pre-accreditation workshop held in Thailand.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;RM_Accreditation.jpg&#34; alt=&#34;Participating in WCO Pre-Accreditation Workshop on Risk Management – Customs and data analytics expert from Nepal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;RM_Accreditation.jpg&#34; alt=&#34;Participating in WCO Pre-Accreditation Workshop on Risk Management – Customs and data analytics expert from Nepal&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The workshop was intense and challenging. Each day involved new assignments, presentations, group exercises, and report writing. I was often sleeping only 3 to 4 hours due to the pressure to perform. But I stayed focused and succeeded in passing this stage of the accreditation process.&lt;/p&gt;
 &lt;h2 id=&#34;accreditation-achieved&#34;&gt;Accreditation Achieved&lt;/h2&gt;
 &lt;p&gt;I continued building my skills and staying current with global Customs developments. Then in 2025, I received an invitation for the final accreditation mission. I successfully conducted the mission and was officially certified as a &lt;strong&gt;WCO Accredited Technical and Operational Advisor on Risk Management&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Official Certificate of WCO Accredited Technical and Operational Advisor on Risk Management – Customs expert and facilitator&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Official Certificate of WCO Accredited Technical and Operational Advisor on Risk Management – Customs expert and facilitator&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;my-commitment-ahead&#34;&gt;My Commitment Ahead&lt;/h2&gt;
 &lt;p&gt;This accreditation is not the end. It is the beginning of a larger responsibility. As a WCO accredited expert, I am committed to:&lt;/p&gt;
 &lt;ul&gt;
@@ -1059,12 +1221,12 @@ Event page:
 &lt;a href=&#34;https://www.wcoomd.org/en/media/newsroom/2025/july/seco-wco-gtfp-phase-ii-holds-workshop-on-risk-management-and-data-analytics-in-uzbekistan.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wcoomd.org/en/media/newsroom/2025/july/seco-wco-gtfp-phase-ii-holds-workshop-on-risk-management-and-data-analytics-in-uzbekistan.aspx&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;News related to this event is available on the Uzbekistan Customs website: 
 &lt;a href=&#34;https://customs.uz/uz/news/zhahon-bozhhona-tashkiloti-ekspertlari-ishtirokida-havflarni-boshqarish-va-bozhhonada-malumotlarni-tahlil-qilish-mavzusida-seminar-bolib-otdi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://customs.uz/uz/news/zhahon-bozhhona-tashkiloti-ekspertlari-ishtirokida-havflarni-boshqarish-va-bozhhonada-malumotlarni-tahlil-qilish-mavzusida-seminar-bolib-otdi&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;1.jpeg&#34; alt=&#34;Hands-on session led by WCO accredited expert Mohan Pudasaini in Tashkent, Uzbekistan&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;2.jpeg&#34; alt=&#34;Mohan Pudasaini at the opening session of the WCO risk management and data analytics workshop in Uzbekistan&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1.jpeg&#34; alt=&#34;Hands-on session led by WCO accredited expert Mohan Pudasaini in Tashkent, Uzbekistan&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2.jpeg&#34; alt=&#34;Mohan Pudasaini at the opening session of the WCO risk management and data analytics workshop in Uzbekistan&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://www.instagram.com/p/DLFMjWkthMx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Uzbekistan Customs&amp;rsquo; information on their Instagram regarding the workshop&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://www.instagram.com/p/DLFMjWkthMx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;thumb.png&#34; alt=&#34;Instagram Post&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://www.instagram.com/p/DLFMjWkthMx/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;thumb.png&#34; alt=&#34;Instagram Post&#34; loading=&#34;lazy&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1099,9 +1261,9 @@ Event page:
 I sincerely thank the organizers for the kind invitation and for hosting such fruitful and forward-thinking discussions.&lt;/p&gt;
 &lt;p&gt;More details about the program are available on the 
 &lt;a href=&#34;https://www.unescap.org/events/2025/green-trade-facilitation-and-digital-transformation-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UNESCAP website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;1.jpg&#34; alt=&#34;Mohan Pudasaini speaking at Paperless Trade Week 2025 in Bangkok&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;Mohan Pudasaini presenting his research on AI for green trade facilitation at a UN ESCAP event&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;Group photo of panelists at Paperless Trade Week 2025&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1.jpg&#34; alt=&#34;Mohan Pudasaini speaking at Paperless Trade Week 2025 in Bangkok&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;Mohan Pudasaini presenting his research on AI for green trade facilitation at a UN ESCAP event&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;Group photo of panelists at Paperless Trade Week 2025&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1131,9 +1293,9 @@ The workshop focused on various aspects of risk management such as trader catego
 &lt;p&gt;This workshop was conducted with two other WCO Risk Management Experts, Anders Alpsten of Swedish Customs and Sreya Hong of Cambodia Customs. It was a unique opportunity to collaborate, share experiences, and support Kazakhstan Customs in its journey toward more modern and resilient risk management systems. The mission was generously supported by the Customs Cooperation Fund (CCF) China.&lt;/p&gt;
 &lt;p&gt;News related to this event is available on the Kazakhstan Customs website: 
 &lt;a href=&#34;https://kgd.gov.kz/en/content/regional-training-center-world-customs-organization-astana-1-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kgd.gov.kz/en/content/regional-training-center-world-customs-organization-astana-1-3&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;1.jpeg&#34; alt=&#34;WCO accredited Technical and Operational Advisor on Risk Management Mohan Pudasaini leading a session in Astana&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;2.jpeg&#34; alt=&#34;Mohan Pudasaini with other WCO accredited experts&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;3.jpeg&#34; alt=&#34;Group photo after the WCO risk management workshop for Kazakhstan Customs in Astana&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1.jpeg&#34; alt=&#34;WCO accredited Technical and Operational Advisor on Risk Management Mohan Pudasaini leading a session in Astana&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2.jpeg&#34; alt=&#34;Mohan Pudasaini with other WCO accredited experts&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;3.jpeg&#34; alt=&#34;Group photo after the WCO risk management workshop for Kazakhstan Customs in Astana&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 
 
 
@@ -1199,7 +1361,7 @@ The workshop focused on various aspects of risk management such as trader catego
     referrerpolicy=&#34;strict-origin-when-cross-origin&#34;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;certificate.jpeg&#34; alt=&#34;Certificate for presenting research at the 11th National Summit of Health and Population Scientists in Nepal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;certificate.jpeg&#34; alt=&#34;Certificate for presenting research at the 11th National Summit of Health and Population Scientists in Nepal&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1219,7 +1381,7 @@ The workshop focused on various aspects of risk management such as trader catego
       <description>&lt;p&gt;On March 4, 2025, I had the privilege of leading a session on &amp;lsquo;Data Journalism&amp;rsquo; training organized by CMR Nepal - Journalism Academy. The session brought together more than 15 journalists from various media outlets. I discussed trade and financial data, exploring their sources, significance, and real-world applications in data-driven reporting in the context of Nepal.&lt;/p&gt;
 &lt;p&gt;What made this experience particularly rewarding was the active engagement and insightful contributions from the participants. Their enthusiasm reaffirmed the pivotal role of data-driven journalism in today’s media landscape.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m grateful for the opportunity to contribute to this important training initiative and appreciate CMR Nepal - Journalism Academy for making it possible!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;photo1.jpg&#34; alt=&#34;Group photo of journalists with Mohan Pudasaini after the data journalism training at CMR Nepal&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;photo1.jpg&#34; alt=&#34;Group photo of journalists with Mohan Pudasaini after the data journalism training at CMR Nepal&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1254,7 +1416,7 @@ The workshop focused on various aspects of risk management such as trader catego
 &lt;p&gt;During the workshop, I had the opportunity to engage in comprehensive assessments and activities designed to measure and enhance our capabilities as prospective WCO experts. I am honored to have been selected to proceed to the next stage of the accreditation process: a field mission. Successfully completing this process will enable participants to join the esteemed pool of WCO experts, collaborating with the Organization to benefit its Member states.&lt;/p&gt;
 &lt;p&gt;A particularly memorable moment during this workshop was the celebration of my birthday. The thoughtful gesture by the team made the occasion truly special, and I am deeply grateful to them for their kindness and support.&lt;/p&gt;
 &lt;p&gt;This experience has not only paved the way for my continued professional growth but also strengthened my resolve to contribute meaningfully to the Customs community. I look forward to the upcoming stages of the accreditation process and the opportunity to work alongside distinguished experts from around the world.
-&lt;img src=&#34;photo1.jpeg&#34; alt=&#34;Mohan Pudasaini&amp;amp;rsquo;s birthday celebration during the WCO Data Analytics Pre-Accreditation Workshop in Korea&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;photo1.jpeg&#34; alt=&#34;Mohan Pudasaini&amp;amp;rsquo;s birthday celebration during the WCO Data Analytics Pre-Accreditation Workshop in Korea&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;News on the WCO website: 
 &lt;a href=&#34;https://www.wcoomd.org/en/media/newsroom/2025/january/the-first-ever-wco-pre-accreditation-workshop-focused-on-data-analytics-holds-in-korea.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The first-ever WCO Pre-Accreditation Workshop focused on Data Analytics holds in Korea&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1353,7 +1515,7 @@ The workshop focused on various aspects of risk management such as trader catego
       <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://pudasainimohan.com.np/post/customs_20241123/</guid>
       <description>&lt;p&gt;Global trade has undergone a remarkable transformation in recent years. Merchandise trade volumes have steadily increased since 2015 and have been forecasted to grow in future years, showcasing the resilience of global trade systems. The sharp V-shaped recovery following the disruptions caused by COVID-19 emphasizes how adaptable these systems have become, largely due to advancements in technology and data-driven decision-making.
-&lt;img src=&#34;Picture1.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;Picture1.png&#34; alt=&#34;Building Smarter Customs: A Data Analytics and AI Perspective&#34; loading=&#34;lazy&#34;&gt;
 &lt;strong&gt;Figure Source:&lt;/strong&gt; 
 &lt;a href=&#34;https://www.wto.org/english/res_e/booksp_e/trade_outlook24_e.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;World Trade Organization (2024), &lt;em&gt;Global Trade Outlook and Statistics&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Modern Customs authorities must adapt to the complexities of increased trade flows while ensuring efficiency, security, and compliance.&lt;/p&gt;
@@ -1598,8 +1760,8 @@ By the end of the course, participants will have a strong foundation in R progra
       <description>&lt;p&gt;I had the privilege of being invited as a resource person for the &amp;ldquo;Ultimate Workshop on Data Analysis Using R&amp;rdquo; organized by Quest International College, Nepal, on June 29, 2024. This workshop focused on equipping participants with the skills needed to perform advanced data analysis using R.&lt;/p&gt;
 &lt;p&gt;During the workshop, I conducted a session on regression analysis, covering both linear regression and logistic regression. I explained the theoretical interrelationship between these two types of regression, how to apply these concepts using R, and the steps involved in data preparation and exploratory data analysis (EDA). Additionally, I guided participants through model development, model comparison, and the list of assumptions associated with these models. Finally, I demonstrated how to analyze and interpret the results.&lt;/p&gt;
 &lt;p&gt;The workshop was attended by over 30 participants, including lecturers from various colleges. It was an enriching experience, and I was delighted to share my knowledge and expertise with such an enthusiastic group of learners.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;photo1.jpeg&#34; alt=&#34;Mohan Pudasaini leading the session on Data Analytics&#34;&gt;
-&lt;img src=&#34;photo2.jpeg&#34; alt=&#34;Group Photo after data analytics workshop&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;photo1.jpeg&#34; alt=&#34;Mohan Pudasaini leading the session on Data Analytics&#34; loading=&#34;lazy&#34;&gt;
+&lt;img src=&#34;photo2.jpeg&#34; alt=&#34;Group Photo after data analytics workshop&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1869,7 +2031,7 @@ Other pulmonary conditions: 1,247&lt;/p&gt;
 &lt;p&gt;One of the most thrilling aspects of this program is our group project challenge. Learning is one thing, but applying it in the real world is another. Over the course of five months, along with theoretical learning, we will develop AI algorithms to address the specific challenges faced by our Customs administrations. It&amp;rsquo;s a hands-on opportunity to apply what we&amp;rsquo;ve learned and drive meaningful change.&lt;/p&gt;
 &lt;h4 id=&#34;building-a-global-network&#34;&gt;Building a Global Network:&lt;/h4&gt;
 &lt;p&gt;Being part of a diverse cohort from countries such as Argentina, Bangladesh, Brazil, Ghana, Maldives, Mauritius, Mongolia, Namibia, Nepal, Sri Lanka, Zimbabwe, and Madagascar has been eye-opening. We&amp;rsquo;re not only learning from experts but also from each other, exchanging insights and perspectives from around the world.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./pic1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./pic1.jpeg&#34; alt=&#34;Expanding Horizons: My Journey of Learning with the WCO BACUDA Scholarship Programme&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;As I continue this incredible journey of learning and growth, I want to express my profound gratitude for the unwavering support I&amp;rsquo;ve received from Nepal Customs, WCO, and CCF Korea for their generous funding, without which this opportunity would not have been possible, as well as my cherished friends and family who have been my pillars of strength throughout. I eagerly anticipate sharing more profound insights and transformative experiences as I progress further in this enriching program. Lastly, I extend my heartfelt appreciation to Professor Mitra GHERGHEREHCHI and her dedicated team for their remarkable coordination and warm hospitality. As we embark on the next phase of this journey after completing our first week, it is evident that the professors&amp;rsquo; approachability, their vast knowledge in the realm of data science, the enticing curriculum, and the serene atmosphere of SKKU will undoubtedly propel us towards new heights of knowledge and accomplishment. Many exciting opportunities await on this path of discovery, and I am truly grateful for the chance to be a part of it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Related news on the WCO website: 
 &lt;a href=&#34;https://www.wcoomd.org/en/media/newsroom/2023/september/opening-of-the-second-wco-bacuda-scholarship-programme-at-sung-kyun-kwan-university-skku.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Opening of the Second WCO BACUDA Scholarship Programme at Sung Kyun Kwan University (SKKU)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -2808,9 +2970,9 @@ total_tax = my_income*tax_rate
       <guid>https://pudasainimohan.com.np/post/jupyter_start/</guid>
       <description>&lt;p&gt;Once you have installed Jupyter Notebook, you can start it by opening your terminal or command prompt and typing &lt;em&gt;&lt;strong&gt;&amp;ldquo;jupyter notebook&amp;rdquo;&lt;/strong&gt;&lt;/em&gt;. This will launch Jupyter Notebook in your default web browser and open a new tab with the Jupyter Notebook dashboard.&lt;/p&gt;
 &lt;p&gt;If you haven&amp;rsquo;t installed Jupyter Notebook, follow this link to get started:  &lt;a href=&#34;../jupyter_install&#34; target=&#34;_blank&#34;&gt;Get Started with Jupyter notebook&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mohan.jpg&#34; alt=&#34;title&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mohan.jpg&#34; alt=&#34;title&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;To open a new Jupyter Notebook in Jupyter Notebook dashboard, you can click on the &amp;ldquo;New&amp;rdquo; button on the right side of the screen, which will open a new tab in your web browser with a new Jupyter Notebook. From there, you can start writing and running your code.
-&lt;img src=&#34;mohan1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;mohan1.jpg&#34; alt=&#34;Working in Jupyter Notebook: Shortcut Keys&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Now we are ready to write, note, and execute code. Let&amp;rsquo;s begin using Jupyter Notebook and its shortcut keys to perform high-level capabilities&lt;/p&gt;
 &lt;h3 id=&#34;command-vs-edit-modes&#34;&gt;Command vs. Edit Modes&lt;/h3&gt;
 &lt;p&gt;In Jupyter Notebook, there are two modes: command mode and edit mode.&lt;/p&gt;
@@ -2967,7 +3129,7 @@ Code:&lt;/p&gt;
 &lt;h3 id=&#34;1-download-and-install-anaconda&#34;&gt;1. Download and install Anaconda:&lt;/h3&gt;
 &lt;p&gt;Visit the Anaconda website (
 &lt;a href=&#34;https://www.anaconda.com/products/distribution&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anaconda.com/products/distribution&lt;/a&gt;) and download the latest version of Anaconda for your operating system.
-&lt;img src=&#34;./1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;./1.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2-start-anaconda-navigator&#34;&gt;2. Start Anaconda Navigator:&lt;/h3&gt;
 &lt;p&gt;After installation, you can start Anaconda Navigator from your applications menu or by typing &amp;ldquo;anaconda-navigator&amp;rdquo; in your terminal (MacOS/Linux) or Command Prompt (Windows).&lt;/p&gt;
 &lt;table&gt;
@@ -2979,14 +3141,14 @@ Code:&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;2.png&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;3-launch-jupyter-notebook&#34;&gt;3. Launch Jupyter Notebook:&lt;/h3&gt;
 &lt;p&gt;In Anaconda Navigator, click on the Jupyter Notebook icon to launch the Jupyter Notebook application
-&lt;img src=&#34;4.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;4.jpg&#34; alt=&#34;Get Started with Jupyter Notebook&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;installing-jupyter-notebook-using-pip&#34;&gt;Installing Jupyter Notebook using pip&lt;/h2&gt;
 &lt;p&gt;pip is a package manager for Python that allows you to install and manage packages from the Python Package Index (PyPI). To install Jupyter Notebook, first check whether pip is installed on your system by typing &amp;lsquo;pip &amp;ndash;version&amp;rsquo; in your command prompt. If pip is installed, you should see the version number of pip, for example, “pip 22.3.1”. To install Jupyter Notebook using pip, follow these steps:&lt;/p&gt;
 &lt;h3 id=&#34;1-install-jupyter-notebook&#34;&gt;1. Install Jupyter Notebook&lt;/h3&gt;
@@ -3020,14 +3182,14 @@ Code:&lt;/p&gt;
 &lt;p&gt;There are two main ways to install Python: using a &lt;strong&gt;package manager or downloading the Python executable&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;using-a-package-manager&#34;&gt;Using a Package Manager:&lt;/h2&gt;
 &lt;p&gt;One option to install Python on your computer is to use a package manager or a platform-specific store. For example, on macOS, you can use the Homebrew package manager to install Python. Simply open Terminal and type &amp;ldquo;brew install python&amp;rdquo; to download and install the latest version of Python and its dependencies. On Windows, you can use the Microsoft Store to install Python. Simply search for &amp;ldquo;Python&amp;rdquo; in the Microsoft Store, select the latest version, and click the &amp;ldquo;Get&amp;rdquo; or &amp;ldquo;Install&amp;rdquo; button to download and install Python on your computer. These package managers and platform-specific stores provide a convenient and efficient way to install and manage software packages, including Python, without having to manually download and install them.
-&lt;img src=&#34;0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;0.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;downloading-the-python-executable&#34;&gt;Downloading the Python Executable:&lt;/h2&gt;
 &lt;p&gt;Another option to install Python on your computer is to download the Python executable from the official Python website. The following are the basic steps to install Python using this method:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 1: Go to the Official Website and download Version&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Visit the official Python website (
 &lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.python.org/&lt;/a&gt;) and navigate to the downloads section.
 Choose the appropriate version of Python that you want to install on your computer. For example, if you&amp;rsquo;re a beginner, you might want to start with Python 3.x.x.
-&lt;img src=&#34;1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;1.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Once you&amp;rsquo;ve selected the appropriate version of Python, click the download button to start the download process.
 Make sure to save the installation file to a location where you can easily find it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 2: Click Install and Make Sure Add to Path is Checked&lt;/strong&gt;&lt;/p&gt;
@@ -3043,20 +3205,20 @@ Make sure to check the option &amp;ldquo;Add to Path&amp;rdquo; when prompted du
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Step 3: Check Whether Python is Installed Using CMD&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Open the Command Prompt or Terminal and type &amp;ldquo;python&amp;rdquo; or &amp;ldquo;python &amp;ndash;version&amp;rdquo; to check if Python has been installed successfully.
 If Python has been installed successfully, you should see a prompt that looks like this: &amp;ldquo;Python 3.11.1&amp;rdquo;. This means that you can start using Python in the Command Prompt or Terminal.
-&lt;img src=&#34;4.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;4.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Step 4: Make Sure Pip Is Installed&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Pip is a package management system used to install and manage Python packages. It is included with Python 3.4 and later versions.
 To check if pip is installed, open the Command Prompt or Terminal and type &amp;ldquo;pip &amp;ndash;version&amp;rdquo;.
 If pip is installed, you should see the version number of pip, for example, &amp;ldquo;pip 22.3.1&amp;rdquo;.
-&lt;img src=&#34;5.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;5.jpg&#34; alt=&#34;Get Started with Python: An Installation Guide&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s it! You&amp;rsquo;ve successfully installed Python on your computer. You&amp;rsquo;re now ready to start exploring the world of Python programming!&lt;/p&gt;
 </description>
     </item>
@@ -3110,12 +3272,12 @@ Mohan&lt;/p&gt;
 &lt;p&gt;This workshop was a crucial step in the WCO’s accreditation process, designed to assess and strengthen both the technical knowledge and facilitation capabilities of selected experts from the Asia-Pacific region. Throughout the week, we engaged in peer learning, individual presentations, and technical exercises focused on identifying, analyzing, and mitigating risk in Customs operations.&lt;/p&gt;
 &lt;p&gt;It was an inspiring and enriching experience to learn alongside talented professionals dedicated to improving Customs risk management globally. I am grateful to the WCO Secretariat for this opportunity.&lt;/p&gt;
 &lt;p&gt;I look forward to continuing this journey of knowledge sharing and contributing to future WCO capacity-building initiatives in the field of risk management.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;group.jpg&#34; alt=&#34;Group photo from the WCO Risk Management Pre-Accreditation Workshop in Bangkok&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;group.jpg&#34; alt=&#34;Group photo from the WCO Risk Management Pre-Accreditation Workshop in Bangkok&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;News on the WCO website: 
 &lt;a href=&#34;https://www.wcoomd.org/en/media/newsroom/2022/december/wco-risk-management-pre-accreditation-workshop-for-the-asia-pacific-region-in-bangkok.aspx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WCO Risk Management Pre-Accreditation Workshop for the Asia Pacific region in Bangkok&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;News on the WCO Asia/Pacific website: 
 &lt;a href=&#34;https://www.wcoasiapacific.org/news/441-wco-customs-risk-management-pre-accreditation-workshop-for-the-asia-pacific-region-in-bangkok&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WCO Customs Risk Management Pre-Accreditation Workshop for the Asia/Pacific Region in Bangkok&lt;/a&gt;
-&lt;img src=&#34;p2.jpeg&#34; alt=&#34;Mohan Pudasaini presenting risk analytics techniques for Customs&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;p2.jpeg&#34; alt=&#34;Mohan Pudasaini presenting risk analytics techniques for Customs&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -3136,7 +3298,7 @@ Mohan&lt;/p&gt;
 &lt;p&gt;The workshop had 45 participants from different parts of the world, who attended virtually through Zoom. The participants learned how to create dynamic documents using R Markdown and how to format documents in predefined templates and their own templates in R Markdown. They were also taught how to arrange titles, subtitles, and dates, manage text format and style, manage references and citations, develop tables, and more using R Markdown.&lt;/p&gt;
 &lt;p&gt;The workshop was organized by Mohan Pudasaini on his own initiative to help researchers and students enhance their skills in writing reproducible research papers. The participants were required to have basic knowledge of R and RStudio to attend the workshop.&lt;/p&gt;
 &lt;p&gt;The first four days of the workshop were dedicated to teaching the participants about the different components of R Markdown and how to use them. The final day of the workshop was focused on practical application, where the participants were given a sample research paper to format and finalize using the skills they had learned over the previous days.
-&lt;img src=&#34;banner.jpg&#34; alt=&#34;Workshop on writing reproducible research papers with R Markdown&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;banner.jpg&#34; alt=&#34;Workshop on writing reproducible research papers with R Markdown&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -3148,7 +3310,7 @@ Mohan&lt;/p&gt;
       <description>&lt;p&gt;The Department of Customs (DOC), Nepal, with support from the Asian Development Bank (ADB), organized a Risk Management Workshop for Customs officials of Nepal from 8 to 10 August 2022 in Pokhara, Nepal. The workshop aimed to lay the foundation for effective risk management in Customs, develop risk registers and risk profiles for use in the ASYCUDA World Selectivity Module, and train Customs officials in risk management to develop them into a pool of experts.&lt;/p&gt;
 &lt;p&gt;Fifteen Customs officials from DOC and field offices participated in the training program, which covered a range of sessions. These included identifying gaps and recommended measures, sharing experiences on the development of risk management in Nepal, reviewing the risk management framework and standard operating procedures to pave the way for their effective implementation, and exploring the use of machine learning in risk management. One notable session was a presentation on &amp;ldquo;Machine Learning Approach for Customs Fraud Detection&amp;rdquo; by Mr. Mohan Pudasaini.&lt;/p&gt;
 &lt;p&gt;The workshop produced outputs such as a risk register, risk profile, and a work plan to strengthen risk management in Customs. The training program was inaugurated in virtual mode by Mr. Yagya Raj Koirala and Mr. Ananda Kafle, Deputy Directors General of DOC, and they also attended the concluding day program to provide guidance for the way forward.
-&lt;img src=&#34;presentation.jpg&#34; alt=&#34;Mohan Pudasaini presenting on the use of AI in Customs Risk Management&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;presentation.jpg&#34; alt=&#34;Mohan Pudasaini presenting on the use of AI in Customs Risk Management&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -3167,7 +3329,7 @@ Mohan&lt;/p&gt;
       <guid>https://pudasainimohan.com.np/talk/2022_research_analysis/</guid>
       <description>&lt;p&gt;Mohan Pudasaini organized a 3-week virtual workshop titled &amp;ldquo;Research Data Analysis using R&amp;rdquo; from June 25th to July 15th, 2022. The workshop covered various topics such as Introduction to R, Data Cleaning, Data Visualization, Statistical Tests, Regression Analysis, ANOVA, ANCOVA, and Non-Parametric Tests. The workshop was designed to help participants, including students, researchers, data analysts, and teaching faculty, write reproducible scientific journal papers that can be easily shared with others. The workshop had 70 participants from different parts of the world who attended virtually through Zoom.&lt;/p&gt;
 &lt;p&gt;The workshop was organized by Mohan Pudasaini on his own initiative and was spread over 21 days, with each day covering a different topic. Topics covered included data types and structure, packages in R, importing various file types, hypothesis testing, regression analysis, ANOVA, ANCOVA, non-parametric tests, and more. The workshop aimed to provide participants with a comprehensive understanding of data analysis using R and help them gain practical experience by working on examples and exercises. Overall, the workshop was a great success and helped participants enhance their skills in data analysis using R.
-&lt;img src=&#34;additional.jpg&#34; alt=&#34;Virtual workshop on research data analysis using R by Mohan Pudasaini&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;additional.jpg&#34; alt=&#34;Virtual workshop on research data analysis using R by Mohan Pudasaini&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -3179,7 +3341,7 @@ Mohan&lt;/p&gt;
       <description>&lt;p&gt;On June 23, 2022, Hetauda School of Management, Hetauda, organized a one-day workshop on &amp;ldquo;R for data analysis&amp;rdquo; with the aim to equip lecturers from Hetauda School of Management, Hetauda Campus, and Makawanpur Multiple Campus with the skills needed to use R for data manipulation, cleaning, and modeling.&lt;/p&gt;
 &lt;p&gt;The workshop was attended by more than 30 lecturers, and Mr. Mohan Pudasaini was the trainer for the workshop. The focus of the workshop was on the practical application of R in data analysis and the lecturers were introduced to the various tools and techniques that can be used to effectively manipulate, clean and model data using R.&lt;/p&gt;
 &lt;p&gt;The workshop was an excellent opportunity for the lecturers to learn and enhance their skills in data analysis, and it is expected to have a positive impact on their teaching and research in the future.
-&lt;img src=&#34;additional.jpg&#34; alt=&#34;Mohan Pudasaini leading a session on data analytics at Hetauda School of Management&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;additional.jpg&#34; alt=&#34;Mohan Pudasaini leading a session on data analytics at Hetauda School of Management&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -3191,7 +3353,7 @@ Mohan&lt;/p&gt;
       <description>&lt;p&gt;The Health Directorate of Sudurpashchim Province organized a five-day workshop in Dhangadhi, Nepal, focused on data analysis for health planning personnel. The workshop was attended by more than 20 participants from various district health offices, who were actively involved in data management and analysis. The workshop was facilitated by Mr. Mohan Pudasaini.&lt;/p&gt;
 &lt;p&gt;During the workshop, participants were trained on various aspects of data analysis using R, including data cleaning and processing, statistical analysis, and data visualization. The data used for analysis was obtained from the Health Management Information System (HMIS) in Nepal, and participants were shown how to analyze the data from different perspectives related to health.&lt;/p&gt;
 &lt;p&gt;Participants learned how to use data to identify trends and patterns, make data-driven decisions, and communicate insights effectively. The workshop provided valuable skills and knowledge to improve the quality of their data analysis and reporting, which can ultimately enhance the decision-making process in the field of health.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;certificate.jpg&#34; alt=&#34;Certificate from the data analysis workshop for health planning personnel in Dhangadhi&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;certificate.jpg&#34; alt=&#34;Certificate from the data analysis workshop for health planning personnel in Dhangadhi&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
